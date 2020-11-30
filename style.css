@@ -223,7 +223,20 @@ footer p{
   
 }
 /*101*/
-
+.jumbotron{
+    background-color: white;
+    padding: 0px;
+}
+.col-12.bild{
+    background-color: lightcoral;
+    text-align: center;
+}
+.col-12.text{
+    background-color: yellow;
+}
+.col-12.text2{
+    background-color:lightblue;
+}
 
 /*au*/
 
