@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:20;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<rect x="28.5" y="156.17" class="st0" width="323" height="196.37"/>
+	<path d="M349,158.67v191.37H31V158.67H349 M354,153.67H26v201.37h328V153.67L354,153.67z"/>
+</g>
+<line class="st1" x1="190" y1="354.21" x2="190" y2="391.37"/>
+<line class="st2" x1="28.59" y1="332.72" x2="351.41" y2="332.72"/>
+<rect x="137.58" y="388.77" class="st3" width="105.87" height="6.23"/>
+<rect x="385" y="243" class="st2" width="74" height="152"/>
+<line class="st2" x1="393.5" y1="259.5" x2="448.5" y2="259.5"/>
+<line class="st2" x1="393.5" y1="271.5" x2="448.5" y2="271.5"/>
+<circle class="st4" cx="422.5" cy="379.5" r="6"/>
+</svg>
