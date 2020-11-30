@@ -242,8 +242,8 @@ footer p{
     padding: 5px;
     font-size: 40px;
 }
-.col-12.text2{
-    background-color:lightblue;
+.col-3{
+   text-align: center;
 }
 .pic2{
     height: 500px;
