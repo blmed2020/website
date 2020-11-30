@@ -1,0 +1,265 @@
+.body {
+    margin: 0;
+}
+.grid-box {
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    grid-template-rows: auto;
+}
+.box-1 {
+        display: flex;
+    justify-content: center;
+    background: lightblue;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding: 10px;
+    margin: 0 0 30px 0;
+}
+.box-2 {
+
+    background: greenyellow;
+    color: white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end:                                                                                     2;
+    padding: 10px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.pic1 {
+    height: 300px;
+    width: 210px;
+}
+
+.box-3 {
+    background: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 10px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.pic2 {
+    height: 300px;
+    width: 300px;
+}
+.box-4 {
+    background: lightcoral;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding: 10px;
+    margin: 0 0 30px 0;
+}
+.box-5 {
+    background: violet;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box-6 {
+    display: flex;
+    justify-content: center;
+    background: yellow;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box-7 {
+    background: brown;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box-8 {
+    background: orange;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box-9 {
+    background: lightblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.box-10 {
+    background: lightcoral;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+link {
+    color: #353535;
+}
+@media screen and (max-width: 1242px) {
+    .nav-item {
+        font-size: 20px!important;
+    }
+}
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        width: 100%;
+    }
+    button:focus {
+        outline: none!important;
+    }
+}
+@media screen and (max-width: 631px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    button:focus {
+        outline: none!important;
+    }
+    .nav-item {
+        font-size: 0.5px;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
+
+
+
+/* main */
+
+
+.card-img-top{
+    padding: 1.25rem;
+} 
+
+
+div.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+div.cards h1 {
+    text-align: center;
+    color: white;
+}
+
+article.med {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+article.inf {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 20% 2% 20%;
+}
+
+@media (max-width: 992px) {
+    article.med {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.card {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    article.inf {
+        flex-direction: column;
+        align-items: center;
+        margin: 0% 0% 2% 0%;
+    }
+
+    div.card {
+        margin: 10px;
+    }
+}
+
+
+/* Footer */
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    height: 100%;
+    padding: 2%;
+    color: #353535;
+}
+
+
+.footerlinks {
+    color: #353535;
+}
+
+
+.footerlinks:hover {
+    color: #c44536
+}
+
+footer p{
+    margin: 0px;
+}
+
+
+@media (max-width: 992px) {
+    footer {
+      flex-direction: column;
+    }
+
+    footer div {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    footer img {
+        width: 300px;
+        max-width: 100%;
+    }
+    
+    footer p{
+        margin: 16px 0px 16px 0px;
+    }
+
+
+
+
+
+    footer p{
+        margin: 16px 0px 16px 0px;
+    }
+  
+}
+
+
