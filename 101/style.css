@@ -17,6 +17,8 @@
     padding: 10px;
 }
 .box-2 {
+    display: flex;
+    justify-content: center;
     background: greenyellow;
     color: white;
     grid-column-start: 4;
@@ -39,8 +41,8 @@
     padding: 10px;
 }
 .pic2 {
-    height: 320px;
-    width: 270px;
+    height: 300px;
+    width: 300px;
 }
 .box-4 {
     background: lightcoral;
@@ -58,6 +60,8 @@
     grid-row-end: 4;
 }
 .box-6 {
+    display: flex;
+    justify-content: center;
     background: yellow;
     grid-column-start: 4;
     grid-column-end: 5;
