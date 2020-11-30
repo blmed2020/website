@@ -1,10 +1,10 @@
 /* Allgemein */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 * {
     font-family: 'Poppins', sans-serif;
 }
-/*Header*/
 html, body {
     height: 100%;
 }
@@ -24,20 +24,36 @@ header {
     background-color: #3c6e71;
     display: flex;
 }
+/*Header*/
 .logo {
-    margin: 20px;
+    margin: 1%;
     max-width: 100%;
-    width: 300px;
+    width: 400px;
 }
 .collapse {
     background-color: #3c6e71;
+    width: 100%;
 }
 .bg-light {
     background-color: #3c6e71!important;
 }
 .nav-item {
-    font-size: 30px!important;
+    font-size: 37px!important;
+    font-family: 'Teko', sans-serif!important;
 }
 .nav-item:hover {
     background-color: #c44536;
+}
+.navbar {
+    width: 80%;
+}
+.navbar-nav {
+    margin: 1%!important;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link {
+    font-size: 45px!important;
+    font-family: 'Teko', sans-serif!important;
 }
