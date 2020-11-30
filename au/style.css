@@ -3,4 +3,12 @@ ul.nav.nav-tabs {
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-color: darkblue;
+    background: rgba(12, 39, 160, 0.5);
+    color: white;
+}
+/* a.nav-link {
+    margin: 0px 20px;
+} */
+li.nav-item {
+    width: 10%;
 }
