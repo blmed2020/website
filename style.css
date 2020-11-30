@@ -61,7 +61,9 @@ header {
     /*font-family: 'Teko', sans-serif;*/
     margin-right: 30px;
 }
-
+link {
+    color: #353535;
+}
 @media screen and (max-width: 1242px) {
     .nav-item {
         font-size: 20px!important;
