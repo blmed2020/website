@@ -6,7 +6,7 @@
     height: 10vh;
     display: grid;
     grid-template-columns: 25% 25% 25% 25% 25%;
-    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-rows: auto;
 }
 .box-1 {
     background: red;
@@ -83,8 +83,6 @@
     grid-row-start: 5;
     grid-row-end: 6;
 }
-.box-11{
 
-}
 
 
