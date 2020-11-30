@@ -223,36 +223,66 @@ footer p{
   
 }
 /*101*/
-.jumbotron{
+main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
+    margin: 0px;
 }
-.col-12.bild{
+.card-block{
+    padding: 10px;
+}
+.col-12.bild.html{
     background-color: white;
     padding: 10px;
     text-align: center;
 }
-.pic1{
+.pic1.html{
     height: 350px;
     width: 250px;
 }
-.col-12.text{
-    background-color: yellow;
+.col-12.text.html{
+    background-color: white ;
     text-align: center;
-    padding: 5px;
-    font-size: 12px;
+    padding: 5px 50px 5px 50px;
+    font-size: 20px;
 }
-.col-3{
+.col-3.html{
     background-color: white;
    text-align: center;
 }
-.card-block{
+.card-block.html{
     margin: 20px;
-    background-color: grey;
+    background-color: orangered;
+    height: 600px;
+    border: 2px solid;
+}
+.jumbotron.css{
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+}
+.col-12.bild.css{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+.col-12.text.css{
+    background-color: white;
+    text-align: center;
+    padding: 5px 50px 5px 50px;
+    font-size: 20px;
+}
+.col-3.css{
+    background-color: white;
+   text-align: center;
+}
+.card-block.css{
+    margin: 20px;
+    background-color: royalblue;
     border: 2px solid;
     height: 600px;
 }
-.pic2{
+.pic2.css{
     height: 500px;
     width: 400px;
 }
