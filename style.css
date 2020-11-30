@@ -104,6 +104,11 @@ link {
 
 /* main */
 
+.icon {
+    width: 50%!important;
+    margin: 0px auto 7% auto;
+    display: block;
+}
 
 .card-img-top{
     padding: 1.25rem;

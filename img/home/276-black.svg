@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500.19 500.45"><defs><style>.cls-1{fill:#fff;}.cls-2{fill-rule:evenodd;}</style></defs><g id="Ebene_2" data-name="Ebene 2"><rect class="cls-1" x="0.19" y="0.45" width="500" height="500"/></g><g id="Ebene_1" data-name="Ebene 1"><path class="cls-2" d="M31.07,499.74A31.27,31.27,0,0,1-.19,468.48V30.81A31.26,31.26,0,0,1,31.07-.45H468.74A31.26,31.26,0,0,1,500,30.81V468.48a31.27,31.27,0,0,1-31.26,31.26Zm0-125V124.59H218.64v250.1Zm250.1-250.1v250.1H468.74V124.59ZM31.07,468.48V406H93.59v62.53ZM124.86,406v62.53h62.52V406Zm93.78,62.53V406h62.53v62.53ZM312.43,406v62.53H375V406Zm93.78,62.53V406h62.53v62.53ZM31.07,30.81V93.33H93.59V30.81Zm93.79,62.52V30.81h62.52V93.33Zm93.78-62.52V93.33h62.53V30.81Zm93.79,62.52V30.81H375V93.33Zm93.78-62.52V93.33h62.53V30.81Z" transform="translate(0.19 0.45)"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500.2 500.5" style="enable-background:new 0 0 500.2 500.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#353535;}
+</style>
+<g id="Ebene_2_1_">
+	<rect x="0.2" y="0.4" class="st0" width="500" height="500"/>
+</g>
+<g id="Ebene_1_1_">
+	<path class="st1" d="M31.3,500.2C14,500.2,0,486.2,0,468.9V31.3C0,14,14,0,31.3,0h437.7c17.3,0,31.3,14,31.3,31.3c0,0,0,0,0,0
+		v437.7c0,17.3-14,31.3-31.3,31.3L31.3,500.2z M31.3,375.2V125h187.6v250.1L31.3,375.2z M281.4,125.1v250.1h187.6V125L281.4,125.1z
+		 M31.3,468.9v-62.5h62.5V469L31.3,468.9z M125.1,406.5V469h62.5v-62.5H125.1z M218.8,469v-62.5h62.5V469H218.8z M312.6,406.5V469
+		h62.6v-62.5H312.6z M406.4,469v-62.5h62.5V469H406.4z M31.3,31.3v62.5h62.5V31.3H31.3z M125.1,93.8V31.3h62.5v62.5H125.1z
+		 M218.8,31.3v62.5h62.5V31.3L218.8,31.3z M312.6,93.8V31.3h62.6v62.5H312.6z M406.4,31.3v62.5h62.5V31.3L406.4,31.3z"/>
+</g>
+</svg>
