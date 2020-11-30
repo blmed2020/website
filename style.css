@@ -1,0 +1,16 @@
+header{
+    background-color: #3C6E71;
+}
+img.logo{
+    max-height: 200px;
+    
+}
+main{
+    height: 100%;
+}
+footer{
+    display: flex;
+
+    background-color:  #3C6E71;
+
+}
