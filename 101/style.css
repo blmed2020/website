@@ -15,6 +15,7 @@
     grid-row-start: 1;
     grid-row-end: 1;
     padding: 10px;
+    margin: 0 0 30px 0;
 }
 .box-2 {
     background: greenyellow;
@@ -24,6 +25,8 @@
     grid-row-start: 1;
     grid-row-end: 1;
     padding: 10px;
+    margin: 0 0 30px 0;
+    text-align: center;
 }
 .pic1 {
     height: 300px;
@@ -37,6 +40,8 @@
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 10px;
+    margin: 0 0 30px 0;
+    text-align: center;
 }
 .pic2 {
     height: 320px;
@@ -49,6 +54,7 @@
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 10px;
+    margin: 0 0 30px 0;
 }
 .box-5 {
     background: violet;
