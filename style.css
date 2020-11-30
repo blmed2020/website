@@ -205,9 +205,13 @@ footer p{
         width: 300px;
         max-width: 100%;
     }
+    
+    footer p{
+        margin: 16px 0px 16px 0px;
+    }
 
-<<<<<<< HEAD
 }
+/*101*/
 .grid-box {
     width: 100%;
     height: 10vh;
@@ -246,12 +250,3 @@ footer p{
 }
 
 
-
-
-=======
-    footer p{
-        margin: 16px 0px 16px 0px;
-    }
-  
-}
->>>>>>> 71bd8142ba0dba6a4ba1077019ea6c2c70bd1d8e
