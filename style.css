@@ -76,6 +76,10 @@ footer div {
     color: #c44536
 }
 
+footer p{
+    margin: 0px;
+}
+
 
 @media screen and (max-width: 992px) {
     footer {
@@ -87,6 +91,13 @@ footer div {
         align-items: flex-start
     }
 
-    footer
+    footer img {
+        width: 300px;
+        max-width: 100%;
+    }
+
+    footer p{
+        margin: 16px 0px 16px 0px;
+    }
   
 }
