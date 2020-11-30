@@ -9,7 +9,7 @@
     grid-template-rows: auto;
 }
 .box-1 {
-    background: red;
+    background: lightblue;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -17,7 +17,7 @@
     padding: 10px;
 }
 .box-2 {
-    background: black;
+    background: greenyellow;
     color: white;
     grid-column-start: 4;
     grid-column-end: 5;
@@ -25,6 +25,11 @@
     grid-row-end: 1;
     padding: 10px;
 }
+.pic1 {
+    height: 300px;
+    width: 210px;
+}
+
 .box-3 {
     background: blue;
     grid-column-start: 1;
@@ -32,6 +37,10 @@
     grid-row-start: 2;
     grid-row-end: 2;
     padding: 10px;
+}
+.pic2 {
+    height: 320px;
+    width: 270px;
 }
 .box-4 {
     background: lightcoral;
