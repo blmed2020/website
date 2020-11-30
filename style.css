@@ -243,7 +243,12 @@ footer p{
     font-size: 40px;
 }
 .col-3{
+    background-color: white;
    text-align: center;
+}
+.card-block{
+    margin: 20px;
+    background-color: grey;
 }
 
 /*au*/
