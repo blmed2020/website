@@ -62,6 +62,40 @@ header {
     margin-right: 30px;
 }
 
+@media screen and (max-width: 1242px) {
+    .nav-item {
+        font-size: 20px!important;
+    }
+}
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        width: 100%;
+    }
+    button:focus {
+        outline: none!important;
+    }
+}
+@media screen and (max-width: 631px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    button:focus {
+        outline: none!important;
+    }
+    .nav-item {
+        font-size: 0.5px;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
+
+
 
 
 /* Footer */
