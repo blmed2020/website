@@ -228,11 +228,19 @@ footer p{
     padding: 0px;
 }
 .col-12.bild{
-    background-color: lightcoral;
+    background-color: white;
+    padding: 10px;
     text-align: center;
+}
+.pic1{
+    height: 350px;
+    width: 250px;
 }
 .col-12.text{
     background-color: yellow;
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
 }
 .col-12.text2{
     background-color:lightblue;
