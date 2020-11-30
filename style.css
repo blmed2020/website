@@ -1,18 +1,121 @@
-header{
-    background-color: #3C6E71;
+/* Allgemein */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
 }
-img.logo{
-    max-height: 200px;
-    
-}
-main{
+/*Header*/
+html, body {
     height: 100%;
 }
-footer{
+body {
     display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+    background-color: #353535;
+}
+footer {
+    flex-shrink: 0;
+    background-color: #3c6e71;
+}
+header {
+    background-color: #3c6e71;
+    display: flex;
+}
+.logo {
+    margin: 20px;
+    max-width: 100%;
+    width: 300px;
+}
+.collapse {
+    background-color: #3c6e71;
+}
+.bg-light {
+    background-color: #3c6e71!important;
+}
+.nav-item {
+    font-size: 32px!important;
+}
+.nav-item:hover {
+    background-color: #c44536;
+    color: #353535;
+}
+.dropdown-menu {
+    background-color: #c44536;
+    color: #353535;
+    border-radius: 0%;
+    border: 1px solid #c44536;
+    margin-top: 0%;
+}
+.dropdown-item {
+    color: #353535;
+}
+.dropdown-item:hover {
+    color: #353535;
+    background-color: #3c6e71;
+}
+.nav-link {
+    /*font-family: 'Teko', sans-serif;*/
+    margin-right: 30px;
+}
 
-    background-color:  #3C6E71;
 
+
+/* Footer */
+
+
+footer {
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    height: 100%;
+    padding: 2%;
+    color: #353535;
+}
+
+
+.footerlinks {
+    color: #353535;
+}
+
+
+.footerlinks:hover {
+    color: #c44536
+}
+
+footer p{
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 992px) {
+    footer {
+      flex-direction: column;
+    }
+
+    footer div {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    footer img {
+        width: 300px;
+        max-width: 100%;
+    }
+
+<<<<<<< HEAD
 }
 .grid-box {
     width: 100%;
@@ -54,3 +157,10 @@ footer{
 
 
 
+=======
+    footer p{
+        margin: 16px 0px 16px 0px;
+    }
+  
+}
+>>>>>>> 71bd8142ba0dba6a4ba1077019ea6c2c70bd1d8e
