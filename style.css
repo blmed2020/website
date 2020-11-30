@@ -4,6 +4,7 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+/*Header*/
 html, body {
     height: 100%;
 }
@@ -34,4 +35,9 @@ header {
 .bg-light {
     background-color: #3c6e71!important;
 }
-
+.nav-item {
+    font-size: 30px!important;
+}
+.nav-item:hover {
+    background-color: #c44536;
+}
