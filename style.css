@@ -223,11 +223,19 @@ footer p{
   
 }
 /*101*/
-.card .html{
-    padding: 20px;
+.jumbotron{
+    background-color: white;
+    padding: 0px;
 }
-.html {
-    background-color: lightgreen;
+.col-12.bild{
+    background-color: lightcoral;
+    text-align: center;
+}
+.col-12.text{
+    background-color: yellow;
+}
+.col-12.text2{
+    background-color:lightblue;
 }
 
 /*au*/
