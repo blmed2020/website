@@ -240,7 +240,7 @@ footer p{
     background-color: yellow;
     text-align: center;
     padding: 5px;
-    font-size: 40px;
+    font-size: 12px;
 }
 .col-3{
     background-color: white;
@@ -249,6 +249,8 @@ footer p{
 .card-block{
     margin: 20px;
     background-color: grey;
+    border: 2px solid;
+    height: 600px;
 }
 .pic2{
     height: 500px;
