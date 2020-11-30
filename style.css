@@ -82,6 +82,7 @@ footer div {
     flex-grow: 2;
     height: 100%;
     padding: 2%;
+    color: #353535;
 }
 
 
@@ -94,3 +95,17 @@ footer div {
     color: #c44536
 }
 
+
+@media screen and (max-width: 992px) {
+    footer {
+      flex-direction: column;
+    }
+
+    footer div {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    footer
+  
+}
