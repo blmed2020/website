@@ -46,6 +46,9 @@ header {
 .dropdown-menu {
     background-color: #c44536;
     color: #353535;
+    border-radius: 0%;
+    border: 1px solid #c44536;
+    margin-top: 0%;
 }
 .dropdown-item {
     color: #353535;
@@ -56,7 +59,7 @@ header {
 }
 .nav-link {
     /*font-family: 'Teko', sans-serif;*/
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 
