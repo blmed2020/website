@@ -1,8 +1,8 @@
-ul.nav.nav-tabs {
+ul.au.nav.nav-tabs {
     border-bottom: solid 3px  #353535;
     
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active {
     border:solid #353535;
     border-width: 2px 2px 0px 2px;
     background: #C44536;
@@ -16,46 +16,46 @@ ul.nav.nav-tabs {
 /* a.nav-link {
     margin: 0px 20px;
 } */
-li.nav-item {
+li.au.nav-item {
     width: 15%;
     
 }
-.nav-link:hover {
+.au.nav-link:hover {
 /* color: #3C6E71; */
 border-radius: 0px;
 }
-.nav-tabs:hover .nav-link:hover {
+.au.nav-tabs:hover .au.nav-link:hover {
     border:solid  #353535;
     border-width: 2px 2px 0px 2px;
 }
-a.nav-link {
+a.au.nav-link {
     text-decoration: none;
     color: #353535;}
 
 
 
-.nav.nav-tabs {
+.au.nav.nav-tabs {
 display: flex;
 justify-content: space-between;
 }
 
 @media (max-width: 1199px) {
-.bs-example {display: flex;
+.au.bs-example {display: flex;
     flex-direction: column;}
- .nav-tabs {
+ .au.nav-tabs {
     flex-direction: column;
     padding-bottom: 5px;
 width: 100%;}
 /* .nav-item {
     width: 100%;} */
-li.nav-item {
+li.au.nav-item {
         width: 100%;
 }
-.nav-tabs:hover .nav-link:hover {
+.au.nav-tabs:hover .au.nav-link:hover {
     border-width: 2px;
     /* margin: 5px 0px 5px 0px; */
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+.au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active {
     border-width: 2px;
     /* margin: 5px 0px 5px 0px; */
 }
