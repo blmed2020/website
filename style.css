@@ -1,6 +1,7 @@
 /* Allgemein */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 * {
     font-family: 'Poppins', sans-serif;
 }
@@ -36,11 +37,29 @@ header {
     background-color: #3c6e71!important;
 }
 .nav-item {
-    font-size: 30px!important;
+    font-size: 32px!important;
 }
 .nav-item:hover {
     background-color: #c44536;
     color: #353535;
+}
+.dropdown-menu {
+    background-color: #c44536;
+    color: #353535;
+    border-radius: 0%;
+    border: 1px solid #c44536;
+    margin-top: 0%;
+}
+.dropdown-item {
+    color: #353535;
+}
+.dropdown-item:hover {
+    color: #353535;
+    background-color: #3c6e71;
+}
+.nav-link {
+    /*font-family: 'Teko', sans-serif;*/
+    margin-right: 30px;
 }
 
 
