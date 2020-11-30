@@ -41,3 +41,35 @@ header {
 .nav-item:hover {
     background-color: #c44536;
 }
+
+
+
+/* Footer */
+
+
+footer {
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    height: 100%;
+    padding: 2%;
+}
+
+
+.footerlinks {
+    color: #353535;
+}
+
+.footerlinks:hover {
+    color: #c44536
+}
+
