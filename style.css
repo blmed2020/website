@@ -308,9 +308,11 @@ main.jumbotron.jumbotron.html{
 }
 .pic1.html{
     height: 90px;
-    width: 3000px;
+    width: 100%;
 }
 .col-12.html.css.bob{
+    display: flex;
+    justify-self: left;
     background-color: white;
     text-align: left;
     height: max-content;
@@ -320,6 +322,11 @@ main.jumbotron.jumbotron.html{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.col-2 .html .css .bob{
+display: flex;
+justify-content: left;
+background-color: violet;
 }
 .col-8.html{
     background-color: white;
@@ -374,6 +381,9 @@ main.jumbotron.jumbotron.html{
     flex-direction: column;
 
 }
+.col-12.html.css.lol{
+    height: 100%;
+}
 ul.html{
     display: flex;
     flex-direction: column;
@@ -381,40 +391,6 @@ ul.html{
 li{
     list-style-type: none;
 }
-
-@media (max-width: 1370px){
-li{
-    font-size: 13px;
-}
-}
-@media (max-width: 1245px){
-li{
-    display: flex;
-    flex-direction: column;
-    list-style-type: ;
-}
-}
-@media (max-width: 1308px){
-
-    .pic6{
-        height: 0px;
-        width: 0px;
-    }
-    }
-    @media (max-width: 1308px){
-    .col-5 html .css del{
-        height: 0px;
-        width: 0px;
-        padding: 0px;
-        margin: 0px;
-    }
-    .col-2 html del{
-        height: 0px;
-        width: 0px;
-        padding: 0px;
-    }
-
-    }
 
 /*au*/
 
