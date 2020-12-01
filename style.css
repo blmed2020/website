@@ -315,7 +315,7 @@ main.jumbotron.jumbotron.html{
     background-color: white;
     text-align: left;
     height: max-content;
-    position: fixed;
+    position: absolute;
 }
 .col-12.html.css{
     display: flex;
@@ -370,7 +370,7 @@ main.jumbotron.jumbotron.html{
     border: none;
     margin: 5px;
 }
-@media (max-width: 992px;)
+@media (max-width: 992px;{}
 
 /*au*/
 
