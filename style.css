@@ -317,7 +317,6 @@ footer img {
   
 }
 /*101*/
-/*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
     div.example {
@@ -391,6 +390,7 @@ font-size: 100%;
     height: max-content;
     border: none;
     margin: 5px;
+    
 }
   
   /* If the screen size is 600px or less*/
@@ -400,7 +400,8 @@ main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
     margin: 0px;
-    justify-content: left;
+    justify-content: center;
+
 }
 .pic5{
     width: 150%;
@@ -466,6 +467,9 @@ font-size: 80%;
     width: 100%;
 }
 .col-8.html.halb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     text-align: center;
     height: max-content;
