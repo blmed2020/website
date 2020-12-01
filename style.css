@@ -312,7 +312,7 @@ main.jumbotron.jumbotron.html{
 }
 .col-12.html.css.bob{
     background-color: white;
-    text-align: left;
+    text-align: center;
     height: max-content;
     position: fixed;
 }
@@ -369,6 +369,9 @@ main.jumbotron.jumbotron.html{
     border: none;
     margin: 5px;
 }
+p{
+    justify-content: left;
+}
 li{
     list-style-type: none;
 }
@@ -407,7 +410,12 @@ li{
         width: 0px;
         padding: 0px;
     }
-
+@media (max-width: 1045px){
+    img{
+        height: 0px;
+        width: 0px;
+    }
+}
 
 /*au*/
 
