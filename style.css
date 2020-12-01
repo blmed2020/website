@@ -401,45 +401,6 @@ a.au.nav-link {
         border-width: 2px 2px 0px 2px;
 }
 
-/* .au-blcon {
-    display: flex;
-}
-.au.bl.container-fixed {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.au-text-left {
-    width: 50%;
-    color: #353535;
-}
-.au-title-left {
-    color: #353535;
-    margin-bottom: 30px;
-    font-size: 35px;
-}
-.au-text-right {
-    width: 50%;
-    color: #353535;
-}
-/* .au.andri.tab-pane.fade {
-    display: flex;
-    flex-direction: column;
-}
-.au.img-andri {
-    max-width: 100%;
-    width: 300px;
-    height: fit-content; */
-    
-}
- .iframe-right {
-    max-width: 100%;
-}
- */
-
-    
-
- 
 /* Media Queries About Us */
 
 @media (max-width: 1587px) {
@@ -499,4 +460,3 @@ jet: #353535
 ming: #3C6E71
 white: #FFFFFF
 red: #C44536 */
-
