@@ -1,0 +1,157 @@
+/*101*/
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  main.jumbotron.jumbotron.html{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    justify-content: left;
+}
+.pic1.html{
+    height: 90px;
+    width: 100%;
+}
+
+ul.bi{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+}
+li.bi{
+padding-left: 20px;
+list-style-type: none;
+font-size: 100%;
+    }
+.col-12.html.css{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-8.html{
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    height: max-content;
+    padding: 0px;
+    margin: 5px 0px 5px 0px;
+}
+.col-8.html.bss{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: 1px solid;
+}
+.col-5.html.css{
+    background-color: white;
+}
+.col-4.html{
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid;
+}
+
+
+.card{
+    border: none;
+}
+.col-8.html.css{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    margin: 5px;
+}
+.col-8.html.halb{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: none;
+    margin: 5px;
+}
+  
+  /* If the screen size is 600px or less*/
+  @media only screen and (max-width: 900px) {
+
+main.jumbotron.jumbotron.html{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    justify-content: left;
+}
+.pic5{
+    width: 150%;
+}
+.pic6{
+width: 0%;
+}
+
+ul.bi{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+}
+li.bi{
+padding-left: 20px;
+list-style-type: none;
+font-size: 80%;
+    }
+.col-12.html.css{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.col-8.html{
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    height: max-content;
+    padding: 0px;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+}
+.col-8.html.bss{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: 1px solid;
+    width: 100%;
+}
+.col-5.html.css{
+    background-color: white;
+    width: 100%;
+}
+.col-4.html{
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid;
+    width: 100%;
+}
+
+
+.card{
+    border: none;
+}
+.col-8.html.css{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    margin: 5px;
+    width: 100%;
+}
+.col-8.html.halb{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: none;
+    margin: 5px;
+    width: 100%;
+}
+  }
