@@ -227,6 +227,7 @@ main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
     margin: 0px;
+    justify-content: left;
 }
 .pic1.html{
     height: 90px;
@@ -242,8 +243,18 @@ main.jumbotron.jumbotron.html{
     text-align: center;
     height: 300px;
 }
+.col-2.html2{
+    background-color: white;
+    text-align: center;
+    height: 300px;
+}
 .col-4.html{
     background-color: yellow;
+    text-align: center;
+    height: 300px;
+}
+.col-4.html2{
+    background-color: green;
     text-align: center;
     height: 300px;
 
