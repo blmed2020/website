@@ -5,6 +5,13 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+.no-valid {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50x;
+    margin-bottom: 50x;
+    color: #353535;
+}
 
 /*Header*/
 html, body {
