@@ -310,11 +310,11 @@ main.jumbotron.jumbotron.html{
     height: 90px;
     width: 3000px;
 }
-.col-2.html.css{
+.col-12.html.css.bob{
     background-color: white;
     text-align: left;
     height: max-content;
-    position: absolute;
+    position: fixed;
 }
 .col-12.html.css{
     display: flex;
@@ -372,6 +372,9 @@ main.jumbotron.jumbotron.html{
     height: max-content;
     border: none;
     margin: 5px;
+}
+.col-12.html.css.lol{
+    height: 100%;
 }
 @media (max-width: 992px){
 
