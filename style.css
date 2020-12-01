@@ -242,7 +242,7 @@ main.jumbotron.jumbotron.html{
 }
 .col-12.text.html{
     background-color: white ;
-    text-align: center;
+    text-align: left;
     padding: 5px 50px 5px 50px;
     font-size: 20px;
 }
@@ -268,7 +268,7 @@ main.jumbotron.jumbotron.html{
 }
 .col-12.text.css{
     background-color: white;
-    text-align: center;
+    text-align: left;
     padding: 5px 50px 5px 50px;
     font-size: 20px;
 }
