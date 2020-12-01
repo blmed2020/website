@@ -233,7 +233,7 @@ main.jumbotron.jumbotron.html{
     height: 90px;
 
 }
-.col-2.html{
+.col-2.html.css{
     background-color: lightblue;
     text-align: center;
     height: 300px;
@@ -248,6 +248,10 @@ position: fixed;
     background-color: rebeccapurple;
     text-align: center;
     height: max-content;
+}
+
+.col-4.html.css{
+    background-color: red;
 }
 
 
