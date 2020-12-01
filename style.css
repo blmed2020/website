@@ -318,6 +318,24 @@ footer img {
 }
 /*101*/
 
+/*304*/
+
+.pdf {
+    border: 5px #C44536 solid;
+    width: 90%;
+    height: 1250px;
+}
+
+.tab-content>.active {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+#plugin {
+    background-color: #353535!important;
+}
+
 /*au*/
 
 
