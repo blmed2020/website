@@ -8,9 +8,23 @@
 .no-valid {
     font-size: 100px;
     text-align: center;
-    margin-top: 50x;
+    margin-top: 400x;
     margin-bottom: 50x;
     color: #353535;
+}
+.back-menu {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #353535;
+}
+.back-menu:hover {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    color: #c44536;
 }
 
 /*Header*/

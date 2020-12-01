@@ -6,7 +6,7 @@
 	.st0{fill:#353535;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
-	.st3{font-family:'Poppins-Regular';}
+	.st3{font-family: 'Poppins', sans-serif;}
 	.st4{font-size:90px;}
 </style>
 <rect x="-118" y="-32" class="st0" width="633" height="627"/>

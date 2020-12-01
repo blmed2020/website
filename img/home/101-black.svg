@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:#353535;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#353535;}
-	.st2{font-family:'Poppins-Regular';}
+	.st2{font-family: 'Poppins', sans-serif;}
 	.st3{font-size:90px;}
 </style>
 <path class="st0" d="M222.8,372.53v-3.51c21.64-2.2,32.23-13.24,32.23-34.45v-38.69c0-23.55,8.4-33.11,29.15-33.11h5.88V242h-8.09
