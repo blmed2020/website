@@ -192,6 +192,17 @@ article.inf {
 .card a {
     text-decoration: none;
 }
+
+@media (max-width: 1500px) {
+    .medcard{
+        margin: 0% 0.2%;
+    }
+
+    .infcard{
+        margin: 0% 0.33%;
+    }
+}
+
 @media (max-width: 992px) {
     article.med {
         flex-direction: column;
