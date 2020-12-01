@@ -297,7 +297,6 @@ footer img {
     footer p{
         margin: 16px 0px 16px 0px;
     }
-  
 }
 /*101*/
 
@@ -321,6 +320,10 @@ main.jumbotron.jumbotron.html{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.ueberschrift{
+    font-size: 20px;
+    color: rgb(255, 94, 0);
 }
 .col-8.html{
     background-color: white;
@@ -370,7 +373,8 @@ main.jumbotron.jumbotron.html{
     border: none;
     margin: 5px;
 }
-@media (max-width: 992px;{}
+@media (max-width: 992px){
+
 
 /*au*/
 
