@@ -539,6 +539,19 @@ a.au.nav-link {
 
 
 
+.au-con-bl {
+    display: flex;
+    flex-direction: column;
+}
+.au-inh-bl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.au-txt-bl {
+    width: 50%;
+}
 
 
 /* Hover About Us */
