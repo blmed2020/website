@@ -310,14 +310,17 @@ main.jumbotron.jumbotron.html{
     height: 90px;
     width: 100%;
 }
-.col-12.html.css.bob{
-    display: flex;
-    justify-self: left;
-    background-color: white;
-    text-align: left;
-    height: max-content;
-    position: fixed;
+
+ul.bi{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
 }
+li.bi{
+padding-left: 20px;
+list-style-type: none;
+    }
 .col-12.html.css{
     display: flex;
     align-items: center;
@@ -350,16 +353,8 @@ background-color: violet;
     margin: 5px 0px 5px 0px;
     border: 1px solid;
 }
-.card-block.html.drop{
-    display: flex;
-    justify-content: center;
-    border: none;
-}
-.card-block.html.css{
-    background: white;
-    max-width: 100%;
-    border: none; 
-}
+
+
 .card{
     border: none;
 }
@@ -376,21 +371,7 @@ background-color: violet;
     border: none;
     margin: 5px;
 }
-.col-2 .html .css .lol{
-    display: flex;
-    flex-direction: column;
 
-}
-.col-12.html.css.lol{
-    height: 100%;
-}
-ul.html{
-    display: flex;
-    flex-direction: column;
-}
-li{
-    list-style-type: none;
-}
 
 /*au*/
 
