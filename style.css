@@ -138,7 +138,15 @@ article.inf {
     justify-content: space-around;
     margin: 0% 20% 2% 20%;
 }
-
+.card-title {
+    color: #353535;
+}
+.card-text {
+    color: #353535;
+}
+.card a {
+    text-decoration: none;
+}
 @media (max-width: 992px) {
     article.med {
         flex-direction: column;
