@@ -272,6 +272,10 @@ main.jumbotron.jumbotron.html{
     padding: 5px 50px 5px 50px;
     font-size: 15px;
 }
+.tooltip-inner{
+    width: 300px;
+    padding: 10px;
+}
 p.html{
     font-size: 15px;
 }
