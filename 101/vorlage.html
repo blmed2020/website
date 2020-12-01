@@ -160,24 +160,33 @@
     </div>
   </main>
 
-  <footer>
-    <img src="../img/Logo_MED_v.4.svg" alt="Logo der Mediamatiker des Basislehrjahres" />
-    <div>
-      <p>Adresse:<br>Industrieplatz<br>8212 Neuhausen</p>
-      <a href="au" class="footerlinks">About Us</a>
-      <a href="https://www.wibilea.ch/" class="footerlinks">Wibilea</a>
-      <P>&copy; Basislehrjahr Med 2020</P>
-    </div>
-  </footer>
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-  <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })</script>
+    <footer>
+        <img src="../img/Logo_MED_v.4.svg" alt="Logo der Mediamatiker des Basislehrjahres" />
+        <div>
+            <p>Adresse:<br>Industrieplatz<br>8212 Neuhausen</p>
+            <a href="au" class="footerlinks">About Us</a>
+            <a href="https://www.wibilea.ch/" class="footerlinks">Wibilea</a>
+            <P>&copy; Basislehrjahr Med 2020</P>
+        </div>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })</script>
+        <script>
+            function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+          }
+          </script>
 </body>
