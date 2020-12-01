@@ -318,6 +318,19 @@ footer img {
 }
 /*101*/
 
+/*304*/
+
+.pdf {
+    border-width: 0;
+    width: 90%;
+    height: 1500px
+}
+
+.tab-pane.fade.ld {
+    display: flex;
+    justify-content: center;
+}
+
 /*au*/
 
 
