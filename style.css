@@ -249,9 +249,17 @@ position: fixed;
     text-align: center;
     height: max-content;
 }
+.col-8.html.bss{
+    background-color: violet;
+    text-align: center;
+    height: max-content;
+}
 
-.col-4.html.css{
+.col-5.html.css{
     background-color: red;
+}
+.col-4.html{
+    background-color: sandybrown;
 }
 
 
