@@ -300,6 +300,7 @@ footer img {
   
 }
 /*101*/
+
 main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
@@ -309,20 +310,17 @@ main.jumbotron.jumbotron.html{
 .pic1.html{
     height: 90px;
     width: 3000px;
-
-
 }
 .col-2.html.css{
     background-color: white;
     text-align: left;
     height: max-content;
-position: fixed;
+    position: fixed;
 }
 .col-12.html.css{
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 .col-8.html{
     background-color: white;
@@ -338,9 +336,8 @@ position: fixed;
     height: max-content;
     border: 1px solid;
 }
-
 .col-5.html.css{
-    background-color: red;
+    background-color: white;
 }
 .col-4.html{
     background-color: white;
@@ -355,8 +352,7 @@ position: fixed;
 .card-block.html.css{
     background: white;
     max-width: 100%;
-    border: none;
- 
+    border: none; 
 }
 .card{
     border: none;
@@ -366,7 +362,6 @@ position: fixed;
     text-align: center;
     height: max-content;
     margin: 5px;
-
 }
 .col-8.html.halb{
     background-color: white;
@@ -374,8 +369,8 @@ position: fixed;
     height: max-content;
     border: none;
     margin: 5px;
-
 }
+@media (max-width: 992px;)
 
 /*au*/
 
