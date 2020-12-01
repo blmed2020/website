@@ -321,10 +321,6 @@ main.jumbotron.jumbotron.html{
     align-items: center;
     flex-direction: column;
 }
-.ueberschrift{
-    font-size: 20px;
-    color: rgb(255, 94, 0);
-}
 .col-8.html{
     background-color: white;
     border: 1px solid;
@@ -373,7 +369,44 @@ main.jumbotron.jumbotron.html{
     border: none;
     margin: 5px;
 }
-@media (max-width: 992px){
+li{
+    list-style-type: none;
+}
+
+@media (max-width: 1370px){
+li{
+    font-size: 13px;
+}
+}
+@media (max-width: 1245px){
+li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: ;
+}
+}
+@media (max-width: 1308px){
+    li{
+        list-style-type: none;
+        font-size:0px;
+    }
+    .pic6{
+        height: 0px;
+        width: 0px;
+    }
+    }
+    @media (max-width: 1308px){
+    .col-5 html .css del{
+        height: 0px;
+        width: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .col-2 html del{
+        height: 0px;
+        width: 0px;
+        padding: 0px;
+    }
 
 
 /*au*/
