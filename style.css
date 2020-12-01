@@ -314,7 +314,7 @@ main.jumbotron.jumbotron.html{
     background-color: white;
     text-align: left;
     height: max-content;
-    position: fixed;
+    position: absolute;
 }
 .col-12.html.css{
     display: flex;
