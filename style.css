@@ -270,11 +270,15 @@ main.jumbotron.jumbotron.html{
 .card-block.html.drop{
     display: flex;
     justify-content: center;
-    border: 0px;
+    border: none;
 }
 .card-block.html.css{
     background: white;
     max-width: 100%;
+    border: none; 
+}
+.card{
+    border: none;
 }
 .col-8.html.css{
     background-color: white;
