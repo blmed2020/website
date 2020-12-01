@@ -26,6 +26,12 @@
     text-decoration: underline;
     color: #c44536;
 }
+.unused {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Header*/
 html, body {
