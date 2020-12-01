@@ -231,7 +231,7 @@ main.jumbotron.jumbotron.html{
 }
 .pic1.html{
     height: 90px;
-    width: 3000px;
+
 }
 .col-2.html{
     background-color: lightblue;
@@ -288,6 +288,7 @@ main.jumbotron.jumbotron.html{
     width: 300px;
     padding: 10px;
 }
+
 p.html{
     font-size: 15px;
 }
