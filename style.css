@@ -237,27 +237,18 @@ main.jumbotron.jumbotron.html{
     background-color: lightblue;
     text-align: center;
     height: 300px;
+position: fixed;
 }
-.col-10.html{
-    background-color: coral;
-    text-align: center;
-    height: 300px;
+.col-12.html.css{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.col-2.html2{
-    background-color: white;
+.col-8.html{
+    background-color: rebeccapurple;
     text-align: center;
-    height: 300px;
+    height: max-content;
 }
-.col-4.html{
-    background-color: yellow;
-    text-align: center;
-    height: 300px;
-}
-.col-4.html2{
-    background-color: green;
-    text-align: center;
-    height: 300px;
-
 
 
 
