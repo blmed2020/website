@@ -40,9 +40,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 main {
-  flex: 1 0 auto;
+  flex: 1;
 }
 .mainmenu {
     background-color: #353535;
@@ -53,7 +54,7 @@ footer {
 }
 header {
     background-color: #3c6e71;
-    /*display: flex;*/
+    display: flex;
 
 }
 .logo {
@@ -252,7 +253,7 @@ article.inf {
 
 
 footer {
-  /*  display: flex; */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
