@@ -741,6 +741,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
     .au-txt-bl {
         width: 100%;
 }
+
 }
 @media (max-width: 330px) {
 .au-title-bl-con {
@@ -754,10 +755,16 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 @media (max-width: 330px) {
     .au-title-con {
         font-size: 24px;
+        text-align: center;
+       
 }
 }
 
 @media (max-width: 1587px) {
+.au-title-con {
+    text-align: center;
+}
+
 .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
     padding: 0 10%;
 }
