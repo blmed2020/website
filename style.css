@@ -40,24 +40,22 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100%;
 }
 main {
-  flex-grow: 2;
-  /* flex: 1; */
+  flex: 1; 
 }
 .mainmenu {
     background-color: #353535;
 }
 footer {
-    /* flex-shrink: 0; */
-    flex-grow: 1;
+    flex-shrink: 0;
     background-color: #3c6e71;
 }
 header {
     background-color: #3c6e71;
     display: flex;
-    flex-grow: 1;
+    flex-shrink: 1;
 
 }
 .logo {
@@ -256,6 +254,7 @@ article.inf {
 
 
 footer {
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
