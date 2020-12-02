@@ -51,6 +51,7 @@ footer {
  /* position: sticky; */
     /*flex-shrink: 0;*/
     background-color: #3c6e71;
+    position: -webkit-sticky;
 }
 header {
     background-color: #3c6e71;
