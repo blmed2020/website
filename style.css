@@ -8,7 +8,7 @@
 .no-valid {
     font-size: 100px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-bottom: 50px;
     color: #353535;
 }
@@ -42,18 +42,20 @@ body {
     flex-direction: column;
 }
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 .mainmenu {
     background-color: #353535;
 }
 footer {
-    flex-shrink: 0;
+ /* position: sticky; */
+    /*flex-shrink: 0;*/
     background-color: #3c6e71;
 }
 header {
     background-color: #3c6e71;
-    display: flex;
+    /*display: flex;*/
+
 }
 .logo {
     margin: 20px;
@@ -319,20 +321,15 @@ footer img {
 /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
-    div.example {
-      font-size: 80px;
-    }
-  }
+
+ 
   main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
     margin: 0px;
     justify-content: left;
 }
-.pic1.html{
-    height: 90px;
-    width: 100%;
-}
+
 
 ul.bi{
 display: flex;
@@ -341,42 +338,66 @@ width: 100%;
 justify-content: center;
 }
 li.bi{
-padding-left: 20px;
+padding-left: 2px;
 list-style-type: none;
-font-size: 100%;
+font-size: 150%;
+    }
+    .col-12.bi{
+        background-color: #3c6e71;
+    }
+    button{
+        padding: 0 30px 0 30px;
+        background-color: #3c6e71;
+    color: #FFFFFF;
+    height: 80px;
+    border: #4e8e92 solid 1px 2px 1px 2px;
     }
 .col-12.html.css{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+.col-12.html.css.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .col-8.html{
     background-color: white;
-    border: 1px solid;
+    
     text-align: center;
     height: max-content;
     padding: 0px;
     margin: 5px 0px 5px 0px;
 }
 .col-8.html.bss{
+    
     background-color: white;
-    text-align: center;
+    text-align: left;
     height: max-content;
-    border: 1px solid;
+    border:none;
 }
 .col-5.html.css{
     background-color: white;
+    
 }
 .col-4.html{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: 1px solid;
+    border: none;
+    width: 100%;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
 }
 
 
-.card{
+.card.html{
     border: none;
+    width: 100%;
 }
 .col-8.html.css{
     background-color: white;
@@ -390,9 +411,10 @@ font-size: 100%;
     height: max-content;
     border: none;
     margin: 5px;
+    width: 100%;
     
 }
-  
+ }  
   /* If the screen size is 600px or less*/
   @media only screen and (max-width: 900px) {
 
@@ -404,22 +426,40 @@ main.jumbotron.jumbotron.html{
 
 }
 .pic5{
-    width: 150%;
+width: 300%;
 }
 .pic6{
 width: 0%;
 }
+.pic6.bild{
+    width: 900%;
+    }
+    .col-12.bi{
+        background-color: #3c6e71;
+        flex-direction: column;
+    }
 
+button{
+    padding: 5px 0 5px 0;
+    background-color: #3c6e71;
+color: #FFFFFF;
+height: 50px;
+width: 200px;
+border: #4e8e92 solid 1px 2px 1px 2px;
+}
 ul.bi{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 width: 100%;
 justify-content: center;
+padding: 14px;
 }
 li.bi{
-padding-left: 20px;
+    display: flex;
+padding-left: 2px;
 list-style-type: none;
 font-size: 80%;
+justify-content: center;
     }
 .col-12.html.css{
     display: flex;
@@ -430,8 +470,8 @@ font-size: 80%;
 
 .col-8.html{
     background-color: white;
-    border: 1px solid;
-    text-align: center;
+
+    text-align: left;
     height: max-content;
     padding: 0px;
     margin: 5px 0px 5px 0px;
@@ -439,27 +479,64 @@ font-size: 80%;
 }
 .col-8.html.bss{
     background-color: white;
-    text-align: center;
+    text-align: left;
     height: max-content;
     border: 1px solid;
     width: 100%;
 }
 .col-5.html.css{
     background-color: white;
-    width: 100%;
+    width: 150%;
 }
-.col-4.html{
+.col-5.html.css.del{
+    background-color: white;
+    width: 0px;
+}
+
+.col-4.html.bss{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: 1px solid;
+border: none;
     width: 100%;
 }
-
-
-.card{
-    border: none;
+.col-2.html.del{
+    height: 0px;
+    width: 0px;
 }
-.col-8.html.css{
+.col-12.html.row.halb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+}
+p#text{
+    width: 100%;
+}
+.col-8{
+    max-width: 80%;
+}
+
+.col-8.html.bss{
+
+    padding: 0px;
+    border: none;
+    margin: none;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
+}
+.card-block.html.bild{
+    display: flex;
+    justify-content: center;
+}
+
+.card.html{
+    border: none;
+    margin: 0px;
+}
+.col-12.html.css{
     background-color: white;
     text-align: center;
     height: max-content;
