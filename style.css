@@ -49,7 +49,7 @@ main {
     background-color: #353535;
 }
 footer {
-    /*flex-shrink: 0;*/
+    flex-shrink: 0;
     background-color: #3c6e71;
 }
 header {
@@ -367,7 +367,7 @@ font-size: 150%;
 .col-8.html{
     background-color: white;
     
-    text-align: center;
+    text-align: left;
     height: max-content;
     padding: 0px;
     margin: 5px 0px 5px 0px;
@@ -386,12 +386,13 @@ font-size: 150%;
 .col-4.html{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: none;
+    
     width: 100%;
 }
 .card-block.html.css{
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 
