@@ -386,12 +386,13 @@ font-size: 150%;
 .col-4.html{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: none;
+    
     width: 100%;
 }
 .card-block.html.css{
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 
