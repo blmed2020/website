@@ -134,10 +134,10 @@ link {
 }
 @media screen and (max-width: 440px) {
     .dropdown-menu {
-        width: 400px;
+        width: 300px;
     }
     .dropdown-item {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
