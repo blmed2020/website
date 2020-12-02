@@ -317,7 +317,6 @@ footer img {
   
 }
 /*101*/
-/*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
 
@@ -349,7 +348,7 @@ font-size: 150%;
         background-color: #3c6e71;
     color: #FFFFFF;
     height: 80px;
-    border: #4e8e92 solid;
+    border: #4e8e92 solid 1px 2px 1px 2px;
     }
 .col-12.html.css{
     display: flex;
@@ -365,7 +364,7 @@ font-size: 150%;
 
 .col-8.html{
     background-color: white;
-    border: 1px solid;
+    
     text-align: center;
     height: max-content;
     padding: 0px;
@@ -394,7 +393,7 @@ font-size: 150%;
 }
 
 
-.card{
+.card.html{
     border: none;
     width: 100%;
 }
@@ -435,24 +434,30 @@ width: 0%;
     }
     .col-12.bi{
         background-color: #3c6e71;
+        flex-direction: column;
     }
+
 button{
-    padding: 0;
+    padding: 5px 0 5px 0;
     background-color: #3c6e71;
 color: #FFFFFF;
-height: 40px;
-border: #4e8e92 solid;
+height: 50px;
+width: 200px;
+border: #4e8e92 solid 1px 2px 1px 2px;
 }
 ul.bi{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 width: 100%;
 justify-content: center;
+padding: 14px;
 }
 li.bi{
+    display: flex;
 padding-left: 2px;
 list-style-type: none;
 font-size: 80%;
+justify-content: center;
     }
 .col-12.html.css{
     display: flex;
@@ -463,7 +468,7 @@ font-size: 80%;
 
 .col-8.html{
     background-color: white;
-    border: 1px solid;
+
     text-align: left;
     height: max-content;
     padding: 0px;
@@ -525,8 +530,9 @@ p#text{
     justify-content: center;
 }
 
-.card{
+.card.html{
     border: none;
+    margin: 0px;
 }
 .col-12.html.css{
     background-color: white;
@@ -630,45 +636,6 @@ a.au.nav-link {
         border-width: 2px 2px 0px 2px;
 }
 
-/* .au-blcon {
-    display: flex;
-}
-.au.bl.container-fixed {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.au-text-left {
-    width: 50%;
-    color: #353535;
-}
-.au-title-left {
-    color: #353535;
-    margin-bottom: 30px;
-    font-size: 35px;
-}
-.au-text-right {
-    width: 50%;
-    color: #353535;
-}
-/* .au.andri.tab-pane.fade {
-    display: flex;
-    flex-direction: column;
-}
-.au.img-andri {
-    max-width: 100%;
-    width: 300px;
-    height: fit-content; 
-    
-}*/
- .iframe-right {
-    max-width: 100%;
-}
- */
-
-    
-
- 
 /* Media Queries About Us */
 
 @media (max-width: 1587px) {
@@ -728,4 +695,3 @@ jet: #353535
 ming: #3C6E71
 white: #FFFFFF
 red: #C44536 */
-
