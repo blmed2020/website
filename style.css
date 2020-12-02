@@ -35,12 +35,12 @@
 
 /*Header*/
 html, body {
-    height: 100%;
+    /* height: 100%; */
 }
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
 }
 main {
   flex: 1 0 auto; 
@@ -267,7 +267,7 @@ footer div {
     justify-content: space-between;
     align-items: center;
     flex-grow: 2;
-    height: 100%;
+    /* height: 100%; */
     padding: 2%;
     color: #353535;
 }
