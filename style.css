@@ -5,6 +5,9 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+_::-webkit-full-page-media, _:future, :root .safari_only {
+    property: value;
+}
 .no-valid {
     font-size: 100px;
     text-align: center;
