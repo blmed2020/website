@@ -42,7 +42,7 @@ body {
     flex-direction: column;
 }
 main {
-   flex: 1 0 auto;
+  /* flex: 1 0 auto; */
 }
 .mainmenu {
     background-color: #353535;
