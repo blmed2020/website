@@ -8,7 +8,7 @@
 .no-valid {
     font-size: 100px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-bottom: 50px;
     color: #353535;
 }
@@ -42,18 +42,20 @@ body {
     flex-direction: column;
 }
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 .mainmenu {
     background-color: #353535;
 }
 footer {
-    flex-shrink: 0;
+ /* position: sticky; */
+    /*flex-shrink: 0;*/
     background-color: #3c6e71;
 }
 header {
     background-color: #3c6e71;
-    display: flex;
+    /*display: flex;*/
+
 }
 .logo {
     margin: 20px;
