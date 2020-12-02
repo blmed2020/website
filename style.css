@@ -42,14 +42,14 @@ body {
     flex-direction: column;
 }
 main {
-  /* flex: 1 0 auto; */
+  flex: 1 0 auto;
 }
 .mainmenu {
     background-color: #353535;
 }
 footer {
  /* position: sticky; */
-    /*flex-shrink: 0;*/
+    flex-shrink: 0;
     background-color: #3c6e71;
 }
 header {
