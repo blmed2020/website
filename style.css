@@ -56,7 +56,9 @@ header {
     background-color: #3c6e71;
     display: flex;
     flex-shrink: 1;
-
+}
+.navbar-collapse {
+    flex-basis: 600px;
 }
 .logo {
     margin: 20px;
@@ -130,8 +132,13 @@ link {
         width: 100%;
     } */
 }
-.navbar-collapse {
-    flex-basis: 600px;
+@media screen and (max-width: 440px) {
+    .dropdown-menu {
+        width: 400px;
+    }
+    .dropdown-item {
+        font-size: 10px;
+    }
 }
 
 
