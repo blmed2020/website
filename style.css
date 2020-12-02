@@ -134,7 +134,7 @@ link {
 }
 @media screen and (max-width: 440px) {
     .dropdown-menu {
-        width: 300px;
+        width: 200px;
     }
     .dropdown-item {
         font-size: 17px;
