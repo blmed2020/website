@@ -320,20 +320,15 @@ footer img {
 /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
-    div.example {
-      font-size: 80px;
-    }
-  }
+
+ 
   main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
     margin: 0px;
     justify-content: left;
 }
-.pic1.html{
-    height: 90px;
-    width: 100%;
-}
+
 
 ul.bi{
 display: flex;
@@ -344,12 +339,18 @@ justify-content: center;
 li.bi{
 padding-left: 20px;
 list-style-type: none;
-font-size: 100%;
+font-size: 150%;
     }
 .col-12.html.css{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.col-12.html.css.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .col-8.html{
@@ -361,23 +362,31 @@ font-size: 100%;
     margin: 5px 0px 5px 0px;
 }
 .col-8.html.bss{
+    
     background-color: white;
     text-align: center;
     height: max-content;
-    border: 1px solid;
+    border:none;
 }
 .col-5.html.css{
     background-color: white;
+    
 }
 .col-4.html{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: 1px solid;
+    border: none;
+    width: 100%;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
 }
 
 
 .card{
     border: none;
+    width: 100%;
 }
 .col-8.html.css{
     background-color: white;
@@ -391,9 +400,10 @@ font-size: 100%;
     height: max-content;
     border: none;
     margin: 5px;
+    width: 100%;
     
 }
-  
+ }  
   /* If the screen size is 600px or less*/
   @media only screen and (max-width: 900px) {
 
@@ -405,7 +415,7 @@ main.jumbotron.jumbotron.html{
 
 }
 .pic5{
-    width: 150%;
+width: 200%;
 }
 .pic6{
 width: 0%;
@@ -447,20 +457,40 @@ font-size: 80%;
 }
 .col-5.html.css{
     background-color: white;
-    width: 100%;
+    width: 150%;
 }
-.col-4.html{
+.col-5.html.css.del{
+    background-color: white;
+    width: 0px;
+}
+
+.col-4.html.bss{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: 1px solid;
+border: none;
     width: 100%;
+}
+.col-2.html.del{
+    height: 0px;
+    width: 0px;
+}
+
+.col-8.html.bss{
+
+    padding: 0px;
+    border: none;
+    margin: none;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
 }
 
 
 .card{
     border: none;
 }
-.col-8.html.css{
+.col-12.html.css{
     background-color: white;
     text-align: center;
     height: max-content;
@@ -590,9 +620,9 @@ a.au.nav-link {
 .au.img-andri {
     max-width: 100%;
     width: 300px;
-    height: fit-content; */
+    height: fit-content; 
     
-}
+}*/
  .iframe-right {
     max-width: 100%;
 }
