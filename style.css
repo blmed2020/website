@@ -129,6 +129,9 @@ link {
        /*  width: 100%; */
     }
 }
+.navbar-collapse {
+    flex-basis: 600px;
+}
 
 
 
@@ -347,13 +350,13 @@ font-size: 150%;
     .col-12.bi{
         background-color: #3c6e71;
     }
-    button{
+/*     button{
         padding: 0 30px 0 30px;
         background-color: #3c6e71;
     color: #FFFFFF;
     height: 80px;
     border: #4e8e92 solid 1px 2px 1px 2px;
-    }
+    } */
 .col-12.html.css{
     display: flex;
     align-items: center;
@@ -442,14 +445,14 @@ width: 0%;
         flex-direction: column;
     }
 
-button{
+/* button{
     padding: 5px 0 5px 0;
     background-color: #3c6e71;
 color: #FFFFFF;
 height: 50px;
 width: 200px;
 border: #4e8e92 solid 1px 2px 1px 2px;
-}
+} */
 ul.bi{
 display: flex;
 flex-direction: column;
