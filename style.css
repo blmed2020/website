@@ -541,7 +541,35 @@ a.au.nav-link {
     margin: 0px;
 }
 
+.au-con-bl  {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+}
+.au-inh-bl, .au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
+    width: 50%;
+    text-align: justify;
+}
+.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.au-img-andri, .au-img-brooklyn, .au-img-cedric, .au-img-leandro, .au-img-yanik {
+    max-width: 100%;
+    width: 300px;
+}
+
+.au-iframe-bl {
+    max-width: 100%;
+}
 
 
 
@@ -561,7 +589,7 @@ a.au.nav-link {
         border-width: 2px 2px 0px 2px;
 }
 
-/* Media Queries About Us */
+/* Media Queries About Us Navigation*/
 
 @media (max-width: 1587px) {
 
@@ -599,6 +627,7 @@ ul.au.nav.nav-tabs {
 
 } 
 
+
 @media (max-width: 354px) {
     a.au.nav-link {
         font-size: 16px;
@@ -611,8 +640,65 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 }
 
+/* Media Queries About Us Content BL */
+
+@media (max-width: 1475px) {
+
+    .au-inh-bl {
+        flex-direction: column;
+        align-items: center;
+    }
+    .au-con-bl  {
+        align-items: center;
+    }
+    .au-txt-bl {
+        width: 75%;
+        margin: 0 0 10% 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .au-txt-bl {
+        width: 100%;
+}
+}
+@media (max-width: 330px) {
+.au-title-bl-con {
+    font-size: 24px;
+    }
+
+}
+
+/* Media Queries Content BL-Lernende */
+
+@media (max-width: 1330px) {
+.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
+    padding: 0 10%;
+}
+}
+
+@media (max-width: 1024px) {
+.au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
+    flex-direction: column-reverse;
+    align-items: center; 
+}
+
+.au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
+        width: 100%;   
+        margin: 10% 0 10% 0;
+}
 
 
+.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
+    align-items: center;}
+}
+
+
+@media (max-width: 330px) {
+h1.au-title-con {
+    font-size: 24px;
+        }
+    }
 
 
 /* Farben:
