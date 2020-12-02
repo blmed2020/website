@@ -337,9 +337,19 @@ width: 100%;
 justify-content: center;
 }
 li.bi{
-padding-left: 20px;
+padding-left: 2px;
 list-style-type: none;
 font-size: 150%;
+    }
+    .col-12.bi{
+        background-color: #3c6e71;
+    }
+    button{
+        padding: 0 30px 0 30px;
+        background-color: #3c6e71;
+    color: #FFFFFF;
+    height: 80px;
+    border: #4e8e92 solid;
     }
 .col-12.html.css{
     display: flex;
@@ -364,7 +374,7 @@ font-size: 150%;
 .col-8.html.bss{
     
     background-color: white;
-    text-align: center;
+    text-align: left;
     height: max-content;
     border:none;
 }
@@ -415,12 +425,24 @@ main.jumbotron.jumbotron.html{
 
 }
 .pic5{
-width: 200%;
+width: 300%;
 }
 .pic6{
 width: 0%;
 }
-
+.pic6.bild{
+    width: 900%;
+    }
+    .col-12.bi{
+        background-color: #3c6e71;
+    }
+button{
+    padding: 0;
+    background-color: #3c6e71;
+color: #FFFFFF;
+height: 40px;
+border: #4e8e92 solid;
+}
 ul.bi{
 display: flex;
 flex-direction: row;
@@ -428,7 +450,7 @@ width: 100%;
 justify-content: center;
 }
 li.bi{
-padding-left: 20px;
+padding-left: 2px;
 list-style-type: none;
 font-size: 80%;
     }
@@ -442,7 +464,7 @@ font-size: 80%;
 .col-8.html{
     background-color: white;
     border: 1px solid;
-    text-align: center;
+    text-align: left;
     height: max-content;
     padding: 0px;
     margin: 5px 0px 5px 0px;
@@ -450,7 +472,7 @@ font-size: 80%;
 }
 .col-8.html.bss{
     background-color: white;
-    text-align: center;
+    text-align: left;
     height: max-content;
     border: 1px solid;
     width: 100%;
@@ -474,6 +496,19 @@ border: none;
     height: 0px;
     width: 0px;
 }
+.col-12.html.row.halb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+}
+p#text{
+    width: 100%;
+}
+.col-8{
+    max-width: 80%;
+}
 
 .col-8.html.bss{
 
@@ -485,7 +520,10 @@ border: none;
     display: flex;
     justify-content: center;
 }
-
+.card-block.html.bild{
+    display: flex;
+    justify-content: center;
+}
 
 .card{
     border: none;
