@@ -48,13 +48,12 @@ main {
     background-color: #353535;
 }
 footer {
- /* position: sticky; */
-    /*flex-shrink: 0;*/
+    flex-shrink: 0;
     background-color: #3c6e71;
 }
 header {
     background-color: #3c6e71;
-    /*display: flex;*/
+    display: flex;
 
 }
 .logo {
@@ -253,7 +252,7 @@ article.inf {
 
 
 footer {
-   /* display: flex;*/
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
