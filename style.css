@@ -335,13 +335,16 @@ footer img {
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
 
- 
+    html.html.css{
+        overflow-x: hidden;
+    }
   main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
     margin: 0px;
     justify-content: left;
 }
+
 
 
 ul.bi{
@@ -357,6 +360,9 @@ font-size: 150%;
     }
     .col-12.bi{
         background-color: #3c6e71;
+        overflow: unset;
+        margin: 0;
+        padding: 0;
     }
     button.css{
         padding: 0 30px 0 30px;
@@ -369,6 +375,7 @@ font-size: 150%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: unset;
 }
 .col-12.html.css.row{
     display: flex;
@@ -431,6 +438,10 @@ font-size: 150%;
  }  
   /* If the screen size is 600px or less*/
   @media only screen and (max-width: 900px) {
+
+    html.html.css{
+        overflow-x: hidden;
+    }
 
 main.jumbotron.jumbotron.html{
     background-color: white;
