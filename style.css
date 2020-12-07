@@ -333,7 +333,7 @@ footer img {
 }
 /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 901px) {
 
     html.html.css{
         overflow-x: hidden;
@@ -510,7 +510,7 @@ footer img {
         background-color: #c44536;
     }
     ul.bi.test{
-        margin: 18px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
         background-color: white;
     }
     button.css.test{
@@ -575,6 +575,8 @@ footer img {
     }
 }
   @media only screen and (max-width: 600px){
+}  
+
 
     html.html.css{
         overflow-x: hidden;
@@ -594,12 +596,11 @@ footer img {
     font-size: 12px;
     text-align: right;
     }
+    @media only screen and (max-width: 900px) {
     .pic5{
         width: 300%;
     }
-    .pic6{
-        width: 0%;
-    }
+
     .pic6.bild{
         width: 900%;
     }
@@ -666,65 +667,105 @@ footer img {
         background-color: white;
         width: 0px;
     }
+.col-12.html.css{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
 
-    .col-4.html.bss{
-        background-color: white;
-        margin: 5px 0px 5px 0px;
-        border: none;
-        width: 100%;
-    }
-    .col-2.html.del{
-        height: 0px;
-        width: 0px;
-    }
-    .col-12.html.row.halb{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 150%;
-    }
-    p#text{
-        width: 100%;
-    }
-    .col-8{
-        max-width: 80%;
-    }
-    .col-8.html.bss{
-        padding: 0px;
-        border: none;
-        margin: none;
-    }
-    .card-block.html.css{
-        display: flex;
-        justify-content: center;
-    }
-    .card-block.html.bild{
-        display: flex;
-        justify-content: center;
-    }
-    .card.html{
-        border: none;
-        margin: 0px;
-    }
-    .col-12.html.css{
-        background-color: white;
-        text-align: center;
-        height: max-content;
-        margin: 5px;
-        width: 100%;
-    }
-    .col-8.html.halb{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: white;
-        text-align: center;
-        height: max-content;
-        border: none;
-        margin: 5px;
-        width: 100%;
-    }
+.col-8.html{
+    background-color: white;
+
+    text-align: left;
+    height: max-content;
+    padding: 0px;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+}
+.col-8.html.bss{
+    background-color: white;
+    text-align: left;
+    height: max-content;
+    border: 1px solid;
+    width: 100%;
+}
+.col-5.html.css{
+    background-color: white;
+    width: 150%;
+    
+    margin-bottom: 15%;
+}
+.col-5.html.css.del{
+    background-color: white;
+
+}
+
+.col-4.html.bss{
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+border: none;
+    width: 100%;
+}
+.col-2.html.del{
+    height: 0px;
+    width: 0px;
+}
+.col-12.html.row.halb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+}
+p#text{
+    width: 100%;
+}
+.col-8{
+    max-width: 80%;
+}
+
+.col-8.html.bss{
+
+    padding: 0px;
+    border: none;
+    margin: none;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
+}
+.card-block.html.bild{
+    display: flex;
+    justify-content: center;
+}
+
+.card.html{
+    border: none;
+margin: 0%;
+}
+.card.html.bilder{
+    border: none;
+    margin-bottom: 20%;
+}
+.col-12.html.css{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    margin: 5px;
+    width: 100%;
+}
+.col-8.html.halb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: none;
+    margin: 5px;
+    width: 100%;
+}
 }
 /*304*/
 
