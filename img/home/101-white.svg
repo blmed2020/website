@@ -1,24 +1,34 @@
-link {
-    color: #353535;
-}
-.nav-item:hover {
-    color: #353535!important;
-}
-.nav-item.active {
-    color: #353535!important;
-    background-color: #c44536;
-}
-.nav-link:hover {
-    color: #353535!important;
-}
-.nav-link {
-    color: #353535!important;
-}
-.nav-link.active {
-    color: #353535!important;
-}
-.nav-link:focus {
-    color: 353535!important;
-    background-color: #c44536!important;
-    margin-right: 30px!important;
-}
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#353535;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st3{font-family:'Poppins';}
+	.st4{font-size:80px;}
+</style>
+<g>
+	<rect x="-41.5" y="-12.5" class="st0" width="612" height="538"/>
+	<path d="M570-12v537H-41V-12H570 M571-13H-42v539h613V-13L571-13z"/>
+</g>
+<path class="st1" d="M222.7,372.91v-3.51c21.64-2.2,32.23-13.24,32.23-34.45v-38.69c0-23.55,8.4-33.11,29.15-33.11h5.88v-20.77
+	h-8.09c-34.7,0-51.06,16.34-51.06,50.63v32.81c0,23.55-8.09,31.34-32.08,31.34v27.97c23.98,0,32.08,7.79,32.08,31.34v32.81
+	c0,34.29,16.34,50.63,51.06,50.63h8.09v-20.75h-5.88c-20.75,0-29.15-9.56-29.15-33.11v-38.71
+	C254.92,386.17,244.33,375.12,222.7,372.91z M476.12,369.4v3.51c-21.64,2.22-32.23,13.26-32.23,34.45v38.71
+	c0,23.55-8.4,33.11-29.15,33.11h-5.88v20.75h8.09c34.72,0,51.06-16.34,51.06-50.63v-32.82c0-23.55,8.09-31.34,32.08-31.34v-27.97
+	c-23.98,0-32.08-7.79-32.08-31.34v-32.81c0-34.29-16.36-50.63-51.06-50.63h-8.09v20.75h5.88c20.75,0,29.15,9.56,29.15,33.11v38.71
+	C443.9,356.13,454.49,367.18,476.12,369.4z"/>
+<path class="st2" d="M75.57,54.83c3.38,3.38,3.39,8.86,0.02,12.24c-0.01,0.01-0.01,0.01-0.02,0.02l-54.48,54.47l54.48,54.47
+	c3.38,3.38,3.38,8.87,0,12.26c-3.38,3.38-8.87,3.38-12.26,0l-60.59-60.6c-3.38-3.38-3.39-8.86-0.02-12.24
+	c0.01-0.01,0.01-0.01,0.02-0.02l60.59-60.59c3.38-3.38,8.86-3.39,12.24-0.02C75.56,54.82,75.57,54.83,75.57,54.83z M184.51,54.83
+	c-3.38,3.38-3.39,8.86-0.02,12.24c0.01,0.01,0.01,0.01,0.02,0.02l54.48,54.47l-54.48,54.47c-3.38,3.38-3.38,8.87,0,12.26
+	c3.38,3.38,8.87,3.38,12.26,0l60.59-60.59c3.38-3.38,3.39-8.86,0.02-12.24c-0.01-0.01-0.01-0.01-0.02-0.02l-60.59-60.59
+	c-3.38-3.38-8.86-3.39-12.24-0.02C184.52,54.82,184.51,54.83,184.51,54.83z M167.21,0.75c4.56,1.41,7.12,6.26,5.71,10.82
+	l-69.25,225.06c-1.58,4.51-6.53,6.88-11.04,5.3c-4.26-1.5-6.66-6.02-5.5-10.39L156.39,6.48c1.41-4.56,6.26-7.12,10.82-5.71V0.75z"/>
+<text transform="matrix(1.0221 0 0 1 269.4589 149.0338)" class="st1 st3 st4">HTML</text>
+<text transform="matrix(1 0 0 1 16.2323 396.0865)" class="st1 st3 st4">CSS</text>
+<rect x="1048.64" y="119.22" style="fill:none;" width="53.85" height="46.15"/>
+<text transform="matrix(1 0 0 1 1048.6377 127.7397)"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:12px;">Lorem </tspan><tspan x="0" y="14.4" style="font-family:'MyriadPro-Regular'; font-size:12px;">ipsum </tspan><tspan x="0" y="28.8" style="font-family:'MyriadPro-Regular'; font-size:12px;">dolor sit </tspan></text>
+</svg>
