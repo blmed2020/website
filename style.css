@@ -764,6 +764,14 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 /* Media Queries Content BL-Lernende */
 
+@media (max-width: 330px) {
+    .au-title-con {
+        font-size: 24px;
+        text-align: center;
+       
+}
+
+}
 
 
 
@@ -795,14 +803,6 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
     align-items: center;}
 }
 
-@media (max-width: 330px) {
-    .au-title-con {
-        font-size: 24px;
-        text-align: center;
-       
-}
-
-}
 
 
 
