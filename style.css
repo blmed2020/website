@@ -74,7 +74,7 @@ header {
 .nav-item {
     font-size: 32px!important;
 }
-.nav-item:hover {
+.nav-link:hover {
     background-color: #c44536;
     color: #353535;
 }
@@ -98,6 +98,27 @@ header {
 }
 link {
     color: #353535;
+}
+.nav-item:hover {
+    color: #353535!important;
+}
+.nav-item.active {
+    color: #353535!important;
+    background-color: #c44536;
+}
+.nav-link:hover {
+    color: #353535!important;
+}
+.nav-link {
+    color: #353535!important;
+}
+.nav-link.active {
+    color: #353535!important;
+}
+.nav-link:focus {
+    color: 353535!important;
+    background-color: #c44536!important;
+    margin-right: 30px!important;
 }
 @media screen and (max-width: 1242px) {
     .nav-item {
