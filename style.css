@@ -8,7 +8,7 @@
 .no-valid {
     font-size: 100px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 250px;
     margin-bottom: 50px;
     color: #353535;
 }
@@ -34,15 +34,16 @@
 }
 
 /*Header*/
-html, body {
-    height: 100%;
-}
+/* html, body {
+     height: 100%; 
+}*/
 body {
     display: flex;
     flex-direction: column;
+    /* height: 100vh; */
 }
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto; 
 }
 .mainmenu {
     background-color: #353535;
@@ -54,6 +55,10 @@ footer {
 header {
     background-color: #3c6e71;
     display: flex;
+    flex-shrink: 1;
+}
+.navbar-collapse {
+    flex-basis: 600px;
 }
 .logo {
     margin: 20px;
@@ -105,7 +110,8 @@ link {
         align-items: center;
     }
     .navbar {
-        width: 100%;
+        /* width: 100%;  */
+        align-self: flex-start;
     }
     button:focus {
         outline: none!important;
@@ -122,8 +128,16 @@ link {
     .nav-item {
         font-size: 0.5px;
     }
-    .navbar {
+ /*    .navbar {
         width: 100%;
+    } */
+}
+@media screen and (max-width: 440px) {
+    .dropdown-menu {
+        width: 300px;
+    }
+    .dropdown-item {
+        font-size: 12px;
     }
 }
 
@@ -251,6 +265,7 @@ article.inf {
 
 
 footer {
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -263,7 +278,7 @@ footer div {
     justify-content: space-between;
     align-items: center;
     flex-grow: 2;
-    height: 100%;
+    /* height: 100%; */
     padding: 2%;
     color: #353535;
 }
@@ -319,20 +334,18 @@ footer img {
 /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
-    div.example {
-      font-size: 80px;
+
+    html.html.css{
+        overflow-x: hidden;
     }
-  }
   main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
     margin: 0px;
     justify-content: left;
 }
-.pic1.html{
-    height: 90px;
-    width: 100%;
-}
+
+
 
 ul.bi{
 display: flex;
@@ -341,42 +354,71 @@ width: 100%;
 justify-content: center;
 }
 li.bi{
-padding-left: 20px;
+padding-left: 2px;
 list-style-type: none;
-font-size: 100%;
+font-size: 150%;
+    }
+    .col-12.bi{
+        background-color: #3c6e71;
+        overflow: unset;
+        margin: 0;
+        padding: 0;
+    }
+    button.css{
+        padding: 0 30px 0 30px;
+        background-color: #3c6e71;
+    color: #FFFFFF;
+    height: 80px;
+    border: #4e8e92 solid 1px 2px 1px 2px;
     }
 .col-12.html.css{
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: unset;
+}
+.col-12.html.css.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .col-8.html{
     background-color: white;
-    border: 1px solid;
-    text-align: center;
+    
+    text-align: left;
     height: max-content;
     padding: 0px;
     margin: 5px 0px 5px 0px;
 }
 .col-8.html.bss{
+    
     background-color: white;
-    text-align: center;
+    text-align: left;
     height: max-content;
-    border: 1px solid;
+    border:none;
 }
 .col-5.html.css{
     background-color: white;
+    
 }
 .col-4.html{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: 1px solid;
+    
+    width: 100%;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
+    border: none;
 }
 
 
-.card{
+.card.html{
     border: none;
+    width: 100%;
 }
 .col-8.html.css{
     background-color: white;
@@ -390,11 +432,16 @@ font-size: 100%;
     height: max-content;
     border: none;
     margin: 5px;
+    width: 100%;
     
 }
-  
+ }  
   /* If the screen size is 600px or less*/
   @media only screen and (max-width: 900px) {
+
+    html.html.css{
+        overflow-x: hidden;
+    }
 
 main.jumbotron.jumbotron.html{
     background-color: white;
@@ -404,22 +451,40 @@ main.jumbotron.jumbotron.html{
 
 }
 .pic5{
-    width: 150%;
+width: 300%;
 }
 .pic6{
 width: 0%;
 }
+.pic6.bild{
+    width: 900%;
+    }
+    .col-12.bi{
+        background-color: #3c6e71;
+        flex-direction: column;
+    }
 
+ button.css{
+    padding: 5px 0 5px 0;
+    background-color: #3c6e71;
+color: #FFFFFF;
+height: 50px;
+width: 200px;
+border: #4e8e92 solid 1px 2px 1px 2px;
+} 
 ul.bi{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 width: 100%;
 justify-content: center;
+padding: 14px;
 }
 li.bi{
-padding-left: 20px;
+    display: flex;
+padding-left: 2px;
 list-style-type: none;
 font-size: 80%;
+justify-content: center;
     }
 .col-12.html.css{
     display: flex;
@@ -430,8 +495,8 @@ font-size: 80%;
 
 .col-8.html{
     background-color: white;
-    border: 1px solid;
-    text-align: center;
+
+    text-align: left;
     height: max-content;
     padding: 0px;
     margin: 5px 0px 5px 0px;
@@ -439,27 +504,64 @@ font-size: 80%;
 }
 .col-8.html.bss{
     background-color: white;
-    text-align: center;
+    text-align: left;
     height: max-content;
     border: 1px solid;
     width: 100%;
 }
 .col-5.html.css{
     background-color: white;
-    width: 100%;
+    width: 150%;
 }
-.col-4.html{
+.col-5.html.css.del{
+    background-color: white;
+    width: 0px;
+}
+
+.col-4.html.bss{
     background-color: white;
     margin: 5px 0px 5px 0px;
-    border: 1px solid;
+border: none;
     width: 100%;
 }
-
-
-.card{
-    border: none;
+.col-2.html.del{
+    height: 0px;
+    width: 0px;
 }
-.col-8.html.css{
+.col-12.html.row.halb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+}
+p#text{
+    width: 100%;
+}
+.col-8{
+    max-width: 80%;
+}
+
+.col-8.html.bss{
+
+    padding: 0px;
+    border: none;
+    margin: none;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
+}
+.card-block.html.bild{
+    display: flex;
+    justify-content: center;
+}
+
+.card.html{
+    border: none;
+    margin: 0px;
+}
+.col-12.html.css{
     background-color: white;
     text-align: center;
     height: max-content;
@@ -541,7 +643,35 @@ a.au.nav-link {
     margin: 0px;
 }
 
+.au-con-bl  {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+}
+.au-inh-bl, .au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
+    width: 50%;
+    text-align: justify;
+}
+.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.au-img-andri, .au-img-brooklyn, .au-img-cedric, .au-img-leandro, .au-img-yanik {
+    max-width: 100%;
+    width: 300px;
+}
+
+.au-iframe-bl {
+    max-width: 100%;
+}
 
 
 
@@ -561,7 +691,7 @@ a.au.nav-link {
         border-width: 2px 2px 0px 2px;
 }
 
-/* Media Queries About Us */
+/* Media Queries About Us Navigation*/
 
 @media (max-width: 1587px) {
 
@@ -599,6 +729,7 @@ ul.au.nav.nav-tabs {
 
 } 
 
+
 @media (max-width: 354px) {
     a.au.nav-link {
         font-size: 16px;
@@ -609,6 +740,74 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 }
 
 
+}
+
+/* Media Queries About Us Content BL */
+
+@media (max-width: 1587px) {
+
+    .au-inh-bl {
+        flex-direction: column;
+        align-items: center;
+    }
+    .au-con-bl  {
+        align-items: center;
+    }
+    .au-txt-bl {
+        width: 75%;
+        margin: 0 0 5% 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .au-txt-bl {
+        width: 100%;
+}
+
+}
+@media (max-width: 330px) {
+.au-title-bl-con {
+    font-size: 24px;
+    }
+
+}
+
+/* Media Queries Content BL-Lernende */
+
+@media (max-width: 330px) {
+    .au-title-con {
+        font-size: 24px;
+        text-align: center;
+       
+}
+}
+
+@media (max-width: 1587px) {
+.au-title-con {
+    text-align: center;
+}
+
+.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
+    padding: 0 10%;
+}
+.au-inh-andri, .au-inh-cedric, .au-inh-yanik  {
+    flex-direction: column;
+    align-items: center; 
+}
+
+.au-inh-brooklyn, .au-inh-leandro  {
+    flex-direction: column-reverse;
+    align-items: center; 
+}
+
+.au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
+        width: 100%;   
+        margin: 5% 0 0 0;
+}
+
+
+.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
+    align-items: center;}
 }
 
 
