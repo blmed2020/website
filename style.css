@@ -74,7 +74,7 @@ header {
 .nav-item {
     font-size: 32px!important;
 }
-.nav-item:hover {
+.nav-link:hover {
     background-color: #c44536;
     color: #353535;
 }
@@ -98,6 +98,27 @@ header {
 }
 link {
     color: #353535;
+}
+.nav-item:hover {
+    color: #353535!important;
+}
+.nav-item.active {
+    color: #353535!important;
+    background-color: #c44536;
+}
+.nav-link:hover {
+    color: #353535!important;
+}
+.nav-link {
+    color: #353535!important;
+}
+.nav-link.active {
+    color: #353535!important;
+}
+.nav-link:focus {
+    color: 353535!important;
+    background-color: #c44536!important;
+    margin-right: 30px!important;
 }
 @media screen and (max-width: 1242px) {
     .nav-item {
@@ -134,10 +155,10 @@ link {
 }
 @media screen and (max-width: 440px) {
     .dropdown-menu {
-        width: 400px;
+        width: 300px;
     }
     .dropdown-item {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -185,7 +206,7 @@ div.carousel-flex {
 }
 
 div.carousel {
-    width: 2000px;
+    width: 1500px;
     max-width: 100%;
     }
 
@@ -193,6 +214,13 @@ div.carousel {
     padding: 1.25rem;
 } 
 
+div.card.p-2.medcard {
+    border-radius: 0px;
+}
+
+div.card.p-2.infcard {
+    border-radius: 0px;
+}
 
 div.cards {
     display: flex;
@@ -333,9 +361,11 @@ footer img {
 }
 /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 901px) {
 
- 
+    html.html.css{
+        overflow-x: hidden;
+    }
   main.jumbotron.jumbotron.html{
     background-color: white;
     padding: 0px;
@@ -343,38 +373,55 @@ footer img {
     justify-content: left;
 }
 
-
 ul.bi{
 display: flex;
 flex-direction: row;
 width: 100%;
 justify-content: center;
+margin: 0px;
 }
+
+.fixed-top {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+}
+
 li.bi{
 padding-left: 2px;
 list-style-type: none;
 font-size: 150%;
     }
     .col-12.bi{
-        background-color: #3c6e71;
+        background-color: #353535;
+        overflow: unset;
+        margin: 0;
+        padding: 0;
     }
-/*     button{
+    button.css{
         padding: 0 30px 0 30px;
-        background-color: #3c6e71;
-    color: #FFFFFF;
-    height: 80px;
-    border: #4e8e92 solid 1px 2px 1px 2px;
-    } */
+        background-color: #353535;
+        color: #FFFFFF;
+        height: 80px;
+        border: none;
+}
+button.css:hover{
+    background-color: #c44536;
+}
+
 .col-12.html.css{
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: unset;
 }
 .col-12.html.css.row{
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 20%;
 }
 
 .col-8.html{
@@ -383,7 +430,7 @@ font-size: 150%;
     text-align: left;
     height: max-content;
     padding: 0px;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0;
 }
 .col-8.html.bss{
     
@@ -401,7 +448,9 @@ font-size: 150%;
     margin: 5px 0px 5px 0px;
     
     width: 100%;
+    
 }
+
 .card-block.html.css{
     display: flex;
     justify-content: center;
@@ -409,9 +458,16 @@ font-size: 150%;
 }
 
 
+
 .card.html{
     border: none;
     width: 100%;
+    margin: 0;
+}
+.card.html.text2{
+    border: none;
+    width: 100%;
+    margin: 5% 0;
 }
 .col-8.html.css{
     background-color: white;
@@ -428,9 +484,13 @@ font-size: 150%;
     width: 100%;
     
 }
- }  
+}  
   /* If the screen size is 600px or less*/
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
+
+    html.html.css{
+        overflow-x: hidden;
+    }
 
 main.jumbotron.jumbotron.html{
     background-color: white;
@@ -442,26 +502,28 @@ main.jumbotron.jumbotron.html{
 .pic5{
 width: 300%;
 }
-.pic6{
-width: 0%;
-}
+
 .pic6.bild{
     width: 900%;
     }
     .col-12.bi{
-        background-color: #3c6e71;
+        background-color: #353535;
         flex-direction: column;
     }
 
-/* button{
+ button.css{
     padding: 5px 0 5px 0;
-    background-color: #3c6e71;
+    background-color: #353535;
 color: #FFFFFF;
 height: 50px;
 width: 200px;
-border: #4e8e92 solid 1px 2px 1px 2px;
-} */
+border: none;
+}
+button.css:hover{
+    background-color: #c44536;
+}
 ul.bi{
+background-color: #353535;
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -501,10 +563,12 @@ justify-content: center;
 .col-5.html.css{
     background-color: white;
     width: 150%;
+    
+    margin-bottom: 15%;
 }
 .col-5.html.css.del{
     background-color: white;
-    width: 0px;
+
 }
 
 .col-4.html.bss{
@@ -548,7 +612,11 @@ p#text{
 
 .card.html{
     border: none;
-    margin: 0px;
+margin: 0%;
+}
+.card.html.bilder{
+    border: none;
+    margin-bottom: 20%;
 }
 .col-12.html.css{
     background-color: white;
@@ -568,7 +636,7 @@ p#text{
     margin: 5px;
     width: 100%;
 }
-  }
+} */
 /*304*/
 
 .pdf {
@@ -586,9 +654,9 @@ p#text{
 #plugin {
     background-color: #353535!important;
 }
-
+ */
 /*au*/
-
+ 
 
 
 .au.bs-example {
@@ -637,11 +705,18 @@ a.au.nav-link {
     flex-direction: column;
     padding: 0% 5%;
 }
-.au-inh-bl, .au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
+.au-inh-bl, .au-inh-andri,  .au-inh-cedric,  .au-inh-yanik  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.au-inh-brooklyn, .au-inh-leandro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+} 
+
 
 .au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
     width: 50%;
@@ -664,9 +739,11 @@ a.au.nav-link {
 
 
 
+
+
 /* Hover About Us */
 
-.au.nav-item:hover {
+ .au.nav-item:hover {
     color: #353535;
     background: none;
 }
@@ -679,6 +756,8 @@ a.au.nav-link {
         border:solid  #353535;
         border-width: 2px 2px 0px 2px;
 }
+
+
 
 /* Media Queries About Us Navigation*/
 
@@ -733,6 +812,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 /* Media Queries About Us Content BL */
 
+
 @media (max-width: 1587px) {
 
     .au-inh-bl {
@@ -751,6 +831,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 @media (max-width: 1000px) {
     .au-txt-bl {
         width: 100%;
+         margin: 0 0 10% 0;
 }
 
 }
@@ -763,13 +844,6 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 /* Media Queries Content BL-Lernende */
 
-@media (max-width: 330px) {
-    .au-title-con {
-        font-size: 24px;
-        text-align: center;
-       
-}
-}
 
 @media (max-width: 1587px) {
 .au-title-con {
@@ -799,8 +873,18 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
     align-items: center;}
 }
 
-
-
+@media (max-width: 330px) {
+    .au-title-con {
+        font-size: 24px;
+        text-align: center;
+       
+}
+.au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
+    width: 100%;   
+    margin: 20% 0 0 0;
+}
+}
+ 
 
 
 /* Farben:
