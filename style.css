@@ -677,7 +677,7 @@ ul.au.nav.nav-tabs {
 .au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active.text-center {
     border:solid #353535;
     border-width: 2px 2px 0px 2px;
-    background: #C44536;
+    background: #C44536; 
     color: #353535;
     font-weight: bold;
     border-radius: 0px;
