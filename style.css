@@ -305,7 +305,7 @@ footer div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 2; */
+    flex-grow: 2;
     /* height: 100%; */
     padding: 2%;
     color: #353535;
