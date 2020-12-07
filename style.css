@@ -151,7 +151,7 @@ div.carousel-flex {
 }
 
 div.carousel {
-    width: 2000px;
+    width: 1500px;
     max-width: 100%;
     }
 
@@ -159,6 +159,13 @@ div.carousel {
     padding: 1.25rem;
 } 
 
+div.card.p-2.medcard {
+    border-radius: 0px;
+}
+
+div.card.p-2.infcard {
+    border-radius: 0px;
+}
 
 div.cards {
     display: flex;
