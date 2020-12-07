@@ -626,11 +626,18 @@ a.au.nav-link {
     flex-direction: column;
     padding: 0% 5%;
 }
-.au-inh-bl, .au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
+.au-inh-bl, .au-inh-andri,  .au-inh-cedric,  .au-inh-yanik  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.au-inh-brooklyn, .au-inh-leandro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+} 
+
 
 .au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
     width: 50%;
@@ -744,6 +751,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 @media (max-width: 1000px) {
     .au-txt-bl {
         width: 100%;
+         margin: 0 0 10% 0;
 }
 
 }
@@ -756,13 +764,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 /* Media Queries Content BL-Lernende */
 
-@media (max-width: 330px) {
-    .au-title-con {
-        font-size: 24px;
-        text-align: center;
-       
-}
-}
+
 
 @media (max-width: 1587px) {
 .au-title-con {
@@ -792,7 +794,17 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
     align-items: center;}
 }
 
-
+@media (max-width: 330px) {
+    .au-title-con {
+        font-size: 24px;
+        text-align: center;
+       
+}
+.au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
+    width: 100%;   
+    margin: 20% 0 0 0;
+}
+}
 
 
 
