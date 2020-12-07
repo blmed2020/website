@@ -298,7 +298,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 
