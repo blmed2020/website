@@ -815,18 +815,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 /* Media Queries Content BL-Lernende */
 
 
-@media (max-width: 330px) {
-    .au-title-con {
-        font-size: 24px;
-        text-align: center;
-       
-}
-.au-img-andri, .au-img-brooklyn, .au-img-cedric, .au-img-leandro, .au-img-yanik {
-    max-width: 100%;
-    width: 300px;
-    margin-bottom: 10%;
-}
-}
+
 
 @media (max-width: 1587px) {
 .au-title-con {
@@ -848,7 +837,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
         width: 100%;   
-        margin: 5% 0 0 0;
+        margin: 7% 0 0 0;
 }
 
 
@@ -856,7 +845,14 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
     align-items: center;}
 }
 
+@media (max-width: 330px) {
+    .au-title-con {
+        font-size: 24px;
+        text-align: center;
+       
+}
 
+}
 
 
 
