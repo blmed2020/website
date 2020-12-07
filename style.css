@@ -462,7 +462,7 @@ footer img {
         text-align: left;
         height: max-content;
         padding: 0px;
-        margin: 5px 0px 5px 0px;
+        margin: 5px 0px;
     }
     .col-8.html.bss{
         background-color: white;
@@ -478,6 +478,11 @@ footer img {
         margin: 5px 0px 5px 0px;
         width: 100%;
     }
+    .col-4.html.bss{
+        display: flex;
+        align-items: center;
+    }
+
     .card-block.html.css{
         display: flex;
         justify-content: center;
@@ -486,6 +491,11 @@ footer img {
     .card.html{
         border: none;
         width: 100%;
+    }
+    .card.html.text2{
+        border: none;
+        width: 100%;
+        margin: 5% 0;
     }
     .col-8.html.css{
         background-color: white;
@@ -706,45 +716,14 @@ width: 300%;
         background-color: white;
         width: 0px;
     }
-.col-12.html.css{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
 
-.col-8.html{
-    background-color: white;
-
-    text-align: left;
-    height: max-content;
-    padding: 0px;
-    margin: 5px 0px 5px 0px;
-    width: 100%;
-}
-.col-8.html.bss{
-    background-color: white;
-    text-align: left;
-    height: max-content;
-    border: 1px solid;
-    width: 100%;
-}
-.col-5.html.css{
-    background-color: white;
-    width: 150%;
-    
-    margin-bottom: 15%;
-}
-.col-5.html.css.del{
-    background-color: white;
-
-}
 
 .col-4.html.bss{
     background-color: white;
     margin: 5px 0px 5px 0px;
 border: none;
     width: 100%;
+    
 }
 .col-2.html.del{
     height: 0px;
