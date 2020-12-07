@@ -576,7 +576,7 @@ p#text{
     background-color: #353535!important;
 }
 
-/*au*/
+ /*au*/
 
 
 
@@ -661,8 +661,7 @@ a.au.nav-link {
 
 
 
-
-/* Hover About Us */
+ /* Hover About Us  */
 
 .au.nav-item:hover {
     color: #353535;
@@ -676,11 +675,11 @@ a.au.nav-link {
 .au.nav-tabs:hover .au.nav-link:hover {
         border:solid  #353535;
         border-width: 2px 2px 0px 2px;
-}
+} 
 
 
 
-/* Media Queries About Us Navigation*/
+/* Media Queries About Us Navigation */
 
 @media (max-width: 1587px) {
 
@@ -731,7 +730,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 }
 
-/* Media Queries About Us Content BL */
+/*  Media Queries About Us Content BL  */
 
 @media (max-width: 1587px) {
 
@@ -762,7 +761,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 }
 
-/* Media Queries Content BL-Lernende */
+/* Media Queries Content BL-Lernende  */
 
 @media (max-width: 330px) {
     .au-title-con {
@@ -801,8 +800,8 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
     align-items: center;}
-}
-
+} 
+ 
 
 
 
@@ -811,3 +810,7 @@ jet: #353535
 ming: #3C6E71
 white: #FFFFFF
 red: #C44536 */
+
+
+
+
