@@ -333,7 +333,7 @@ footer img {
 }
 /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 901px) {
 
     html.html.css{
         overflow-x: hidden;
@@ -369,7 +369,10 @@ font-size: 150%;
         background-color: #3c6e71;
     color: #FFFFFF;
     height: 80px;
-    border: #4e8e92 solid 1px 2px 1px 2px;
+    border:none;
+    }
+    button.css:hover{
+        background-color: #c44536;
     }
 .col-12.html.css{
     display: flex;
@@ -382,6 +385,7 @@ font-size: 150%;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 20%;
 }
 
 .col-8.html{
@@ -390,7 +394,7 @@ font-size: 150%;
     text-align: left;
     height: max-content;
     padding: 0px;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0;
 }
 .col-8.html.bss{
     
@@ -408,7 +412,9 @@ font-size: 150%;
     margin: 5px 0px 5px 0px;
     
     width: 100%;
+    
 }
+
 .card-block.html.css{
     display: flex;
     justify-content: center;
@@ -416,9 +422,16 @@ font-size: 150%;
 }
 
 
+
 .card.html{
     border: none;
     width: 100%;
+    margin: 0;
+}
+.card.html.text2{
+    border: none;
+    width: 100%;
+    margin: 5% 0;
 }
 .col-8.html.css{
     background-color: white;
@@ -454,7 +467,7 @@ main.jumbotron.jumbotron.html{
 width: 300%;
 }
 .pic6{
-width: 0%;
+
 }
 .pic6.bild{
     width: 900%;
@@ -470,8 +483,11 @@ width: 0%;
 color: #FFFFFF;
 height: 50px;
 width: 200px;
-border: #4e8e92 solid 1px 2px 1px 2px;
+border:none;
 } 
+button.css:hover{
+    background-color: #c44536;
+}
 ul.bi{
 display: flex;
 flex-direction: column;
@@ -512,10 +528,12 @@ justify-content: center;
 .col-5.html.css{
     background-color: white;
     width: 150%;
+    
+    margin-bottom: 15%;
 }
 .col-5.html.css.del{
     background-color: white;
-    width: 0px;
+
 }
 
 .col-4.html.bss{
@@ -559,7 +577,11 @@ p#text{
 
 .card.html{
     border: none;
-    margin: 0px;
+margin: 0%;
+}
+.card.html.bilder{
+    border: none;
+    margin-bottom: 20%;
 }
 .col-12.html.css{
     background-color: white;
