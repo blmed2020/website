@@ -663,6 +663,9 @@ a.au.nav-link {
 
  /* Hover About Us  */
 
+ul.au nav-link:hover {
+    background: none;
+} 
 .au.nav-item:hover {
     color: #353535;
     background: none;
@@ -707,7 +710,7 @@ li.au.nav-item {
 }
 .au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active.text-center {
     
-    border-width: 2px !important;
+    border-width: 2px ;
     
 }
 ul.au.nav.nav-tabs {
