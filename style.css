@@ -593,12 +593,12 @@ ul.au.nav.nav-tabs {
 }
 
 .au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active.text-center {
-    border:solid #353535;
-    border-width: 2px 2px 0px 2px;
-    background: #C44536;
-    color: #353535;
-    font-weight: bold;
-    border-radius: 0px;
+    border:solid #353535 ;
+    border-width: 2px 2px 0px 2px ;
+    background: #C44536 ;
+    color: #353535 ;
+    font-weight: bold ;
+    border-radius: 0px ;
 }
 
 
@@ -618,7 +618,7 @@ a.au.nav-link {
 
 
 .au.nav-link.active.text-center {
-    margin: 0px;
+    margin: 0px ;
 }
 
 .au-con-bl  {
@@ -707,7 +707,7 @@ li.au.nav-item {
 }
 .au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active.text-center {
     
-    border-width: 2px;
+    border-width: 2px !important;
     
 }
 ul.au.nav.nav-tabs {
