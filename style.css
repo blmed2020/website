@@ -968,12 +968,10 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
         text-align: center;
        
 }
-.au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
-    width: 100%;   
-    margin: 20% 0 0 0;
+
 }
-}
-  
+
+
 
 @media (max-width: 1587px) {
 .au-title-con {
@@ -995,10 +993,10 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
         width: 100%;   
-        margin: 5% 0 0 0;
+        margin: 7% 0 0 0;
 }
 
 
 .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
     align-items: center;}
-} 
+}
