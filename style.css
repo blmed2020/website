@@ -34,17 +34,17 @@
 }
 
 /*Header*/
-/* html, body {
+html, body {
      height: 100%; 
-} */
+}
 body {
     display: flex;
     flex-direction: column;
     /* height: 100vh; */
 }
 main {
-  /* flex: 1 0 auto;  */
-  min-height: calc(70vh - 70px);
+  flex: 1 0 auto; 
+  /* min-height: calc(70vh - 70px); */
 }
 .mainmenu {
     background-color: #353535;
@@ -57,7 +57,7 @@ footer {
 header {
     background-color: #3c6e71;
     display: flex;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
 }
 .navbar-collapse {
     flex-basis: 600px;
