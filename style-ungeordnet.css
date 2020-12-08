@@ -612,7 +612,7 @@ footer img {
     }
 }
   @media only screen and (max-width: 600px){
-}  
+ 
 
     html.html.css{
         overflow-x: hidden;
@@ -631,7 +631,7 @@ footer img {
     width: 70px;
     font-size: 12px;
     text-align: right;
-    }
+    }} 
     @media only screen and (max-width: 900px) {
 
 
@@ -688,13 +688,14 @@ width: 300%;
         align-items: center;
         flex-direction: column;
         width: 100%;
+        margin-bottom: 5%;
     }
     .col-8.html{
         background-color: white;
         text-align: left;
         height: max-content;
         padding: 0px;
-        margin: 5px 0px 5px 0px;
+        margin: 2% 0;
         width: 100%;
     }
     .col-8.html.bss{
@@ -712,7 +713,7 @@ width: 300%;
         background-color: white;
         width: 0px;
     }
-
+    
 
 .col-4.html.bss{
     background-color: white;
@@ -766,7 +767,7 @@ margin: 0%;
     background-color: white;
     text-align: center;
     height: max-content;
-    margin: 5px;
+    margin-bottom: 10%;
     width: 100%;
 }
 .col-8.html.halb{
