@@ -834,47 +834,55 @@ ul.bi{
 .au.bs-example {
     margin: 80px 50px 30px 50px;
 }
+
 ul.au.nav.nav-tabs {
     border-bottom: solid 3px  #353535;
     margin: 80px 0px;  
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    
 }
+
 .au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active.text-center {
     border:solid #353535;
     border-width: 2px 2px 0px 2px;
-    background: #C44536; 
+    background: #C44536;
     color: #353535;
     font-weight: bold;
     border-radius: 0px;
 }
+
+
 li.au.nav-item {
-    width: 15%;   
+    width: 15%;  
+    
 }
+
+
+
 a.au.nav-link {
     text-decoration: none;
     color: #353535;
     font-size: 24px;
     margin: 0px;
 }
+
+
 .au.nav-link.active.text-center {
     margin: 0px;
 }
+
 .au-con-bl  {
     display: flex;
     flex-direction: column;
     padding: 0% 5%;
 }
-.au-inh-bl, .au-inh-andri,  .au-inh-cedric,  .au-inh-yanik  {
+.au-inh-bl, .au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.au-inh-brooklyn, .au-inh-leandro {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-} 
+
 .au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
     width: 50%;
     text-align: justify;
@@ -884,29 +892,35 @@ a.au.nav-link {
     flex-direction: column;
     padding: 0 20%;
 }
+
 .au-img-andri, .au-img-brooklyn, .au-img-cedric, .au-img-leandro, .au-img-yanik {
     max-width: 100%;
     width: 300px;
 }
+
 .au-iframe-bl {
     max-width: 100%;
 }
 
- /* Hover About Us  */
+
+
+/* Hover About Us */
 
 .au.nav-item:hover {
     color: #353535;
     background: none;
 }
+
 .au.nav-link:hover {
     border-radius: 0px;
 }
+    
 .au.nav-tabs:hover .au.nav-link:hover {
         border:solid  #353535;
         border-width: 2px 2px 0px 2px;
-} 
+}
 
-/* Media Queries About Us Navigation */
+/* Media Queries About Us Navigation*/
 
 @media (max-width: 1587px) {
 
@@ -957,8 +971,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 }
 
-/*  Media Queries About Us Content BL  */
-
+/* Media Queries About Us Content BL */
 
 @media (max-width: 1587px) {
 
@@ -978,7 +991,6 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 @media (max-width: 1000px) {
     .au-txt-bl {
         width: 100%;
-         margin: 0 0 10% 0;
 }
 
 }
@@ -989,7 +1001,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 }
 
-/* Media Queries Content BL-Lernende  */
+/* Media Queries Content BL-Lernende */
 
 @media (max-width: 330px) {
     .au-title-con {
@@ -997,12 +1009,7 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
         text-align: center;
        
 }
-.au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
-    width: 100%;   
-    margin: 20% 0 0 0;
 }
-}
-  
 
 @media (max-width: 1587px) {
 .au-title-con {
@@ -1030,4 +1037,4 @@ a.au.nav-link.active.text-center .au.nav-link.text-center {
 
 .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
     align-items: center;}
-} 
+}
