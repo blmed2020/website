@@ -1,4 +1,3 @@
-  
     /* FONTS */
 
 
@@ -153,7 +152,7 @@
     .nav-link:focus {
         color: #353535!important;
         background-color: #c44536!important;
-        margin-right: 30px;
+        margin-right: 30px!important;
     }
     
     /* HEADER MEDIAQUERIES */
@@ -290,186 +289,102 @@
     .card-img-top{
         padding: 1.25rem;
     }
-  
-}
-
-
- /*101*/
-/* If the screen size is 601px or more, set the font-size of <div> to 80px */
-@media only screen and (min-width: 901px) {
-
-    html.html.css{
-        overflow-x: hidden;
+    div.card.p-2.medcard {
+        border-radius: 0px;
     }
-    
-    
-        /*101*/
-    
-    
-    main.jumbotron.jumbotron.html{
-         background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: left;
+    div.card.p-2.infcard {
+        border-radius: 0px;
     }
-    ul.bi{
+    div.cards {
         display: flex;
-        flex-direction: row;
-        width: 100%;
-        font-size: 8;
-        justify-content: left;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1%;
     }
-    .pic5{
-        width: 300%;
-    }
-    li.bi{
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 10px;
-    }
-    .col-12.bi{
-         background-color: #353535;
-         flex-direction: column;
-    }
-    button.css{
-        font-size: 15px;
-         padding: 5px 0 5px 0;
-        background-color: #353535;
-         color: #FFFFFF;
-         height: 50px;
-        width: 200px;
-        border: none;
-    }
-    button.css:hover{
-         background-color: #c44536;
-    }
-    #text{
+    div.cards h1 {
         text-align: center;
+        color: white;
     }
-    ul.bi.test{
+    article.med {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: right;
+        justify-content: space-around;
+        margin-bottom: 2%;
     }
-    .fixed-body-test {
+    article.inf {
         display: flex;
-        flex-direction: column;
-        justify-content: right;
-        position: fixed;
-
-        z-index: 5;
+        justify-content: space-around;
+        margin: 0% 20% 2% 20%;
     }
-    li.bi.test{
-        padding-left: 2px;
-         list-style-type: none;
-         font-size: 80%;
-         justify-content: center;
+    .card-title {
+        color: #353535;
     }
-    .col-12.html.css{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        overflow: unset;
+    .card-text {
+        color: #353535;
     }
-    .col-12.html.css.row{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 5%;
+    .card a {
+        text-decoration: none;
     }
-    .col-8.html{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        padding: 0px;
-        margin: 2% 0;
-    }
-    .col-8.html.bss{
-         background-color: white;
-         text-align: left;
-         height: max-content;
-         border: 1px solid;
-        width: 100%;
-    }
-    .col-5.html.css{
-         background-color: white;
-         width: 150%;
-    }
-    .col-5.html.css.del{
-        background-color: white;
-         width: 0px;
-    }
-    .col-4.html.bss{
-        background-color: white;
-         margin: 5px 0px 5px 0px;
-        border: none;
-        width: 100%;
-            
-    }
-        .col-2.html.del{
-            height: 0px;
-            width: 0px;
-        }
-        .col-12.html.row.halb{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            width: 150%;
-        }
-        p#text{
-            width: 100%;
-        }
-        .col-8{
-            max-width: 80%;
-        }
-        
-        .col-8.html.bss{
-        
-            padding: 0px;
-            border: none;
-            margin: none;
-        }
-        .card-block.html.css{
-            display: flex;
-            justify-content: center;
-        }
-        .card-block.html.bild{
-            display: flex;
-            justify-content: center;
-        }
-        
-        .card.html{
-            border: none;
-        margin: 0%;
-        }
-        .card.html.bilder{
-            border: none;
-            margin-bottom: 20%;
-        }
-        .col-12.html.css{
-            background-color: white;
-            text-align: center;
-            height: max-content;
-            margin: 5px;
-            width: 100%;
-        }
-        .col-8.html.halb{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: white;
-            text-align: center;
-            height: max-content;
-            border: none;
-            margin: 5px;
-            width: 100%;
-        }
     
-    /* 101 MEDIAQUERIES */
     
+        /* FOOTER */
+    
+    
+    footer {
+     
+        background-color: #3c6e71;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1%;
+    }
+    footer div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 2;
+        /* height: 100%; */
+        padding: 2%;
+        color: #353535;
+    }
+    .footerlinks {
+        color: #353535;
+    }
+    .footerlinks:hover {
+        color: #c44536
+    }
+    footer p{
+        margin: 0px;
+    }
+    footer img {
+        width: 300px;
+        max-width: 100%;
+    }
+    
+    /* FOOTER MEDIAQUERIES */
+    
+    @media (max-width: 992px) {
+        footer {
+          flex-direction: column;
+        }
+        footer div {
+            flex-direction: column;
+            align-items: flex-start
+        }
+        footer img {
+            width: 300px;
+            max-width: 100%;
+        } 
+        footer p{
+            margin: 16px 0px 16px 0px;
+        }
+        footer p{
+            margin: 16px 0px 16px 0px;
+        }
+      
+    }
+    
+    
+     /*101*/
     /* If the screen size is 601px or more, set the font-size of <div> to 80px */
     @media only screen and (min-width: 901px) {
     
@@ -486,8 +401,8 @@
             display: flex;
             flex-direction: row;
             width: 100%;
+            font-size: 8;
             justify-content: left;
-            margin: 0px;
         }
         .fixed-body {
             display: flex;
@@ -499,7 +414,7 @@
         li.bi{
             padding-left: 2px;
             list-style-type: none;
-            font-size: 150%;
+            font-size: 10px;
         }
         .col-12.bi{
             background-color: #353535;
@@ -517,18 +432,21 @@
         button.css:hover{
             background-color: #c44536;
         }
+        #text{
+            text-align: center;
+        }
         ul.bi.test{
             display: flex;
             flex-direction: column;
             width: 100%;
             justify-content: right;
-            margin: 0px;
         }
-        .fixed-body.test {
+        .fixed-body-test {
             display: flex;
             flex-direction: column;
             justify-content: right;
             position: fixed;
+    
             z-index: 5;
         }
         li.bi.test{
@@ -563,13 +481,14 @@
             align-items: center;
             flex-direction: row;
             justify-content: center;
+            margin-bottom: 5%;
         }
         .col-8.html{
             background-color: white;
             text-align: left;
             height: max-content;
             padding: 0px;
-            margin: 5px 0px;
+            margin: 2% 0;
         }
         .col-8.html.bss{
             background-color: white;
@@ -619,7 +538,8 @@
             width: 100%; 
         }
     }  
-    @media only screen and (max-width: 1077px) {
+      @media only screen and (max-width: 1077px) {
+    
         ul.bi{
             display: flex;
             flex-direction: column;
@@ -668,7 +588,7 @@
             border: none;
             margin: 50px;
         }
-        .fixed-body.test {
+        .fixed-body-test {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -695,7 +615,7 @@
         }
     }
     @media only screen and (max-width: 990px){
-        .fixed-body.test {
+        .fixed-body-test {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -721,7 +641,9 @@
             background-color: #C44536;
         }
     }
-    @media only screen and (max-width: 600px){
+      @media only screen and (max-width: 600px){
+     
+    
         html.html.css{
             overflow-x: hidden;
         }
@@ -739,14 +661,157 @@
         width: 70px;
         font-size: 12px;
         text-align: right;
-        }
-    }
+        }} 
         @media only screen and (max-width: 900px) {
+    
+    
+    main.jumbotron.jumbotron.html{
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+    
+    }
+    .pic5{
+    width: 300%;
+    }
+    
+    .pic6.bild{
+        width: 900%;
         }
+        .col-12.bi{
+            background-color: #353535;
+            flex-direction: column;
+        }
+        button.css{
+            font-size: 15px;
+            padding: 5px 0 5px 0;
+            background-color: #353535;
+            color: #FFFFFF;
+            height: 50px;
+            width: 200px;
+            border: none;
+        }
+        button.css:hover{
+            background-color: #c44536;
+        }
+        ul.bi{
+            background-color: #353535;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            padding: 14px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            margin: 0px;
+        }
+        li.bi{
+            display: flex;
+            padding-left: 2px;
+            list-style-type: none;
+            font-size: 80%;
+            justify-content: center;
+        }
+        .col-12.html.css{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 5%;
+        }
+        .col-8.html{
+            background-color: white;
+            text-align: left;
+            height: max-content;
+            padding: 0px;
+            margin: 2% 0;
+            width: 100%;
+        }
+        .col-8.html.bss{
+            background-color: white;
+            text-align: left;
+            height: max-content;
+            border: 1px solid;
+            width: 100%;
+        }
+        .col-5.html.css{
+            background-color: white;
+            width: 150%;
+        }
+        .col-5.html.css.del{
+            background-color: white;
+            width: 0px;
+        }
+        
     
+    .col-4.html.bss{
+        background-color: white;
+        margin: 5px 0px 5px 0px;
+    border: none;
+        width: 100%;
+        
+    }
+    .col-2.html.del{
+        height: 0px;
+        width: 0px;
+    }
+    .col-12.html.row.halb{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 150%;
+    }
+    p#text{
+        width: 100%;
+    }
+    .col-8{
+        max-width: 80%;
+    }
     
+    .col-8.html.bss{
     
+        padding: 0px;
+        border: none;
+        margin: none;
+    }
+    .card-block.html.css{
+        display: flex;
+        justify-content: center;
+    }
+    .card-block.html.bild{
+        display: flex;
+        justify-content: center;
+    }
     
+    .card.html{
+        border: none;
+    margin: 0%;
+    }
+    .card.html.bilder{
+        border: none;
+        margin-bottom: 20%;
+    }
+    .col-12.html.css{
+        background-color: white;
+        text-align: center;
+        height: max-content;
+        margin-bottom: 10%;
+        width: 100%;
+    }
+    .col-8.html.halb{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        text-align: center;
+        height: max-content;
+        border: none;
+        margin: 5px;
+        width: 100%;
+    }
+    } */
         /*304*/
     
     
@@ -788,27 +853,38 @@
         font-weight: bold;
         border-radius: 0px;
     }
-}  
-  @media only screen and (max-width: 1077px) {
-
-    ul.bi{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    
+    
+    li.au.nav-item {
+        width: 15%;  
+        
     }
-    ul.au .nav-link {
+    
+    
+    /*  ul.au .active {
+        text-decoration: none;
+        color: #353535;
+        font-size: 24px; 
+        margin: 0px;
+    }  */
+    
+    /* a>.au.nav-link {
         text-decoration: none;
         color: #353535;
         font-size: 24px;
         margin: 0px;
-    }
-    
-    ul.au .nav-link.active {
+    }  */
+     a.au.nav-link {
+        text-decoration: none;
+        color: #353535;
+        font-size: 24px;
         margin: 0px;
-    }
+    }  
     
-
     
+    /* .au.nav-link.active.text-center {
+        margin: 0px;
+    } */
     
     .au-con-bl  {
         display: flex;
@@ -843,6 +919,7 @@
     
     
     /* Hover About Us */
+    
     ul.au .nav-link:hover {
         color: #353535;
         background: none;
@@ -850,33 +927,31 @@
         border:solid  #353535;
             border-width: 2px 2px 0px 2px;
     }
-    .fixed-body-test {
+    /* .au.nav-item:hover {
+        color: #353535;
+        background: none;
+    }
+    
+    .au.nav-link:hover {
+        border-radius: 0px;
+    }
+        
+    .au.nav-tabs:hover .au.nav-link:hover {
+            border:solid  #353535;
+            border-width: 2px 2px 0px 2px;
+    }
+     */
+    /* Media Queries About Us Navigation*/
+    
+    @media (max-width: 1587px) {
+    
+    .au.bs-example {
         display: flex;
         flex-direction: column;
          margin: 0px 50px 30px 50px;
     }
-    li.bi.test{
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 150%;
-    }
-    .col-12.bi{
-        background-color: #353535;
-        overflow: unset;
-        margin: 0;
-        padding: 0;   
-    }    
-    button.css.test{
-        font-size: 10px;
-        margin: -57px;
-    }
-    button.css.test:hover{
-        background-color: #C44536;
-    }
-}
-@media only screen and (max-width: 990px){
-    .fixed-body-test {
-        display: flex;
+    
+    .au.nav-tabs {
         flex-direction: column;
         padding-bottom: 5px;
         width: 100%;
@@ -900,12 +975,18 @@
     ul.au.nav.nav-tabs {
         margin: 20px 0px;
     }
-}
-  @media only screen and (max-width: 600px){
- 
-
-    html.html.css{
-        overflow-x: hidden;
+    
+    
+    } 
+    
+    
+    @media (max-width: 354px) {
+        a.au.nav-link {
+            font-size: 16px;
+    
+        }
+    a.au.nav-link.active.text-center .au.nav-link.text-center {
+        width: fit-content;
     }
     
     
@@ -927,297 +1008,28 @@
             margin: 0 0 5% 0;
         }
     }
-    button.css.test{
-    width: 70px;
-    font-size: 12px;
-    text-align: right;
-    }} 
-    @media only screen and (max-width: 900px) {
-
-
-main.jumbotron.jumbotron.html{
-    background-color: white;
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-
-}
-.pic5{
-width: 300%;
-}
-
-.pic6.bild{
-    width: 900%;
-    }
-    .col-12.bi{
-        background-color: #353535;
-        flex-direction: column;
-    }
-    button.css{
-        font-size: 15px;
-        padding: 5px 0 5px 0;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 50px;
-        width: 200px;
-        border: none;
-    }
-    button.css:hover{
-        background-color: #c44536;
-    }
-    ul.bi{
-        background-color: #353535;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        padding: 14px;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        margin: 0px;
-    }
-    li.bi{
-        display: flex;
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 80%;
-        justify-content: center;
-    }
-    .col-12.html.css{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 5%;
-    }
-    .col-8.html{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        padding: 0px;
-        margin: 2% 0;
-        width: 100%;
-    }
-    .col-8.html.bss{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        border: 1px solid;
-        width: 100%;
-    }
-    .col-5.html.css{
-        background-color: white;
-        width: 150%;
-    }
-    .col-5.html.css.del{
-        background-color: white;
-        width: 0px;
+    
+    @media (max-width: 1000px) {
+        .au-txt-bl {
+            width: 100%;
     }
     
-
-.col-4.html.bss{
-    background-color: white;
-    margin: 5px 0px 5px 0px;
-border: none;
-    width: 100%;
-    
-}
-.col-2.html.del{
-    height: 0px;
-    width: 0px;
-}
-.col-12.html.row.halb{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 150%;
-}
-p#text{
-    width: 100%;
-}
-.col-8{
-    max-width: 80%;
-}
-
-.col-8.html.bss{
-
-    padding: 0px;
-    border: none;
-    margin: none;
-}
-.card-block.html.css{
-    display: flex;
-    justify-content: center;
-}
-.card-block.html.bild{
-    display: flex;
-    justify-content: center;
-}
-
-.card.html{
-    border: none;
-margin: 0%;
-}
-.card.html.bilder{
-    border: none;
-    margin-bottom: 20%;
-}
-.col-12.html.css{
-    background-color: white;
-    text-align: center;
-    height: max-content;
-    margin-bottom: 10%;
-    width: 100%;
-}
-.col-8.html.halb{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    height: max-content;
-    border: none;
-    margin: 5px;
-    width: 100%;
-}
-} */
-    /*304*/
-
-
-.pdf {
-    border: 5px #C44536 solid;
-    width: 90%;
-    height: 1250px;
-}
-.tab-content>.active {
-    display: flex;
-    justify-content: center;
-    margin: 80px 0px;
-}
-#plugin {
-    background-color: #353535!important;
-}
-
-
-    /* ABOUT US */
-
-
-.au.bs-example {
-    margin: 80px 50px 30px 50px;
-}
-
-ul.au.nav.nav-tabs {
-    border-bottom: solid 3px  #353535;
-    margin: 80px 0px;  
-    display: flex;
-    justify-content: space-between;
+    }
+    @media (max-width: 330px) {
+    .au-title-bl-con {
+        font-size: 24px;
+        }
     
     }
     
-}
-
-
-/*  ul.au .active {
-    text-decoration: none;
-    color: #353535;
-    font-size: 24px; 
-    margin: 0px;
-}  */
-
-/* a>.au.nav-link {
-    text-decoration: none;
-    color: #353535;
-    font-size: 24px;
-    margin: 0px;
-}  */
- a.au.nav-link {
-    text-decoration: none;
-    color: #353535;
-    font-size: 24px;
-    margin: 0px;
-}  
-
-
-/* .au.nav-link.active.text-center {
-    margin: 0px;
-} */
-
-.au-con-bl  {
-    display: flex;
-    flex-direction: column;
-    padding: 0% 5%;
-}
-.au-inh-bl, .au-inh-andri, .au-inh-brooklyn, .au-inh-cedric, .au-inh-leandro, .au-inh-yanik  {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
-    width: 50%;
-    text-align: justify;
-}
-.au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20%;
-}
-
-.au-img-andri, .au-img-brooklyn, .au-img-cedric, .au-img-leandro, .au-img-yanik {
-    max-width: 100%;
-    width: 300px;
-}
-
-.au-iframe-bl {
-    max-width: 100%;
-}
-
-
-
-/* Hover About Us */
-
-ul.au .nav-link:hover {
-    color: #353535;
-    background: none;
-    border-radius: 0px;
-    border:solid  #353535;
-        border-width: 2px 2px 0px 2px;
-}
-/* .au.nav-item:hover {
-    color: #353535;
-    background: none;
-}
-
-.au.nav-link:hover {
-    border-radius: 0px;
-}
+    /* Media Queries Content BL-Lernende */
     
-.au.nav-tabs:hover .au.nav-link:hover {
-        border:solid  #353535;
-        border-width: 2px 2px 0px 2px;
-}
- */
-/* Media Queries About Us Navigation*/
-
-@media (max-width: 1587px) {
-
-.au.bs-example {
-    display: flex;
-    flex-direction: column;
-     margin: 0px 50px 30px 50px;
-}
-
-.au.nav-tabs {
-    flex-direction: column;
-    padding-bottom: 5px;
-    width: 100%;
-}
-
-li.au.nav-item {
-        width: 100%;
-        
-
+    @media (max-width: 330px) {
+        .au-title-con {
+            font-size: 24px;
+            text-align: center;
+           
+    }
     }
     
     @media (max-width: 1587px) {
@@ -1247,3 +1059,4 @@ li.au.nav-item {
     .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
         align-items: center;}
     }
+    
