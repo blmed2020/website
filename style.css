@@ -153,7 +153,7 @@
     .nav-link:focus {
         color: #353535!important;
         background-color: #c44536!important;
-        margin-right: 30px!important;
+        margin-right: 30px;
     }
     
     /* HEADER MEDIAQUERIES */
@@ -869,17 +869,8 @@
         margin: 0px;
     }
     
-    /* a.au.nav-link {
-        text-decoration: none;
-        color: #353535;
-        font-size: 24px;
-        margin: 0px;
-    }
+
     
-    
-    .au.nav-link.active.text-center {
-        margin: 0px;
-    } */
     
     .au-con-bl  {
         display: flex;
@@ -922,20 +913,7 @@
             border-width: 2px 2px 0px 2px;
     }
     
-/*     .au.nav-item:hover {
-        color: #353535;
-        background: none;
-    }
-    
-    .au.nav-link:hover {
-        border-radius: 0px;
-    }
-        
-    .au.nav-tabs:hover .au.nav-link:hover {
-            border:solid  #353535;
-            border-width: 2px 2px 0px 2px;
-    }
-     */
+
     /* Media Queries About Us Navigation*/
     
     @media (max-width: 1587px) {
