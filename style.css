@@ -388,6 +388,7 @@ footer img {
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
 
+
     html.html.css{
         overflow-x: hidden;
     }
@@ -396,6 +397,15 @@ footer img {
         padding: 0px;
         margin: 0px;
         justify-content: left;
+    }
+    .nav-item.dropdown.unterseite-101{
+        color: blue!important;
+        list-style-type: none!important; 
+    }
+    .dropdown-item.unterseite-101{
+        width:200px;
+    }
+
     }
     ul.bi{
         display: flex;
@@ -417,7 +427,7 @@ footer img {
         font-size: 10px;
     }
     .col-12.bi{
-        background-color: #353535;
+        background-color: white;
         overflow: unset;
         margin: 0;
         padding: 0;
@@ -446,8 +456,8 @@ footer img {
         flex-direction: column;
         justify-content: right;
         position: fixed;
+         z-index: 5;
 
-        z-index: 5;
     }
     li.bi.test{
         padding-left: 2px;
@@ -537,8 +547,26 @@ footer img {
         margin: 5px;
         width: 100%; 
     }
-}  
-  @media only screen and (max-width: 1077px) {
+}
+    @media only screen and (max-width: 1300px){
+        .nav-link.dropdown-toggle.navbarDropdown{
+            width: 100%;;
+        }
+        
+        .dropdown-item.unterseite-101{
+            width: 50px;
+            font-size: 50px;
+    
+        }
+        .nav-item.dropdown.unterseite-101{
+            color: blue!important;
+            list-style-type: none!important; 
+        }
+        .dropdown-item.unterseite-101{
+            width:200px;
+        }
+    }
+    @media only screen and (max-width: 1077px) {
 
     ul.bi{
         display: flex;
@@ -589,6 +617,8 @@ footer img {
         margin: 50px;
     }
     .fixed-body-test {
+        bottom: 10px;
+        right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -612,6 +642,24 @@ footer img {
     }
     button.css.test:hover{
         background-color: #C44536;
+    }
+    .nav-link.dropdown-toggle.navbarDropdown{
+        width: 100%;;
+    }
+    
+    .nav-item.dropdown.unterseite{
+        list-style-type: none;
+    }
+    .dropdown-item.unterseite{
+
+    }
+
+    .nav-item.dropdown.unterseite-101{
+        color: blue!important;
+        list-style-type: none!important; 
+    }
+    .dropdown-item.unterseite-101{
+        width:200px;
     }
 }
 @media only screen and (max-width: 990px){
