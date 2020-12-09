@@ -384,155 +384,7 @@ footer img {
 }
 
 
-    /*101*/
-
-
-main.jumbotron.jumbotron.html{
-     background-color: white;
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-    
-}
-.pic5{
-    width: 300%;
-}
-   
-.pic6.bild{
-    width: 900%;
-}
-.col-12.bi{
-     background-color: #353535;
-     flex-direction: column;
-}
-button.css{
-    font-size: 15px;
-     padding: 5px 0 5px 0;
-    background-color: #353535;
-     color: #FFFFFF;
-     height: 50px;
-    width: 200px;
-    border: none;
-}
-button.css:hover{
-     background-color: #c44536;
-}
-ul.bi{
-     background-color: #353535;
-     display: flex;
-    flex-direction: column;
-    width: 100%;
-     justify-content: center;
-     padding: 14px;
-    padding-bottom: 0px;
-     padding-top: 0px;
-    margin: 0px;
-}
- li.bi{
-     display: flex;
-    padding-left: 2px;
-     list-style-type: none;
-     font-size: 80%;
-     justify-content: center;
-}
-.col-12.html.css{
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     width: 100%;
-}
-.col-8.html{
-     background-color: white;
-     text-align: left;
-     height: max-content;
-     padding: 0px;
-     margin: 5px 0px 5px 0px;
-    width: 100%;
-}
-.col-8.html.bss{
-     background-color: white;
-     text-align: left;
-     height: max-content;
-     border: 1px solid;
-    width: 100%;
-}
-.col-5.html.css{
-     background-color: white;
-     width: 150%;
-}
-.col-5.html.css.del{
-    background-color: white;
-     width: 0px;
-}
-.col-4.html.bss{
-    background-color: white;
-     margin: 5px 0px 5px 0px;
-    border: none;
-    width: 100%;
-        
-}
-    .col-2.html.del{
-        height: 0px;
-        width: 0px;
-    }
-    .col-12.html.row.halb{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 150%;
-    }
-    p#text{
-        width: 100%;
-    }
-    .col-8{
-        max-width: 80%;
-    }
-    
-    .col-8.html.bss{
-    
-        padding: 0px;
-        border: none;
-        margin: none;
-    }
-    .card-block.html.css{
-        display: flex;
-        justify-content: center;
-    }
-    .card-block.html.bild{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .card.html{
-        border: none;
-    margin: 0%;
-    }
-    .card.html.bilder{
-        border: none;
-        margin-bottom: 20%;
-    }
-    .col-12.html.css{
-        background-color: white;
-        text-align: center;
-        height: max-content;
-        margin: 5px;
-        width: 100%;
-    }
-    .col-8.html.halb{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: white;
-        text-align: center;
-        height: max-content;
-        border: none;
-        margin: 5px;
-        width: 100%;
-    }
-
-/* 101 MEDIAQUERIES */
-
+ /*101*/
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
 
@@ -580,6 +432,9 @@ ul.bi{
     button.css:hover{
         background-color: #c44536;
     }
+    #text{
+        text-align: center;
+    }
     ul.bi.test{
         display: flex;
         flex-direction: column;
@@ -626,13 +481,14 @@ ul.bi{
         align-items: center;
         flex-direction: row;
         justify-content: center;
+        margin-bottom: 5%;
     }
     .col-8.html{
         background-color: white;
         text-align: left;
         height: max-content;
         padding: 0px;
-        margin: 5px 0px;
+        margin: 2% 0;
     }
     .col-8.html.bss{
         background-color: white;
@@ -682,7 +538,8 @@ ul.bi{
         width: 100%; 
     }
 }  
-@media only screen and (max-width: 1077px) {
+  @media only screen and (max-width: 1077px) {
+
     ul.bi{
         display: flex;
         flex-direction: column;
@@ -784,7 +641,9 @@ ul.bi{
         background-color: #C44536;
     }
 }
-@media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px){
+ 
+
     html.html.css{
         overflow-x: hidden;
     }
@@ -802,14 +661,157 @@ ul.bi{
     width: 70px;
     font-size: 12px;
     text-align: right;
-    }
-}
+    }} 
     @media only screen and (max-width: 900px) {
+
+
+main.jumbotron.jumbotron.html{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+
+}
+.pic5{
+width: 300%;
+}
+
+.pic6.bild{
+    width: 900%;
     }
+    .col-12.bi{
+        background-color: #353535;
+        flex-direction: column;
+    }
+    button.css{
+        font-size: 15px;
+        padding: 5px 0 5px 0;
+        background-color: #353535;
+        color: #FFFFFF;
+        height: 50px;
+        width: 200px;
+        border: none;
+    }
+    button.css:hover{
+        background-color: #c44536;
+    }
+    ul.bi{
+        background-color: #353535;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 14px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin: 0px;
+    }
+    li.bi{
+        display: flex;
+        padding-left: 2px;
+        list-style-type: none;
+        font-size: 80%;
+        justify-content: center;
+    }
+    .col-12.html.css{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .col-8.html{
+        background-color: white;
+        text-align: left;
+        height: max-content;
+        padding: 0px;
+        margin: 2% 0;
+        width: 100%;
+    }
+    .col-8.html.bss{
+        background-color: white;
+        text-align: left;
+        height: max-content;
+        border: 1px solid;
+        width: 100%;
+    }
+    .col-5.html.css{
+        background-color: white;
+        width: 150%;
+    }
+    .col-5.html.css.del{
+        background-color: white;
+        width: 0px;
+    }
+    
 
+.col-4.html.bss{
+    background-color: white;
+    margin: 5px 0px 5px 0px;
+border: none;
+    width: 100%;
+    
+}
+.col-2.html.del{
+    height: 0px;
+    width: 0px;
+}
+.col-12.html.row.halb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+}
+p#text{
+    width: 100%;
+}
+.col-8{
+    max-width: 80%;
+}
 
+.col-8.html.bss{
 
+    padding: 0px;
+    border: none;
+    margin: none;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
+}
+.card-block.html.bild{
+    display: flex;
+    justify-content: center;
+}
 
+.card.html{
+    border: none;
+margin: 0%;
+}
+.card.html.bilder{
+    border: none;
+    margin-bottom: 20%;
+}
+.col-12.html.css{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.col-8.html.halb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: none;
+    margin: 5px;
+    width: 100%;
+}
+} */
     /*304*/
 
 
