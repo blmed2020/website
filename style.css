@@ -366,30 +366,10 @@ footer img {
     footer {
       flex-direction: column;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7342d9855632edb2d446c567beaffab1e6b54e38
     footer div {
         flex-direction: column;
         align-items: flex-start
     }
-<<<<<<< HEAD
-
-    footer img {
-        width: 300px;
-        max-width: 100%;
-    }
-    
-    footer p{
-        margin: 16px 0px 16px 0px;
-    }
-
-
-
-
-
-=======
     footer img {
         width: 300px;
         max-width: 100%;
@@ -397,169 +377,10 @@ footer img {
     footer p{
         margin: 16px 0px 16px 0px;
     }
->>>>>>> 7342d9855632edb2d446c567beaffab1e6b54e38
     footer p{
         margin: 16px 0px 16px 0px;
     }
   
-<<<<<<< HEAD
-}
-
-
-/* 101 */
-
-
-main.jumbotron.jumbotron.html{
-    background-color: white;
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-
-}
-img.pic5{
-    border: 2px solid;
-
-
-}
-
-li.bi{
-    font-size: 5px;
-}
-.pic6.bild{
-    width: 900%;
-    }
-    .col-12.bi{
-        background-color: #353535;
-        flex-direction: column;
-    }
-    button.css{
-        font-size: 15px;
-        padding: 5px 0 5px 0;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 50px;
-        width: 20px;
-        border: none;
-    }
-    button.css:hover{
-        background-color: #c44536;
-    }
-    ul.bi{
-        background-color: #353535;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        padding: 0px;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        margin: 0px;
-    }
-    li.bi{
-        display: flex;
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 20%;
-        justify-content: center;
-    }
-    .col-12.html.css{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-    }
-    .col-8.html{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        padding: 0px;
-        margin: 5px 0px 5px 0px;
-        width: 100%;
-    }
-    .col-8.html.bss{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        border: 1px solid;
-        width: 100%;
-    }
-    .col-5.html.css{
-        background-color: white;
-        width: 150%;
-    }
-    .col-5.html.css.del{
-        background-color: white;
-        width: 0px;
-    }
-
-
-.col-4.html.bss{
-    background-color: white;
-    margin: 5px 0px 5px 0px;
-border: none;
-    width: 100%;
-    
-}
-.col-2.html.del{
-    height: 0px;
-    width: 0px;
-}
-.col-12.html.row.halb{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 150%;
-}
-p#text{
-    width: 100%;
-}
-.col-8{
-    max-width: 80%;
-}
-
-.col-8.html.bss{
-
-    padding: 0px;
-    border: none;
-    margin: none;
-}
-.card-block.html.css{
-    display: flex;
-    justify-content: center;
-}
-.card-block.html.bild{
-    display: flex;
-    justify-content: center;
-}
-
-.card.html{
-    border: none;
-margin: 0%;
-}
-.card.html.bilder{
-    border: none;
-    margin-bottom: 20%;
-}
-.col-12.html.css{
-    background-color: white;
-    text-align: center;
-    height: max-content;
-    margin: 5px;
-    width: 100%;
-}
-.col-8.html.halb{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    height: max-content;
-    border: none;
-    margin: 5px;
-    width: 100%;
-=======
->>>>>>> 7342d9855632edb2d446c567beaffab1e6b54e38
 }
 
 
