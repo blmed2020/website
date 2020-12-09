@@ -20,7 +20,7 @@ RED:    #C44536
 .no-valid {
         font-size: 100px;
         text-align: center;
-        margin-top: 250px;a
+        margin-top: 250px;
         margin-bottom: 50px;
         color: #353535;
 }
@@ -381,10 +381,15 @@ main.jumbotron.jumbotron.html{
     justify-content: center;
 
 }
-.pic5{
-width: 300%;
+img.pic5{
+    border: 2px solid;
+
+
 }
 
+li.bi{
+    font-size: 5px;
+}
 .pic6.bild{
     width: 900%;
     }
@@ -398,7 +403,7 @@ width: 300%;
         background-color: #353535;
         color: #FFFFFF;
         height: 50px;
-        width: 200px;
+        width: 20px;
         border: none;
     }
     button.css:hover{
@@ -410,7 +415,7 @@ width: 300%;
         flex-direction: column;
         width: 100%;
         justify-content: center;
-        padding: 14px;
+        padding: 0px;
         padding-bottom: 0px;
         padding-top: 0px;
         margin: 0px;
@@ -419,7 +424,7 @@ width: 300%;
         display: flex;
         padding-left: 2px;
         list-style-type: none;
-        font-size: 80%;
+        font-size: 20%;
         justify-content: center;
     }
     .col-12.html.css{
@@ -538,8 +543,8 @@ margin: 0%;
         display: flex;
         flex-direction: row;
         width: 100%;
+        font-size: 8;
         justify-content: left;
-        margin: 0px;
     }
     .fixed-body {
         display: flex;
@@ -551,7 +556,7 @@ margin: 0%;
     li.bi{
         padding-left: 2px;
         list-style-type: none;
-        font-size: 150%;
+        font-size: 10px;
     }
     .col-12.bi{
         background-color: #353535;
@@ -574,13 +579,13 @@ margin: 0%;
         flex-direction: column;
         width: 100%;
         justify-content: right;
-        margin: 0px;
     }
-    .fixed-body.test {
+    .fixed-body-test {
         display: flex;
         flex-direction: column;
         justify-content: right;
         position: fixed;
+
         z-index: 5;
     }
     li.bi.test{
@@ -721,7 +726,7 @@ margin: 0%;
         border: none;
         margin: 50px;
     }
-    .fixed-body.test {
+    .fixed-body-test {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -748,7 +753,7 @@ margin: 0%;
     }
 }
 @media only screen and (max-width: 990px){
-    .fixed-body.test {
+    .fixed-body-test {
         display: flex;
         flex-direction: column;
         justify-content: center;

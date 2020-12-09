@@ -375,10 +375,13 @@ footer img {
         margin: 0px;
     }
     .fixed-body {
+        bottom: 10px;
+        left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: left;
         position: fixed;
+        font-size: 6px;
         z-index: 10;
     }
     li.bi{
@@ -393,10 +396,11 @@ footer img {
         padding: 0;
     }
     button.css{
-        padding: 0 30px 0 30px;
+        padding: 0px 4px 0px 4px;
         background-color: #353535;
         color: #FFFFFF;
-        height: 80px;
+        height: 30px;
+        width: 150px;
         border: none;
     }
     button.css:hover{
@@ -409,7 +413,10 @@ footer img {
         justify-content: right;
         margin: 0px;
     }
-    .fixed-body.test {
+    .fixed-body-test {
+        background-color: white;
+        bottom: 10px;
+        right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: right;
@@ -429,7 +436,7 @@ footer img {
     }
     button.css.test{
         padding: 0 30px 0 30px;
-        background-color: #353535;
+        background-color: white;
         color: #FFFFFF;
         height: 80px;
         border: none;
@@ -516,6 +523,7 @@ footer img {
         flex-direction: column;
         justify-content: center;
         position: relative;
+        font-size: 15px;
         z-index: 50;
     }
     li.bi{
@@ -532,10 +540,12 @@ footer img {
         padding: 0;
     }
     button.css{
-        padding: 0 30px 0 30px;
+        margin: 10px;
+        padding: 10px 10px 10px 10px;
         background-color: #353535;
         color: #FFFFFF;
-        height: 80px;
+        height: 40px;
+        width: 600px;
         border: none;
         z-index: 80;
     }
@@ -554,7 +564,9 @@ footer img {
         border: none;
         margin: 50px;
     }
-    .fixed-body.test {
+    .fixed-body-test {
+        bottom: 10px;
+        right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -581,7 +593,7 @@ footer img {
     }
 }
 @media only screen and (max-width: 990px){
-    .fixed-body.test {
+    .fixed-body-test {
         display: flex;
         flex-direction: column;
         justify-content: center;
