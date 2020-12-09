@@ -385,6 +385,18 @@ footer img {
 
 
  /*101*/
+ button.css.test{
+    bottom: 10px;
+    left: 10px;
+    padding: 0 7px 0 30px;
+    background-color: #353535;
+    color: #FFFFFF;
+    height: 80px;
+    border: none;
+    font-size: 10px;
+    margin: -57px;
+    width: 80px;
+}
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
 
@@ -439,11 +451,16 @@ footer img {
         padding: 0;
     }
     button.css.test{
-        padding: 0 30px 0 30px;
+        bottom: 10px;
+        left: 10px;
+        padding: 0 7px 0 30px;
         background-color: #353535;
         color: #FFFFFF;
         height: 80px;
         border: none;
+        font-size: 10px;
+        margin: -57px;
+        width: 80px;
     }
     button.css:hover{
         background-color: #c44536;
@@ -517,11 +534,6 @@ footer img {
     }
 }
     @media(max-width: 1300px){
-
- 
-
-    
-
         .nav-link.dropdown-toggle.navbarDropdown.unterseite{
             font-size: 40px; 
             width: 100%;
@@ -536,9 +548,35 @@ footer img {
             color: blue!important;
             list-style-type: none!important; 
         }
+        button.css.test{
+            bottom: 10px;
+            left: 10px;
+            padding: 0 7px 0 30px;
+            background-color: #353535;
+            color: #FFFFFF;
+            height: 80px;
+            border: none;
+            font-size: 10px;
+            margin: -57px;
+            width: 80px;
+        }
+
 
     }
     @media only screen and (max-width: 1080px) {
+        
+        button.css.test{
+            bottom: 10px;
+            left: 10px;
+            padding: 0 7px 0 30px;
+            background-color: #353535;
+            color: #FFFFFF;
+            height: 80px;
+            border: none;
+            font-size: 10px;
+            margin: -57px;
+            width: 80px;
+        }
         .nav-link.dropdown-toggle.navbarDropdown.unterseite{
             display: flex;
             flex-direction: row;
@@ -554,7 +592,14 @@ footer img {
         .dropdown-item.unterseite-101{
             width: 100%;
             font-size: 8px;
+            text-align: center;
 
+        }
+        .dropdown-menu.show{
+            align-content: center;
+            position: relative!important;
+            transform: none!important;
+            width: 100%;
         }
         .dropdown-item.unterseite-101.show{
             width: 100px;
@@ -562,6 +607,18 @@ footer img {
     }
     @media only screen and (max-width: 1077px) {
 
+    button.css.test{
+        bottom: 10px;
+        left: 10px;
+        padding: 0 7px 0 30px;
+        background-color: #353535;
+        color: #FFFFFF;
+        height: 80px;
+        border: none;
+        font-size: 10px;
+        margin: -57px;
+        width: 80px;
+    }   
     ul.bi{
         display: flex;
         flex-direction: column;
@@ -587,58 +644,28 @@ footer img {
         margin: 0;
         padding: 0;
     }
-    button.css{
-        padding: 0 30px 0 30px;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 80px;
-        border: none;
-        z-index: 80;
-    }
-    button.css:hover{
-        background-color: #c44536;
-    }
-    ul.bi.test{
-        margin: 0px 0px 0px 0px;
-        background-color: white;
-    }
-    button.css.test{
-        padding: 0 30px 0 30px;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 80px;
-        border: none;
-        margin: 50px;
-    }
-    .fixed-body-test {
-        bottom: 10px;
-        right: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: fixed;
-        z-index: 50;
-    }
-    li.bi.test{
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 150%;
-    }
+    
     .col-12.bi{
         background-color: #353535;
         overflow: unset;
         margin: 0;
         padding: 0;   
-    }    
-    button.css.test{
-        font-size: 10px;
-        margin: -57px;
-    }
-    button.css.test:hover{
-        background-color: #C44536;
-    }
+    }   
 }
 @media only screen and (max-width: 990px){
+
+    button.css.test{
+        bottom: 10px;
+        left: 10px;
+        padding: 0 7px 0 30px;
+        background-color: #353535;
+        color: #FFFFFF;
+        height: 80px;
+        border: none;
+        font-size: 10px;
+        margin: -57px;
+        width: 80px;
+    }
     .fixed-body-test {
         display: flex;
         flex-direction: column;
@@ -657,17 +684,21 @@ footer img {
         margin: 0;
         padding: 0;
     }
-    button.css.test{
-        font-size: 12px;
-        margin: -57px;
-    }
-    button.css.test:hover{
-        background-color: #C44536;
-    }
 }
   @media only screen and (max-width: 600px){
- 
-
+    
+    button.css.test{
+        bottom: 10px;
+        left: 10px;
+        padding: 0 7px 0 30px;
+        background-color: #353535;
+        color: #FFFFFF;
+        height: 80px;
+        border: none;
+        font-size: 10px;
+        margin: -57px;
+        width: 80px;
+    }
     html.html.css{
         overflow-x: hidden;
     }
@@ -681,12 +712,21 @@ footer img {
         margin: 40px 0px 0px 0px;   
         background: white;
     }
-    button.css.test{
-    width: 70px;
-    font-size: 12px;
-    text-align: right;
-    }} 
+    
+} 
     @media only screen and (max-width: 900px) {
+        button.css.test{
+            bottom: 10px;
+            left: 10px;
+            padding: 0 7px 0 30px;
+            background-color: #353535;
+            color: #FFFFFF;
+            height: 80px;
+            border: none;
+            font-size: 10px;
+            margin: -57px;
+            width: 80px;
+        }
 
         .nav-item.dropdown.unterseite::marker{
             font-size: 0%;
