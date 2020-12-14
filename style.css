@@ -204,7 +204,7 @@
     
     
     main { 
-        min-height: calc(70vh - 70px);
+        /* min-height: calc(70vh - 70px); */
       }
     .mainmenu {
         background-color: #353535;
@@ -212,6 +212,7 @@
     body {
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
     }
     .icon {
         width: 50%!important;
@@ -336,6 +337,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 1%;
+        margin-top: auto;
     }
     footer div {
         display: flex;
