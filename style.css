@@ -423,7 +423,10 @@ ul.bi.test{
 }
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
-
+    .img101.block{
+        max-width: 342px;
+        width: 100%;
+    }
 
     html.html.css{
         overflow-x: hidden;
@@ -542,6 +545,10 @@ ul.bi.test{
             text-align: center;
 
         }
+        .img101.block{
+            max-width: 342px;
+            width: 150%;
+        }
         
         
         
@@ -576,7 +583,10 @@ ul.bi.test{
 
     
     @media only screen and (max-width: 1077px) {
-
+        .img101.block{
+            max-width: 342px;
+            width: 200%;
+        }
     ul.bi{
         display: flex;
         flex-direction: column;
@@ -610,29 +620,13 @@ ul.bi.test{
     }
     button.css.test:hover{
         color: white;
-        background-color: #c44536;
+        background-color: #c44536;}
 
-    
+     .img101{
+            max-width: 900px;
+            width: 100%;
+        }
 
-}
-
- 
-  @media only screen and (max-width: 600px){
-    
-
-    html.html.css{
-        overflow-x: hidden;
-    }
-    main.jumbotron.jumbotron.html{
-        background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: center;
-    }
-
-    
-} 
-    @media only screen and (max-width: 900px) {
 
 
 main.jumbotron.jumbotron.html{
@@ -728,10 +722,12 @@ border: none;
 }
 .col-12.html.row.halb{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
     width: 150%;
+}
+.block2{
+    display: flex;
+    justify-content: center;
 }
 p#text{
     width: 100%;
@@ -784,6 +780,22 @@ margin: 0%;
 button.css.test:hover{
     color: #c44536
 }
+} 
+ @media only screen and (max-width: 600px){
+    
+
+    html.html.css{
+        overflow-x: hidden;
+    }
+    main.jumbotron.jumbotron.html{
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+    }
+
+    
+} 
 } */
     /*304*/
 
