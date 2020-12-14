@@ -823,7 +823,6 @@ button.css.test:hover{
 
     /* ABOUT US */
     
-    
     .au.bs-example {
         margin: 80px 50px 30px 50px;
     }
@@ -1058,5 +1057,7 @@ button.css.test:hover{
     .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
         align-items: center;}
     }
-    }
   
+    }
+   
+    
