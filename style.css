@@ -402,6 +402,10 @@ li.bi{
     margin: 1px;
     width: 100%;
 }
+button.css.test:hover{
+    background-color: #c44536;
+    
+}
 ul.bi.test{
     margin: 40px 0px 0px 0px;   
     background: white;
@@ -534,28 +538,39 @@ ul.bi.test{
         }
         .dropdown-item.unterseite-101{
             width: 100%;
-            font-size: 8px;
+            font-size: 16px;
             text-align: center;
 
         }
-        .dropdown-menu.show{
+        
+        
+        
+        .nav-item.dropdown.unterseite .dropdown-menu.show{
             align-content: center;
             position: relative!important;
             transform: none!important;
             width: 100%;
-        }
+        }  
+        .nav-item.dropdown.unterseite-101 .dropdown-menu.show{
+            align-content: center;
+            position: relative!important;
+            transform: none!important;
+            width: 100%;
+        }  
         .dropdown-item.unterseite-101.show{
             width: 100px;
 
+        }
+        a#nav2.nav-link.dropdown-toggle.navbarDropdown.unterseite{
+            font-size: 30px;
+        }
+         a.dropdown-item.unterseite-101{
+            font-size: 12px;
         }  
-        li.nav-item.dropdown.unterseite-101.show::marker{
+        ::marker{
             color: white;
             size: 0px;
-        } 
-       ::marker{
-            color: white;
-            size: 0px;
-        } 
+        }  
     }
  
 
