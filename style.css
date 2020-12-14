@@ -580,12 +580,12 @@
             
             @media only screen and (max-width: 1077px) {
         
-              /*    ul.bi {
+            /* ul.bi{
                 display: flex;
                 flex-direction: column;
                 justify-content: center; 
             } */
-            
+           
             .fixed-body {
                 display: flex;
                 flex-direction: column;
@@ -593,13 +593,13 @@
                 position: relative;
                 z-index: 50;
             }
-         /*    li.bi {
+         /*    li.bi{
                 display: flex;
                 justify-content: center;
                 padding-left: 2px;
                 list-style-type: none;
                 font-size: 150%; 
-            }  */
+            } */
             button.css.test{
                 bottom: 10px;
                 left: 10px;
