@@ -385,6 +385,17 @@ footer img {
 
 
  /*101*/
+ figcaption{
+     font-size: 13px;
+ }
+ .img101{
+     max-width: 900px;
+     width: 100%;
+ }
+ .img101.block{
+     max-width: 500px;
+     width: 375%;
+ }
  button.css.test{
     bottom: 10px;
     left: 10px;
@@ -410,6 +421,10 @@ ul.bi.test{
     justify-content: center;
     position: fixed;
     z-index: 50;
+}
+.col-12.html.row.halb {
+    margin-bottom: 2%;
+    margin-left: 0;
 }
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
@@ -485,7 +500,7 @@ ul.bi.test{
         text-align: left;
         height: max-content;
         padding: 0px;
-        margin: 2% 0;
+        margin: 0 0 2% 0;
     }
     .col-8.html.bss{
         background-color: white;
@@ -498,7 +513,7 @@ ul.bi.test{
     }
     .col-4.html{
         background-color: white;
-        margin: 5px 0px 5px 0px;
+        margin: none;
         width: 100%;
     }
     .col-4.html.bss{
@@ -738,8 +753,8 @@ width: 300%;
 
 .col-4.html.bss{
     background-color: white;
-    margin: 5px 0px 5px 0px;
-border: none;
+    border: none;
+    margin: 0 0 0 0;
     width: 100%;
     
 }
