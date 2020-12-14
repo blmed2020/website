@@ -421,58 +421,9 @@
         width: 100%;
         z-index: 50;
     }
-    @media(max-width: 1300px){
-        .nav-link.dropdown-toggle.navbarDropdown.unterseite{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            font-size: 40px; 
-            width: 100%;
-        }
-        .dropdown-item.unterseite-101.show{
-            display: flex;
-            flex-direction: row;
-            justify-content: center!important;
-        }
-        .dropdown-item.unterseite-101{
-            width: 100%;
-            font-size: 16px;
-            text-align: center;
-
-        }
-        
-        
-        
-        .nav-item.dropdown.unterseite .dropdown-menu.show{
-            align-content: center;
-            position: relative!important;
-            transform: none!important;
-            width: 100%;
-        }  
-        .nav-item.dropdown.unterseite-101 .dropdown-menu.show{
-            align-content: center;
-            position: relative!important;
-            transform: none!important;
-            width: 100%;
-        }  
-        .dropdown-item.unterseite-101.show{
-            width: 100px;
-
-        }
-        a#nav2.nav-link.dropdown-toggle.navbarDropdown.unterseite{
-            font-size: 30px;
-        }
-         a.dropdown-item.unterseite-101{
-            font-size: 12px;
-        }  
-        ::marker{
-            color: white;
-            size: 0px;
-        }  
-    }
     /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-
     @media only screen and (min-width: 901px) {
+    
     
         html.html.css{
             overflow-x: hidden;
@@ -483,76 +434,24 @@
             margin: 0px;
             justify-content: left;
         }
-        ul.bi{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            font-size: 8;
-            justify-content: left;
+        .nav-link.dropdown-toggle.navbarDropdown.unterseite{
+            font-size: 40px; 
+            width: 207px;
         }
-        .fixed-body {
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-            position: fixed;
-            z-index: 10;
+        li.nav-item.dropdown.unterseite-101::marker{
+            size: 20px;
+            color:white;
         }
-        li.bi{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 10px;
+        li.nav-item.dropdown.unterseite::marker{
+            size: 0px;
+            color:white;
         }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
+        .dropdown-item.unterseite-101{
+            font-size: 20px;
+            width: 200px;
         }
-        button.css{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-        }
-        button.css:hover{
-            background-color: #c44536;
-        }
-        #text{
-            text-align: center;
-        }
-        ul.bi.test{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            justify-content: right;
-        }
-        .fixed-body-test {
-            display: flex;
-            flex-direction: column;
-            justify-content: right;
-            position: fixed;
-    
-            z-index: 5;
-        }
-        li.bi.test{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi.test{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css.test{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-        }
+     
+     
         button.css:hover{
             background-color: #c44536;
         }
@@ -623,8 +522,60 @@
             margin: 5px;
             width: 100%; 
         }
-    }  
-      @media only screen and (max-width: 1077px) {
+    }
+        @media(max-width: 1300px){
+            .nav-link.dropdown-toggle.navbarDropdown.unterseite{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                font-size: 40px; 
+                width: 100%;
+            }
+            .dropdown-item.unterseite-101.show{
+                display: flex;
+                flex-direction: row;
+                justify-content: center!important;
+            }
+            .dropdown-item.unterseite-101{
+                width: 100%;
+                font-size: 16px;
+                text-align: center;
+    
+            }
+            
+            
+            
+            .nav-item.dropdown.unterseite .dropdown-menu.show{
+                align-content: center;
+                position: relative!important;
+                transform: none!important;
+                width: 100%;
+            }  
+            .nav-item.dropdown.unterseite-101 .dropdown-menu.show{
+                align-content: center;
+                position: relative!important;
+                transform: none!important;
+                width: 100%;
+            }  
+            .dropdown-item.unterseite-101.show{
+                width: 100px;
+    
+            }
+            a#nav2.nav-link.dropdown-toggle.navbarDropdown.unterseite{
+                font-size: 30px;
+            }
+             a.dropdown-item.unterseite-101{
+                font-size: 12px;
+            }  
+            ::marker{
+                color: white;
+                size: 0px;
+            }  
+        }
+     
+    
+        
+        @media only screen and (max-width: 1077px) {
     
         ul.bi{
             display: flex;
@@ -645,90 +596,14 @@
             list-style-type: none;
             font-size: 150%;
         }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            z-index: 80;
-        }
-        button.css:hover{
-            background-color: #c44536;
-        }
-        ul.bi.test{
-            margin: 0px 0px 0px 0px;
-            background-color: white;
-        }
-        button.css.test{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            margin: 50px;
-        }
-        .fixed-body-test {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: fixed;
-            z-index: 50;
-        }
-        li.bi.test{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;   
-        }    
-        button.css.test{
-            font-size: 10px;
-            margin: -57px;
-        }
-        button.css.test:hover{
-            background-color: #C44536;
-        }
+    
+        
+    
     }
-    @media only screen and (max-width: 990px){
-        .fixed-body-test {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: fixed;
-            z-index: 50;
-        }
-        li.bi.test{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css.test{
-            font-size: 12px;
-            margin: -57px;
-        }
-        button.css.test:hover{
-            background-color: #C44536;
-        }
-    }
-      @media only screen and (max-width: 600px){
+    
      
+      @media only screen and (max-width: 600px){
+        
     
         html.html.css{
             overflow-x: hidden;
@@ -739,15 +614,9 @@
             margin: 0px;
             justify-content: center;
         }
-        ul.bi.test{
-            margin: 40px 0px 0px 0px;   
-            background: white;
-        }
-        button.css.test{
-        width: 70px;
-        font-size: 12px;
-        text-align: right;
-        }} 
+    
+        
+    } 
         @media only screen and (max-width: 900px) {
     
     
@@ -794,7 +663,7 @@
         }
         li.bi{
             display: flex;
-            padding-left: 2px;
+            padding-left: 0px;
             list-style-type: none;
             font-size: 80%;
             justify-content: center;
@@ -897,7 +766,7 @@
         margin: 5px;
         width: 100%;
     }
-    } */
+} 
         /*304*/
     
     
