@@ -402,6 +402,10 @@ li.bi{
     margin: 1px;
     width: 100%;
 }
+button.css.test:active{
+    border-radius: 0px;
+    border: 0px;
+}
 button.css.test:hover{
     background-color: #c44536;
     
@@ -542,6 +546,10 @@ ul.bi.test{
             text-align: center;
 
         }
+        button.css.test:active{
+    border-radius: 0px;
+    border: 0px;
+}
         
         
         
