@@ -388,90 +388,344 @@
         /*101*/
     
     
-    main.jumbotron.jumbotron.html{
-         background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: center;
-        
-    }
-    .pic5{
-        width: 300%;
-    }
-       
-    .pic6.bild{
-        width: 900%;
-    }
-    .col-12.bi{
-         background-color: #353535;
-         flex-direction: column;
-    }
-    button.css{
-        font-size: 15px;
-         padding: 5px 0 5px 0;
-        background-color: #353535;
-         color: #FFFFFF;
-         height: 50px;
-        width: 200px;
-        border: none;
-    }
-    button.css:hover{
-         background-color: #c44536;
-    }
-    ul.bi{
-         background-color: #353535;
-         display: flex;
-        flex-direction: column;
-        width: 100%;
-         justify-content: center;
-         padding: 14px;
-        padding-bottom: 0px;
-         padding-top: 0px;
-        margin: 0px;
-    }
-     li.bi{
-         display: flex;
-        padding-left: 2px;
-         list-style-type: none;
-         font-size: 80%;
-         justify-content: center;
-    }
-    .col-12.html.css{
-         display: flex;
-         align-items: center;
-         flex-direction: column;
-         width: 100%;
-    }
-    .col-8.html{
-         background-color: white;
-         text-align: left;
-         height: max-content;
-         padding: 0px;
-         margin: 5px 0px 5px 0px;
-        width: 100%;
-    }
-    .col-8.html.bss{
-         background-color: white;
-         text-align: left;
-         height: max-content;
-         border: 1px solid;
-        width: 100%;
-    }
-    .col-5.html.css{
-         background-color: white;
-         width: 150%;
-    }
-    .col-5.html.css.del{
-        background-color: white;
-         width: 0px;
-    }
-    .col-4.html.bss{
-        background-color: white;
-         margin: 5px 0px 5px 0px;
-        border: none;
-        width: 100%;
+        li.bi{
+            width: 100%;
+            background: #353535;
+            text-align: center;
+        }
+         button.css.test{
+            bottom: 10px;
+            left: 10px;
+            padding: 0 7px 0 7px;
+            background-color: #353535;
+            color: #FFFFFF;
+            height: 30px;
+            border: none;
+            font-size: 10px;
+            margin: 1px;
+            width: 100%;
+        }
+        button.css.test:hover{
+            background-color: #c44536;
             
-    }
+        }
+        ul.bi.test{
+            margin: 40px 0px 0px 0px;   
+            background: white;
+            width: 100%;
+        }
+        .fixed-body-test {
+            bottom: 0px;
+            left: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: fixed;
+            width: 100%;
+            z-index: 50;
+        }
+        /* If the screen size is 601px or more, set the font-size of <div> to 80px */
+        @media only screen and (min-width: 901px) {
+        
+        
+            html.html.css{
+                overflow-x: hidden;
+            }
+            main.jumbotron.jumbotron.html{
+                background-color: white;
+                padding: 0px;
+                margin: 0px;
+                justify-content: left;
+            }
+            .nav-link.dropdown-toggle.navbarDropdown.unterseite{
+                font-size: 40px; 
+                width: 207px;
+            }
+            li.nav-item.dropdown.unterseite-101::marker{
+                size: 20px;
+                color:white;
+            }
+            li.nav-item.dropdown.unterseite::marker{
+                size: 0px;
+                color:white;
+            }
+            .dropdown-item.unterseite-101{
+                font-size: 20px;
+                width: 200px;
+            }
+         
+         
+            button.css:hover{
+                background-color: #c44536;
+            }
+            .col-12.html.css{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                overflow: unset;
+            }
+            .col-12.html.css.row{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 5%;
+            }
+            .col-8.html{
+                background-color: white;
+                text-align: left;
+                height: max-content;
+                padding: 0px;
+                margin: 2% 0;
+            }
+            .col-8.html.bss{
+                background-color: white;
+                text-align: left;
+                height: max-content;
+                border:none;
+            }
+            .col-5.html.css{
+                background-color: white;  
+            }
+            .col-4.html{
+                background-color: white;
+                margin: 5px 0px 5px 0px;
+                width: 100%;
+            }
+            .col-4.html.bss{
+                display: flex;
+                align-items: center;
+            }
+        
+            .card-block.html.css{
+                display: flex;
+                justify-content: center;
+                border: none;
+            }
+            .card.html{
+                border: none;
+                width: 100%;
+            }
+            .card.html.text2{
+                border: none;
+                width: 100%;
+                margin: 5% 0;
+            }
+            .col-8.html.css{
+                background-color: white;
+                text-align: center;
+                height: max-content;
+                margin: 5px;
+            }
+            .col-8.html.halb{
+                background-color: white;
+                text-align: center;
+                height: max-content;
+                border: none;
+                margin: 5px;
+                width: 100%; 
+            }
+        }
+            @media(max-width: 1300px){
+                .nav-link.dropdown-toggle.navbarDropdown.unterseite{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    font-size: 40px; 
+                    width: 100%;
+                }
+                .dropdown-item.unterseite-101.show{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center!important;
+                }
+                .dropdown-item.unterseite-101{
+                    width: 100%;
+                    font-size: 16px;
+                    text-align: center;
+        
+                }
+                
+                
+                
+                .nav-item.dropdown.unterseite .dropdown-menu.show{
+                    align-content: center;
+                    position: relative!important;
+                    transform: none!important;
+                    width: 100%;
+                }  
+                .nav-item.dropdown.unterseite-101 .dropdown-menu.show{
+                    align-content: center;
+                    position: relative!important;
+                    transform: none!important;
+                    width: 100%;
+                }  
+                .dropdown-item.unterseite-101.show{
+                    width: 100px;
+        
+                }
+                a#nav2.nav-link.dropdown-toggle.navbarDropdown.unterseite{
+                    font-size: 30px;
+                }
+                 a.dropdown-item.unterseite-101{
+                    font-size: 12px;
+                }  
+                ::marker{
+                    color: white;
+                    size: 0px;
+                }  
+            }
+         
+        
+            
+            @media only screen and (max-width: 1077px) {
+        
+              /*    ul.bi {
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+            } */
+            
+            .fixed-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                position: relative;
+                z-index: 50;
+            }
+         /*    li.bi {
+                display: flex;
+                justify-content: center;
+                padding-left: 2px;
+                list-style-type: none;
+                font-size: 150%; 
+            }  */
+            button.css.test{
+                bottom: 10px;
+                left: 10px;
+                padding: 0 7px 0 7px;
+                background-color: #353535;
+                color: #FFFFFF;
+                height: 30px;
+                border: none;
+                font-size: 10px;
+                margin: 1px;
+                width: 1000px;
+            }
+            button.css.test:hover{
+                color: white;
+                background-color: #c44536;
+        
+            
+        
+        }
+        
+         
+          @media only screen and (max-width: 600px){
+            
+        
+            html.html.css{
+                overflow-x: hidden;
+            }
+            main.jumbotron.jumbotron.html{
+                background-color: white;
+                padding: 0px;
+                margin: 0px;
+                justify-content: center;
+            }
+        
+            
+        } 
+            @media only screen and (max-width: 900px) {
+        
+        
+        main.jumbotron.jumbotron.html{
+            background-color: white;
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+        
+        }
+        .pic5{
+        width: 300%;
+        }
+        
+        .pic6.bild{
+            width: 900%;
+            }
+            .col-12.bi{
+                background-color: #353535;
+                flex-direction: column;
+            }
+            button.css{
+                font-size: 15px;
+                padding: 5px 0 5px 0;
+                background-color: #353535;
+                color: #FFFFFF;
+                height: 50px;
+                width: 200px;
+                border: none;
+            }
+            button.css:hover{
+                background-color: #c44536;
+            }
+            ul.bi{
+                background-color: #353535;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                padding: 14px;
+                padding-bottom: 0px;
+                padding-top: 0px;
+                margin: 0px;
+            }
+            li.bi{
+                display: flex;
+                padding-left: 0px;
+                list-style-type: none;
+                font-size: 80%;
+                justify-content: center;
+            }
+            .col-12.html.css{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 5%;
+            }
+            .col-8.html{
+                background-color: white;
+                text-align: left;
+                height: max-content;
+                padding: 0px;
+                margin: 2% 0;
+                width: 100%;
+            }
+            .col-8.html.bss{
+                background-color: white;
+                text-align: left;
+                height: max-content;
+                border: 1px solid;
+                width: 100%;
+            }
+            .col-5.html.css{
+                background-color: white;
+                width: 150%;
+            }
+            .col-5.html.css.del{
+                background-color: white;
+                width: 0px;
+            }
+            
+        
+        .col-4.html.bss{
+            background-color: white;
+            margin: 5px 0px 5px 0px;
+        border: none;
+            width: 100%;
+            
+        }
         .col-2.html.del{
             height: 0px;
             width: 0px;
@@ -517,7 +771,7 @@
             background-color: white;
             text-align: center;
             height: max-content;
-            margin: 5px;
+            margin-bottom: 10%;
             width: 100%;
         }
         .col-8.html.halb{
@@ -531,284 +785,10 @@
             margin: 5px;
             width: 100%;
         }
-    
-    /* 101 MEDIAQUERIES */
-    
-    /* If the screen size is 601px or more, set the font-size of <div> to 80px */
-    @media only screen and (min-width: 901px) {
-    
-        html.html.css{
-            overflow-x: hidden;
-        }
-        main.jumbotron.jumbotron.html{
-            background-color: white;
-            padding: 0px;
-            margin: 0px;
-            justify-content: left;
-        }
-        ul.bi{
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            justify-content: left;
-            margin: 0px;
-        }
-        .fixed-body {
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-            position: fixed;
-            z-index: 10;
-        }
-        li.bi{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-        }
-        button.css:hover{
-            background-color: #c44536;
-        }
-        ul.bi.test{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            justify-content: right;
-            margin: 0px;
-        }
-        .fixed-body.test {
-            display: flex;
-            flex-direction: column;
-            justify-content: right;
-            position: fixed;
-            z-index: 5;
-        }
-        li.bi.test{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi.test{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css.test{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-        }
-        button.css:hover{
-            background-color: #c44536;
-        }
-        .col-12.html.css{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            overflow: unset;
-        }
-        .col-12.html.css.row{
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: center;
-        }
-        .col-8.html{
-            background-color: white;
-            text-align: left;
-            height: max-content;
-            padding: 0px;
-            margin: 5px 0px;
-        }
-        .col-8.html.bss{
-            background-color: white;
-            text-align: left;
-            height: max-content;
-            border:none;
-        }
-        .col-5.html.css{
-            background-color: white;  
-        }
-        .col-4.html{
-            background-color: white;
-            margin: 5px 0px 5px 0px;
-            width: 100%;
-        }
-        .col-4.html.bss{
-            display: flex;
-            align-items: center;
-        }
-    
-        .card-block.html.css{
-            display: flex;
-            justify-content: center;
-            border: none;
-        }
-        .card.html{
-            border: none;
-            width: 100%;
-        }
-        .card.html.text2{
-            border: none;
-            width: 100%;
-            margin: 5% 0;
-        }
-        .col-8.html.css{
-            background-color: white;
-            text-align: center;
-            height: max-content;
-            margin: 5px;
-        }
-        .col-8.html.halb{
-            background-color: white;
-            text-align: center;
-            height: max-content;
-            border: none;
-            margin: 5px;
-            width: 100%; 
-        }
-    }  
-    @media only screen and (max-width: 1077px) {
-        ul.bi{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        .fixed-body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: relative;
-            z-index: 50;
-        }
-        li.bi{
-            display: flex;
-            justify-content: center;
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            z-index: 80;
-        }
-        button.css:hover{
-            background-color: #c44536;
-        }
-        ul.bi.test{
-            margin: 0px 0px 0px 0px;
-            background-color: white;
-        }
-        button.css.test{
-            padding: 0 30px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            margin: 50px;
-        }
-        .fixed-body.test {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: fixed;
-            z-index: 50;
-        }
-        li.bi.test{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;   
-        }    
-        button.css.test{
-            font-size: 10px;
-            margin: -57px;
-        }
         button.css.test:hover{
-            background-color: #C44536;
+            color: #c44536
         }
-    }
-    @media only screen and (max-width: 990px){
-        .fixed-body.test {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            position: fixed;
-            z-index: 50;
         }
-        li.bi.test{
-            padding-left: 2px;
-            list-style-type: none;
-            font-size: 150%;
-        }
-        .col-12.bi{
-            background-color: #353535;
-            overflow: unset;
-            margin: 0;
-            padding: 0;
-        }
-        button.css.test{
-            font-size: 12px;
-            margin: -57px;
-        }
-        button.css.test:hover{
-            background-color: #C44536;
-        }
-    }
-    @media only screen and (max-width: 600px){
-        html.html.css{
-            overflow-x: hidden;
-        }
-        main.jumbotron.jumbotron.html{
-            background-color: white;
-            padding: 0px;
-            margin: 0px;
-            justify-content: center;
-        }
-        ul.bi.test{
-            margin: 40px 0px 0px 0px;   
-            background: white;
-        }
-        button.css.test{
-        width: 70px;
-        font-size: 12px;
-        text-align: right;
-        }
-    }
-        @media only screen and (max-width: 900px) {
-        }
-    
-    
     
     
         /*304*/
@@ -1068,4 +1048,3 @@
     }
   
 
-  
