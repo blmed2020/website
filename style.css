@@ -388,14 +388,28 @@ footer img {
  button.css.test{
     bottom: 10px;
     left: 10px;
-    padding: 0 7px 0 30px;
+    padding: 0 7px 0 7px;
     background-color: #353535;
     color: #FFFFFF;
     height: 80px;
+    width: 100%;
     border: none;
     font-size: 10px;
     margin: -57px;
     width: 80px;
+}
+ul.bi.test{
+    margin: 40px 0px 0px 0px;   
+    background: white;
+}
+.fixed-body-test {
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 50;
 }
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
@@ -435,9 +449,9 @@ footer img {
     .fixed-body-test {
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: center;
         position: fixed;
-         z-index: 5;
+        z-index: 50;
     }
     li.bi.test{
         padding-left: 2px;
@@ -449,18 +463,6 @@ footer img {
         overflow: unset;
         margin: 0;
         padding: 0;
-    }
-    button.css.test{
-        bottom: 10px;
-        left: 10px;
-        padding: 0 7px 0 30px;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 80px;
-        border: none;
-        font-size: 10px;
-        margin: -57px;
-        width: 80px;
     }
     button.css:hover{
         background-color: #c44536;
@@ -548,35 +550,9 @@ footer img {
             color: blue!important;
             list-style-type: none!important; 
         }
-        button.css.test{
-            bottom: 10px;
-            left: 10px;
-            padding: 0 7px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            font-size: 10px;
-            margin: -57px;
-            width: 80px;
-        }
-
-
     }
     @media only screen and (max-width: 1080px) {
         
-        button.css.test{
-            bottom: 10px;
-            left: 10px;
-            padding: 0 7px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            font-size: 10px;
-            margin: -57px;
-            width: 80px;
-        }
         .nav-link.dropdown-toggle.navbarDropdown.unterseite{
             display: flex;
             flex-direction: row;
@@ -607,18 +583,6 @@ footer img {
     }
     @media only screen and (max-width: 1077px) {
 
-    button.css.test{
-        bottom: 10px;
-        left: 10px;
-        padding: 0 7px 0 30px;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 80px;
-        border: none;
-        font-size: 10px;
-        margin: -57px;
-        width: 80px;
-    }   
     ul.bi{
         display: flex;
         flex-direction: column;
@@ -645,27 +609,10 @@ footer img {
         padding: 0;
     }
     
-    .col-12.bi{
-        background-color: #353535;
-        overflow: unset;
-        margin: 0;
-        padding: 0;   
-    }   
+
 }
 @media only screen and (max-width: 990px){
 
-    button.css.test{
-        bottom: 10px;
-        left: 10px;
-        padding: 0 7px 0 30px;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 80px;
-        border: none;
-        font-size: 10px;
-        margin: -57px;
-        width: 80px;
-    }
     .fixed-body-test {
         display: flex;
         flex-direction: column;
@@ -687,18 +634,7 @@ footer img {
 }
   @media only screen and (max-width: 600px){
     
-    button.css.test{
-        bottom: 10px;
-        left: 10px;
-        padding: 0 7px 0 30px;
-        background-color: #353535;
-        color: #FFFFFF;
-        height: 80px;
-        border: none;
-        font-size: 10px;
-        margin: -57px;
-        width: 80px;
-    }
+
     html.html.css{
         overflow-x: hidden;
     }
@@ -708,25 +644,11 @@ footer img {
         margin: 0px;
         justify-content: center;
     }
-    ul.bi.test{
-        margin: 40px 0px 0px 0px;   
-        background: white;
-    }
+
     
 } 
     @media only screen and (max-width: 900px) {
-        button.css.test{
-            bottom: 10px;
-            left: 10px;
-            padding: 0 7px 0 30px;
-            background-color: #353535;
-            color: #FFFFFF;
-            height: 80px;
-            border: none;
-            font-size: 10px;
-            margin: -57px;
-            width: 80px;
-        }
+
 
         .nav-item.dropdown.unterseite::marker{
             font-size: 0%;
