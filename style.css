@@ -385,30 +385,36 @@ footer img {
 
 
  /*101*/
+li.bi{
+    width: 100%;
+    background: #353535;
+    text-align: center;
+}
  button.css.test{
     bottom: 10px;
     left: 10px;
     padding: 0 7px 0 7px;
     background-color: #353535;
     color: #FFFFFF;
-    height: 80px;
-    width: 100%;
+    height: 30px;
     border: none;
     font-size: 10px;
-    margin: -57px;
-    width: 80px;
+    margin: 1px;
+    width: 100%;
 }
 ul.bi.test{
     margin: 40px 0px 0px 0px;   
     background: white;
+    width: 100%;
 }
 .fixed-body-test {
-    bottom: 10px;
-    left: 10px;
+    bottom: 0px;
+    left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: fixed;
+    width: 100%;
     z-index: 50;
 }
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
@@ -426,7 +432,7 @@ ul.bi.test{
     }
     .nav-link.dropdown-toggle.navbarDropdown.unterseite{
         font-size: 40px; 
-        width: 100%;
+        width: 207px;
     }
     li.nav-item.dropdown.unterseite-101::marker{
         size: 20px;
@@ -440,30 +446,8 @@ ul.bi.test{
         font-size: 20px;
         width: 200px;
     }
-    ul.bi.test{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content: right;
-    }
-    .fixed-body-test {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: fixed;
-        z-index: 50;
-    }
-    li.bi.test{
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 150%;
-    }
-    .col-12.bi.test{
-        background-color: #353535;
-        overflow: unset;
-        margin: 0;
-        padding: 0;
-    }
+ 
+ 
     button.css:hover{
         background-color: #c44536;
     }
@@ -537,23 +521,6 @@ ul.bi.test{
 }
     @media(max-width: 1300px){
         .nav-link.dropdown-toggle.navbarDropdown.unterseite{
-            font-size: 40px; 
-            width: 100%;
-        }
-        
-        .dropdown-item.unterseite-101{
-            width: 100%;
-            font-size: 15px;
-    
-        }
-        .nav-item.dropdown.unterseite-101{
-            color: blue!important;
-            list-style-type: none!important; 
-        }
-    }
-    @media only screen and (max-width: 1080px) {
-        
-        .nav-link.dropdown-toggle.navbarDropdown.unterseite{
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -580,7 +547,19 @@ ul.bi.test{
         .dropdown-item.unterseite-101.show{
             width: 100px;
 
+        }  
+        li.nav-item.dropdown.unterseite-101.show::marker{
+            color: white;
+            size: 0px;
+        } 
+       ::marker{
+            color: white;
+            size: 0px;
+        } 
     }
+ 
+
+    
     @media only screen and (max-width: 1077px) {
 
     ul.bi{
@@ -602,36 +581,12 @@ ul.bi.test{
         list-style-type: none;
         font-size: 150%;
     }
-    .col-12.bi{
-        background-color: #353535;
-        overflow: unset;
-        margin: 0;
-        padding: 0;
-    }
+
     
 
 }
-@media only screen and (max-width: 990px){
 
-    .fixed-body-test {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: fixed;
-        z-index: 50;
-    }
-    li.bi.test{
-        padding-left: 2px;
-        list-style-type: none;
-        font-size: 150%;
-    }
-    .col-12.bi{
-        background-color: #353535;
-        overflow: unset;
-        margin: 0;
-        padding: 0;
-    }
-}
+ 
   @media only screen and (max-width: 600px){
     
 
@@ -648,12 +603,6 @@ ul.bi.test{
     
 } 
     @media only screen and (max-width: 900px) {
-
-
-        .nav-item.dropdown.unterseite::marker{
-            font-size: 0%;
-            color: white;
-        }
 
 
 main.jumbotron.jumbotron.html{
@@ -699,7 +648,7 @@ width: 300%;
     }
     li.bi{
         display: flex;
-        padding-left: 2px;
+        padding-left: 0px;
         list-style-type: none;
         font-size: 80%;
         justify-content: center;
