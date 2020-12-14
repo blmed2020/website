@@ -403,8 +403,17 @@ li.bi{
     width: 100%;
 }
 button.css.test:hover{
+    color: white;
     background-color: #c44536;
     
+}
+
+div.fixed-body-test{
+    border: 0px;
+    border-radius: 0px;
+}
+div.fixed-body-test button.css.test:focus{
+    outline: none;
 }
 ul.bi.test{
     margin: 40px 0px 0px 0px;   
@@ -778,7 +787,8 @@ margin: 0%;
     width: 100%;
 }
 button.css.test:hover{
-    color: #c44536
+    color: white;
+    background-color: #c44536;
 }
 } 
  @media only screen and (max-width: 600px){
