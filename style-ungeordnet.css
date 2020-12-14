@@ -506,11 +506,11 @@ footer img {
 }  
   @media only screen and (max-width: 1077px) {
 
-    ul.bi{
+     ul.bi{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } 
     .fixed-body {
         display: flex;
         flex-direction: column;
@@ -518,13 +518,13 @@ footer img {
         position: relative;
         z-index: 50;
     }
-    li.bi{
+     li.bi{
         display: flex;
         justify-content: center;
         padding-left: 2px;
         list-style-type: none;
         font-size: 150%;
-    }
+    } 
     .col-12.bi{
         background-color: #353535;
         overflow: unset;
