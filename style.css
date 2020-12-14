@@ -212,6 +212,58 @@
     body {
         display: flex;
         flex-direction: column;
+  
+}
+
+
+ /*101*/
+ figcaption{
+     font-size: 13px;
+ }
+ .img101{
+     max-width: 900px;
+     width: 100%;
+ }
+ .img101.block{
+     max-width: 500px;
+     width: 375%;
+ }
+ button.css.test{
+    bottom: 10px;
+    left: 10px;
+    padding: 0 7px 0 7px;
+    background-color: #353535;
+    color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+    border: none;
+    font-size: 10px;
+    margin: -57px;
+    width: 80px;
+}
+ul.bi.test{
+    margin: 40px 0px 0px 0px;   
+    background: white;
+}
+.fixed-body-test {
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 50;
+}
+.col-12.html.row.halb {
+    margin-bottom: 2%;
+    margin-left: 0;
+}
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 901px) {
+
+
+    html.html.css{
+        overflow-x: hidden;
     }
     .icon {
         width: 50%!important;
@@ -313,7 +365,13 @@
     article.inf {
         display: flex;
         justify-content: space-around;
-        margin: 0% 20% 2% 20%;
+        margin: 0% 20% 2% 20%;}
+    .col-8.html{
+        background-color: white;
+        text-align: left;
+        height: max-content;
+        padding: 0px;
+        margin: 0 0 2% 0;
     }
     .card-title {
         color: #353535;
@@ -322,7 +380,11 @@
         color: #353535;
     }
     .card a {
-        text-decoration: none;
+        text-decoration: none;}
+    .col-4.html{
+        background-color: white;
+        margin: none;
+        width: 100%;
     }
     
     
@@ -897,6 +959,104 @@
     }
      */
     /* Media Queries About Us Navigation*/
+
+.col-4.html.bss{
+    background-color: white;
+    border: none;
+    margin: 0 0 0 0;
+    width: 100%;
+    
+}
+.col-2.html.del{
+    height: 0px;
+    width: 0px;
+}
+.col-12.html.row.halb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150%;
+}
+p#text{
+    width: 100%;
+}
+.col-8{
+    max-width: 80%;
+}
+
+.col-8.html.bss{
+
+    padding: 0px;
+    border: none;
+    margin: none;
+}
+.card-block.html.css{
+    display: flex;
+    justify-content: center;
+}
+.card-block.html.bild{
+    display: flex;
+    justify-content: center;
+}
+
+.card.html{
+    border: none;
+margin: 0%;
+}
+.card.html.bilder{
+    border: none;
+    margin-bottom: 20%;
+}
+.col-12.html.css{
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.col-8.html.halb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    height: max-content;
+    border: none;
+    margin: 5px;
+    width: 100%;
+}
+} */
+    /*304*/
+
+
+.pdf {
+    border: 5px #C44536 solid;
+    width: 90%;
+    height: 1250px;
+}
+.tab-content>.active {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+#plugin {
+    background-color: #353535!important;
+}
+
+
+    /* ABOUT US */
+
+
+.au.bs-example {
+    margin: 80px 50px 30px 50px;
+}
+
+ul.au.nav.nav-tabs {
+    border-bottom: solid 3px  #353535;
+    margin: 80px 0px;  
+    display: flex;
+    justify-content: space-between;
     
     @media (max-width: 1587px) {
     
@@ -1014,4 +1174,4 @@
     .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
         align-items: center;}
     }
-    
+}
