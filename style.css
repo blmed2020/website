@@ -385,7 +385,93 @@
     
     
      /*101*/
+     li.bi{
+        width: 100%;
+        background: #353535;
+        text-align: center;
+    }
+     button.css.test{
+        bottom: 10px;
+        left: 10px;
+        padding: 0 7px 0 7px;
+        background-color: #353535;
+        color: #FFFFFF;
+        height: 30px;
+        border: none;
+        font-size: 10px;
+        margin: 1px;
+        width: 100%;
+    }
+    button.css.test:hover{
+        background-color: #c44536;
+        
+    }
+    ul.bi.test{
+        margin: 40px 0px 0px 0px;   
+        background: white;
+        width: 100%;
+    }
+    .fixed-body-test {
+        bottom: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        z-index: 50;
+    }
+    @media(max-width: 1300px){
+        .nav-link.dropdown-toggle.navbarDropdown.unterseite{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 40px; 
+            width: 100%;
+        }
+        .dropdown-item.unterseite-101.show{
+            display: flex;
+            flex-direction: row;
+            justify-content: center!important;
+        }
+        .dropdown-item.unterseite-101{
+            width: 100%;
+            font-size: 16px;
+            text-align: center;
+
+        }
+        
+        
+        
+        .nav-item.dropdown.unterseite .dropdown-menu.show{
+            align-content: center;
+            position: relative!important;
+            transform: none!important;
+            width: 100%;
+        }  
+        .nav-item.dropdown.unterseite-101 .dropdown-menu.show{
+            align-content: center;
+            position: relative!important;
+            transform: none!important;
+            width: 100%;
+        }  
+        .dropdown-item.unterseite-101.show{
+            width: 100px;
+
+        }
+        a#nav2.nav-link.dropdown-toggle.navbarDropdown.unterseite{
+            font-size: 30px;
+        }
+         a.dropdown-item.unterseite-101{
+            font-size: 12px;
+        }  
+        ::marker{
+            color: white;
+            size: 0px;
+        }  
+    }
     /* If the screen size is 601px or more, set the font-size of <div> to 80px */
+
     @media only screen and (min-width: 901px) {
     
         html.html.css{
