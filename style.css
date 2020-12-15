@@ -385,6 +385,7 @@ footer img {
 
 
  /*101*/
+
 li.bi{
     width: 100%;
     background: #353535;
@@ -430,12 +431,19 @@ ul.bi.test{
     width: 100%;
     z-index: 50;
 }
+img.pic6.bild{
+    max-width: 1000px;
+    width: 150%;
+}
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
     .img101.block{
         max-width: 342px;
         width: 100%;
     }
+    .video-einfügen1{
+        margin-left: 10px;
+    } 
 
     html.html.css{
         overflow-x: hidden;
@@ -636,6 +644,13 @@ ul.bi.test{
             width: 100%;
         }
 
+    .video-einfügen{
+        flex-direction: column;
+    }    
+    .video-einfügen1{
+        margin-top: 10px;
+    }    
+     
 
 
 main.jumbotron.jumbotron.html{
@@ -645,13 +660,7 @@ main.jumbotron.jumbotron.html{
     justify-content: center;
 
 }
-.pic5{
-width: 300%;
-}
 
-.pic6.bild{
-    width: 900%;
-    }
     .col-12.bi{
         background-color: #353535;
         flex-direction: column;
@@ -733,6 +742,7 @@ border: none;
     display: flex;
     flex-direction: column;
     width: 150%;
+    align-items: center;
 }
 .block2{
     display: flex;
