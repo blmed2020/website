@@ -199,6 +199,32 @@
             font-size: 12px;
         }
     }
+  
+}
+
+
+ /*101*/
+
+li.bi{
+    width: 100%;
+    background: #353535;
+    text-align: center;
+}
+ button.css.test{
+    bottom: 10px;
+    left: 10px;
+    padding: 0 7px 0 7px;
+    background-color: #353535;
+    color: #FFFFFF;
+    height: 30px;
+    border: none;
+    font-size: 10px;
+    margin: 1px;
+    width: 100%;
+}
+button.css.test:hover{
+    color: white;
+    background-color: #c44536;
     
 }
 
@@ -224,12 +250,19 @@ ul.bi.test{
     width: 100%;
     z-index: 50;
 }
+img.pic6.bild{
+    max-width: 1000px;
+    width: 150%;
+}
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
     .img101.block{
         max-width: 342px;
         width: 100%;
     }
+    .video-einfügen1{
+        margin-left: 10px;
+    } 
 
     html.html.css{
         overflow-x: hidden;
@@ -878,6 +911,13 @@ ul.bi.test{
             width: 100%;
         }
 
+    .video-einfügen{
+        flex-direction: column;
+    }    
+    .video-einfügen1{
+        margin-top: 10px;
+    }    
+     
 
     
     .au.nav-tabs .au.nav-item.show .au.nav-link, .au.nav-tabs .au.nav-link.active.text-center {
@@ -1015,6 +1055,7 @@ ul.bi.test{
     display: flex;
     flex-direction: column;
     width: 150%;
+    align-items: center;
 }
 .block2{
     display: flex;
