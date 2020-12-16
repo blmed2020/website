@@ -1,0 +1,41 @@
+<form action="Hier kommt die Server url hin">
+
+    <p>Vorname:</p>
+    <input>
+
+    <p>Kommentare</p>
+    <textarea name="comments" cols="20" rows="4">Hier Text eingeben ...</textarea>
+
+    <p>Passwort:</p>
+    <input type="password">
+
+    <p>Wählen Sie Ihre Lieblings-Pizza aus:
+        <br />
+        <input type="checkbox" name="pizza" value="prosciutto" checked="checked"> Prosciutto
+        <input type="checkbox" name="pizza" value="margherita"> Margherita
+        <input type="checkbox" name="pizza" value="salami"> Salami
+    </p>
+
+    <p>Wählen Sie Ihre Lieblings-Genre aus:
+        <br />
+        <input type="radio" name="genre" value="rock" checked="checked"> rock
+        <input type="radio" name="genre" value="pop"> pop
+        <input type="radio" name="genre" value="jazz"> jazz
+    </p>
+
+    <p>Submit something:</p>
+    <input type="text" name="" />
+    <input type="submit" value="submit">
+
+    <p>Wo hören Sie Ihre Musik</p>
+    <select name="devices">
+        <option value="iPod">iPod</option>
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option>
+    </select>
+
+    <input type="hidden" 
+    name="adresse" 
+    value="Dieser Wert wird beim abschicken an Server übertragen">
+
+</form>
