@@ -427,6 +427,10 @@ li.bi{
     background: #353535;
     text-align: center;
 }
+ul.ul101{
+    list-style-type: none;
+    padding: 0;
+}
 .imgbutton {
     height: 50px;
     width: 50px;
