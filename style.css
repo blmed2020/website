@@ -418,25 +418,20 @@ padding: 1em;
 
  /*101*/
  
-
-
-
- 
-
-
-
-
-
-
-
- 
-
+ /*Navigation Button*/
 li.bi{
     width: 100%;
     background: #353535;
     text-align: center;
 }
- button.css.test{
+.imgbutton {
+    height: 50px;
+    width: 50px;
+}
+/*Navigation Button Ende*/
+
+ /*Navigation*/
+button.css.test{
     bottom: 10px;
     left: 10px;
     padding: 0 7px 0 7px;
@@ -448,29 +443,28 @@ li.bi{
     margin: 1px;
     width: 100%;
 }
+
 button.css.test:hover{
     color: white;
     background-color: #c44536;
     
 }
 
-.imgbutton {
-    height: 50px;
-    width: 50px;
-}
-
 div.fixed-body-test{
     border: 0px;
     border-radius: 0px;
 }
+
 div.fixed-body-test button.css.test:focus{
     outline: none;
 }
+
 ul.bi.test{
     margin: 40px 0px 0px 0px;   
     background: white;
     width: 100%;
 }
+
 .fixed-body-test {
     bottom: 0px;
     left: 0px;
@@ -481,6 +475,7 @@ ul.bi.test{
     width: 100%;
     z-index: 50;
 }
+/*Navigation Ende*/
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
