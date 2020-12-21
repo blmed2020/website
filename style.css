@@ -484,11 +484,9 @@ ul.bi.test{
         width: 207px;
     }
     li.nav-item.dropdown.unterseite-101::marker{
-        size: 20px;
         color:white;
     }
     li.nav-item.dropdown.unterseite::marker{
-        size: 0px;
         color:white;
     }
     .dropdown-item.unterseite-101{
@@ -549,7 +547,7 @@ ul.bi.test{
         }  
         ::marker{
             color: white;
-            size: 0px;
+            
         }  
     }
  
