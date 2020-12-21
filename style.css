@@ -402,6 +402,7 @@ padding: 1em;
 }
 
  /*101*/
+ 
 
 
 
@@ -426,7 +427,7 @@ li.bi{
     padding: 0 7px 0 7px;
     background-color: #353535;
     color: #FFFFFF;
-    height: 30px;
+    height: 60px;
     border: none;
     font-size: 10px;
     margin: 1px;
@@ -436,6 +437,11 @@ button.css.test:hover{
     color: white;
     background-color: #c44536;
     
+}
+
+.imgbutton {
+    height: 50px;
+    width: 50px;
 }
 
 div.fixed-body-test{
