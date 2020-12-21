@@ -1,3 +1,0 @@
-<a href="mailto:beispiel@gmail.com">Mail</a>
-
-<a href="beispiel" target="_blank">BL</a>
