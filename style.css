@@ -52,9 +52,8 @@ RED:    #C44536
 
 
 .no-valid {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
-    margin-top: 250px;
     margin-bottom: 50px;
     color: #353535;
 }
