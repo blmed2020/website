@@ -1,0 +1,9 @@
+<table>
+    <tr>
+        <th colspan="2">Tabellen Titel</th>
+    </tr>
+    <tr>
+        <td>Tabellen Inhalt</td>
+        <td>Zweiter Tabellen Inhalt</td>
+    </tr>
+</table>

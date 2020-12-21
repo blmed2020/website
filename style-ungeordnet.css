@@ -375,10 +375,13 @@ footer img {
         margin: 0px;
     }
     .fixed-body {
+        bottom: 10px;
+        left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: left;
         position: fixed;
+        font-size: 6px;
         z-index: 10;
     }
     li.bi{
@@ -393,14 +396,18 @@ footer img {
         padding: 0;
     }
     button.css{
-        padding: 0 30px 0 30px;
+        padding: 0px 4px 0px 4px;
         background-color: #353535;
         color: #FFFFFF;
-        height: 80px;
+        height: 30px;
+        width: 150px;
         border: none;
     }
     button.css:hover{
         background-color: #c44536;
+    }
+    #text{
+        text-align: center;
     }
     ul.bi.test{
         display: flex;
@@ -409,7 +416,10 @@ footer img {
         justify-content: right;
         margin: 0px;
     }
-    .fixed-body.test {
+    .fixed-body-test {
+        background-color: white;
+        bottom: 10px;
+        right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: right;
@@ -429,7 +439,7 @@ footer img {
     }
     button.css.test{
         padding: 0 30px 0 30px;
-        background-color: #353535;
+        background-color: white;
         color: #FFFFFF;
         height: 80px;
         border: none;
@@ -448,13 +458,14 @@ footer img {
         align-items: center;
         flex-direction: row;
         justify-content: center;
+        margin-bottom: 5%;
     }
     .col-8.html{
         background-color: white;
         text-align: left;
         height: max-content;
         padding: 0px;
-        margin: 5px 0px;
+        margin: 2% 0;
     }
     .col-8.html.bss{
         background-color: white;
@@ -506,25 +517,26 @@ footer img {
 }  
   @media only screen and (max-width: 1077px) {
 
-     ul.bi{
+    ul.bi{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    } 
+    }
     .fixed-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: relative;
+        font-size: 15px;
         z-index: 50;
     }
-     li.bi{
+    li.bi{
         display: flex;
         justify-content: center;
         padding-left: 2px;
         list-style-type: none;
         font-size: 150%;
-    } 
+    }
     .col-12.bi{
         background-color: #353535;
         overflow: unset;
@@ -532,10 +544,12 @@ footer img {
         padding: 0;
     }
     button.css{
-        padding: 0 30px 0 30px;
+        margin: 10px;
+        padding: 10px 10px 10px 10px;
         background-color: #353535;
         color: #FFFFFF;
-        height: 80px;
+        height: 40px;
+        width: 600px;
         border: none;
         z-index: 80;
     }
@@ -554,7 +568,9 @@ footer img {
         border: none;
         margin: 50px;
     }
-    .fixed-body.test {
+    .fixed-body-test {
+        bottom: 10px;
+        right: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -581,7 +597,7 @@ footer img {
     }
 }
 @media only screen and (max-width: 990px){
-    .fixed-body.test {
+    .fixed-body-test {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -608,7 +624,7 @@ footer img {
     }
 }
   @media only screen and (max-width: 600px){
-}  
+ 
 
     html.html.css{
         overflow-x: hidden;
@@ -627,7 +643,7 @@ footer img {
     width: 70px;
     font-size: 12px;
     text-align: right;
-    }
+    }} 
     @media only screen and (max-width: 900px) {
 
 
@@ -684,13 +700,14 @@ width: 300%;
         align-items: center;
         flex-direction: column;
         width: 100%;
+        margin-bottom: 5%;
     }
     .col-8.html{
         background-color: white;
         text-align: left;
         height: max-content;
         padding: 0px;
-        margin: 5px 0px 5px 0px;
+        margin: 2% 0;
         width: 100%;
     }
     .col-8.html.bss{
@@ -708,7 +725,7 @@ width: 300%;
         background-color: white;
         width: 0px;
     }
-
+    
 
 .col-4.html.bss{
     background-color: white;
@@ -762,7 +779,7 @@ margin: 0%;
     background-color: white;
     text-align: center;
     height: max-content;
-    margin: 5px;
+    margin-bottom: 10%;
     width: 100%;
 }
 .col-8.html.halb{

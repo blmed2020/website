@@ -1,0 +1,4 @@
+<figure>
+    <img src="/img/test.jpg" alt="Test Beschreibung" title="weiter Infos" />
+    <figcaption>Das ist eine Bild Unterschrift</figcaption>
+</figure>

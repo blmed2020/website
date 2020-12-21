@@ -1,0 +1,14 @@
+ol {
+      list-style: inside upper-roman;
+      }
+
+      tabel {
+      empty-cells: hide;
+      border-spacing: 5px;
+      border-collapse: separate;
+      }
+
+
+      p {
+      cursor: crosshair;
+      }

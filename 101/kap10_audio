@@ -1,0 +1,14 @@
+<!-- AUDIO -->
+
+    <!-- AUDIO EINFÜGEN PER <audio> ELEMENT   -->
+     <audio src="audio/minds.mp3" controls> 
+
+    <!-- VIDEO MIT SOUND-CLOUD EINBETTEN -->
+    <iframe width="30%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/874766908&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+
+    <!-- MEHRERE AUDIOQUELLEN MIT <source> -->
+    <audio controls>
+    <source src="audio/minds.mp3">
+    <source src="audio/minds.ogg">

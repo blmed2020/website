@@ -1,0 +1,15 @@
+img.foto {
+      max-width: 600px;
+      width: 100%;
+      display: block;
+      margin: 0px auto;
+      }
+
+      img.background {
+      background:
+      black
+      url(../hintergrund.jpg)
+      no-repeat
+      fixed
+      center center;
+      }
