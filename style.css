@@ -908,3 +908,31 @@ button.css.test:hover{
     }
   
 
+/* INF-LERNDOKU */
+
+.ledopdf {
+    width: 200px;
+    max-width: 100%;
+    margin: 5% 0%;
+}
+
+.pdfcon {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .pdfcon {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+}
+
