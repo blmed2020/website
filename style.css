@@ -424,6 +424,9 @@ padding: 1em;
 
  /*101*/
  
+ .foot101{
+     padding: 0px 0px 65px 0px;
+ }
  /*Navigation Button*/
 li.bi{
     width: 100%;
