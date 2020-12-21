@@ -402,6 +402,9 @@ footer img {
 .col4{
     width: 100%;
 }
+.col4{
+    margin-bottom: 30px;
+}
 .uberschrift{
     margin-top: 10%;
     margin-bottom: 2%;
