@@ -428,6 +428,7 @@ li.bi{
     height: 50px;
     width: 50px;
 }
+
 /*Navigation Button Ende*/
 
  /*Navigation*/
@@ -522,6 +523,11 @@ ul.bi.test{
             text-align: center;
 
         }
+        .imgbutton {
+            height: 20px;
+            width: 20px;
+        }
+
         
         
         
