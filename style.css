@@ -427,6 +427,10 @@ li.bi{
     background: #353535;
     text-align: center;
 }
+ul.ul101{
+    list-style-type: none;
+    padding: 0;
+}
 .imgbutton {
     height: 50px;
     width: 50px;
@@ -489,11 +493,9 @@ ul.bi.test{
         width: 207px;
     }
     li.nav-item.dropdown.unterseite-101::marker{
-        size: 20px;
         color:white;
     }
     li.nav-item.dropdown.unterseite::marker{
-        size: 0px;
         color:white;
     }
     .dropdown-item.unterseite-101{
@@ -559,7 +561,7 @@ ul.bi.test{
         }  
         ::marker{
             color: white;
-            size: 0px;
+            
         }  
     }
  
