@@ -383,8 +383,27 @@ footer img {
   
 }
 
+/* Neu 101 nur Inhalt */
+.col4{
+    width: 100%;
+}
+.uberschrift{
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+.codepen.col4{
+box-sizing: border-box; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+border: 2px solid; 
+margin: 1em 0; 
+padding: 1em;
+}
 
  /*101*/
+
+ 
 
 li.bi{
     width: 100%;
@@ -431,29 +450,10 @@ ul.bi.test{
     width: 100%;
     z-index: 50;
 }
-img.pic6.bild{
-    max-width: 1000px;
-    width: 150%;
-}
+
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
-    .img101.block{
-        max-width: 342px;
-        width: 100%;
-    }
-    .video-einfügen1{
-        margin-left: 10px;
-    } 
-
-    html.html.css{
-        overflow-x: hidden;
-    }
-    main.jumbotron.jumbotron.html{
-        background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: left;
-    }
+    
     .nav-link.dropdown-toggle.navbarDropdown.unterseite{
         font-size: 40px; 
         width: 207px;
@@ -475,73 +475,7 @@ img.pic6.bild{
     button.css:hover{
         background-color: #c44536;
     }
-    .col-12.html.css{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        overflow: unset;
-    }
-    .col-12.html.css.row{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 5%;
-    }
-    .col-8.html{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        padding: 0px;
-        margin: 2% 0;
-    }
-    .col-8.html.bss{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        border:none;
-    }
-    .col-5.html.css{
-        background-color: white;  
-    }
-    .col-4.html{
-        background-color: white;
-        margin: 5px 0px 5px 0px;
-        width: 100%;
-    }
-    .col-4.html.bss{
-        display: flex;
-        align-items: center;
-    }
-
-    .card-block.html.css{
-        display: flex;
-        justify-content: center;
-        border: none;
-    }
-    .card.html{
-        border: none;
-        width: 100%;
-    }
-    .card.html.text2{
-        border: none;
-        width: 100%;
-        margin: 5% 0;
-    }
-    .col-8.html.css{
-        background-color: white;
-        text-align: center;
-        height: max-content;
-        margin: 5px;
-    }
-    .col-8.html.halb{
-        background-color: white;
-        text-align: center;
-        height: max-content;
-        border: none;
-        margin: 5px;
-        width: 100%; 
-    }
+    
 }
     @media(max-width: 1300px){
         .nav-link.dropdown-toggle.navbarDropdown.unterseite{
@@ -562,10 +496,7 @@ img.pic6.bild{
             text-align: center;
 
         }
-        .img101.block{
-            max-width: 342px;
-            width: 150%;
-        }
+        
         
         
         
@@ -600,10 +531,7 @@ img.pic6.bild{
 
     
     @media only screen and (max-width: 1077px) {
-        .img101.block{
-            max-width: 342px;
-            width: 200%;
-        }
+
     ul.bi{
         display: flex;
         flex-direction: column;
@@ -639,27 +567,7 @@ img.pic6.bild{
         color: white;
         background-color: #c44536;}
 
-     .img101{
-            max-width: 900px;
-            width: 100%;
-        }
 
-    .video-einfügen{
-        flex-direction: column;
-    }    
-    .video-einfügen1{
-        margin-top: 10px;
-    }    
-     
-
-
-main.jumbotron.jumbotron.html{
-    background-color: white;
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-
-}
 
     .col-12.bi{
         background-color: #353535;
@@ -695,128 +603,13 @@ main.jumbotron.jumbotron.html{
         font-size: 80%;
         justify-content: center;
     }
-    .col-12.html.css{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 5%;
-    }
-    .col-8.html{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        padding: 0px;
-        margin: 2% 0;
-        width: 100%;
-    }
-    .col-8.html.bss{
-        background-color: white;
-        text-align: left;
-        height: max-content;
-        border: 1px solid;
-        width: 100%;
-    }
-    .col-5.html.css{
-        background-color: white;
-        width: 150%;
-    }
-    .col-5.html.css.del{
-        background-color: white;
-        width: 0px;
-    }
     
-
-.col-4.html.bss{
-    background-color: white;
-    margin: 5px 0px 5px 0px;
-border: none;
-    width: 100%;
-    
-}
-.col-2.html.del{
-    height: 0px;
-    width: 0px;
-}
-.col-12.html.row.halb{
-    display: flex;
-    flex-direction: column;
-    width: 150%;
-    align-items: center;
-}
-.block2{
-    display: flex;
-    justify-content: center;
-}
-p#text{
-    width: 100%;
-}
-.col-8{
-    max-width: 80%;
-}
-
-.col-8.html.bss{
-
-    padding: 0px;
-    border: none;
-    margin: none;
-}
-.card-block.html.css{
-    display: flex;
-    justify-content: center;
-}
-.card-block.html.bild{
-    display: flex;
-    justify-content: center;
-}
-
-.card.html{
-    border: none;
-margin: 0%;
-}
-.card.html.bilder{
-    border: none;
-    margin-bottom: 20%;
-}
-.col-12.html.css{
-    background-color: white;
-    text-align: center;
-    height: max-content;
-    margin-bottom: 10%;
-    width: 100%;
-}
-.col-8.html.halb{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    height: max-content;
-    border: none;
-    margin: 5px;
-    width: 100%;
-}
 button.css.test:hover{
     color: white;
     background-color: #c44536;
 }
 } 
- @media only screen and (max-width: 600px){
-    
 
-    html.html.css{
-        overflow-x: hidden;
-    }
-    main.jumbotron.jumbotron.html{
-        background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: center;
-    }
-
-    
-} 
-} */
     /*304*/
 
 
