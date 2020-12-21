@@ -273,6 +273,18 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+   div.carousel{
+    visibility: hidden;
+    height: 0px;
+   }
+   .carousel-flex{
+    visibility: hidden;
+    height: 0px; 
+   }
+}
+
+
 /* HOME CAROUSEL */
 
 div.carousel-flex {
@@ -285,6 +297,10 @@ div.carousel {
 }
 
 /* HOME CARDS */
+
+.cardtitle {
+    margin-top: 5%;
+}
 
 .card-img-top{
     padding: 1.25rem;
