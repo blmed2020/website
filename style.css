@@ -402,6 +402,9 @@ footer img {
 .col4{
     width: 100%;
 }
+.col4{
+    margin-bottom: 30px;
+}
 .uberschrift{
     margin-top: 10%;
     margin-bottom: 2%;
@@ -417,36 +420,37 @@ padding: 1em;
 }
 
  /*101*/
-
-
-
  
-
-
-
-
-
-
-
- 
-
+ /*Navigation Button*/
 li.bi{
     width: 100%;
     background: #353535;
     text-align: center;
 }
- button.css.test{
+ul.ul101{
+    list-style-type: none;
+    padding: 0;
+}
+.imgbutton {
+    height: 50px;
+    width: 50px;
+}
+/*Navigation Button Ende*/
+
+ /*Navigation*/
+button.css.test{
     bottom: 10px;
     left: 10px;
     padding: 0 7px 0 7px;
     background-color: #353535;
     color: #FFFFFF;
-    height: 30px;
+    height: 60px;
     border: none;
     font-size: 10px;
     margin: 1px;
     width: 100%;
 }
+
 button.css.test:hover{
     color: white;
     background-color: #c44536;
@@ -457,14 +461,17 @@ div.fixed-body-test{
     border: 0px;
     border-radius: 0px;
 }
+
 div.fixed-body-test button.css.test:focus{
     outline: none;
 }
+
 ul.bi.test{
     margin: 40px 0px 0px 0px;   
     background: white;
     width: 100%;
 }
+
 .fixed-body-test {
     bottom: 0px;
     left: 0px;
@@ -475,6 +482,7 @@ ul.bi.test{
     width: 100%;
     z-index: 50;
 }
+/*Navigation Ende*/
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 901px) {
@@ -484,11 +492,9 @@ ul.bi.test{
         width: 207px;
     }
     li.nav-item.dropdown.unterseite-101::marker{
-        size: 20px;
         color:white;
     }
     li.nav-item.dropdown.unterseite::marker{
-        size: 0px;
         color:white;
     }
     .dropdown-item.unterseite-101{
@@ -549,7 +555,7 @@ ul.bi.test{
         }  
         ::marker{
             color: white;
-            size: 0px;
+            
         }  
     }
  
