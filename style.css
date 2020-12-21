@@ -458,12 +458,12 @@ button.css.test:hover{
     
 }
 
-div.fixed-body-test{
+.fixed-body-test{
     border: 0px;
     border-radius: 0px;
 }
 
-div.fixed-body-test button.css.test:focus{
+.fixed-body-test button.css.test:focus{
     outline: none;
 }
 
@@ -531,6 +531,9 @@ ul.bi.test{
         .imgbutton {
             height: 20px;
             width: 20px;
+        }
+        ul.test.fixed-body-test.ul101{
+            padding: 0;
         }
 
         
