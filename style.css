@@ -418,6 +418,9 @@ border: 2px solid;
 margin: 1em 0; 
 padding: 1em;
 }
+.container{
+    margin-bottom: 10%;
+}
 
  /*101*/
  
@@ -435,6 +438,7 @@ ul.ul101{
     height: 50px;
     width: 50px;
 }
+
 /*Navigation Button Ende*/
 
  /*Navigation*/
@@ -457,12 +461,12 @@ button.css.test:hover{
     
 }
 
-div.fixed-body-test{
+.fixed-body-test{
     border: 0px;
     border-radius: 0px;
 }
 
-div.fixed-body-test button.css.test:focus{
+.fixed-body-test button.css.test:focus{
     outline: none;
 }
 
@@ -527,6 +531,11 @@ ul.bi.test{
             text-align: center;
 
         }
+        .imgbutton {
+            height: 20px;
+            width: 20px;
+        }
+
         
         
         
@@ -644,12 +653,7 @@ button.css.test:hover{
     html.html.css{
         overflow-x: hidden;
     }
-    main.jumbotron.jumbotron.html{
-        background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: center;
-    }
+
 
     
  
