@@ -467,7 +467,7 @@ img.pic6.bild{
         color:white;
     }
     .dropdown-item.unterseite-101{
-        font-size: 20px;
+        font-size: 15px;
         width: 200px;
     }
  
@@ -558,7 +558,7 @@ img.pic6.bild{
         }
         .dropdown-item.unterseite-101{
             width: 100%;
-            font-size: 16px;
+            font-size: 15px;
             text-align: center;
 
         }
@@ -589,7 +589,7 @@ img.pic6.bild{
             font-size: 30px;
         }
          a.dropdown-item.unterseite-101{
-            font-size: 12px;
+            font-size: 15px;
         }  
         ::marker{
             color: white;
