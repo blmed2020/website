@@ -418,6 +418,9 @@ border: 2px solid;
 margin: 1em 0; 
 padding: 1em;
 }
+.container{
+    margin-bottom: 10%;
+}
 
  /*101*/
  
@@ -653,12 +656,7 @@ button.css.test:hover{
     html.html.css{
         overflow-x: hidden;
     }
-    main.jumbotron.jumbotron.html{
-        background-color: white;
-        padding: 0px;
-        margin: 0px;
-        justify-content: center;
-    }
+
 
     
  
