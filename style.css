@@ -398,6 +398,49 @@ footer img {
   
 }
 
+/*404 ERROR */
+
+h1.error404 {
+    font-size: 100px;
+    color: #353535;
+}
+
+h2.error404 {
+    color: #353535;
+}
+
+html.error404 {
+    height: 100%;
+}
+body.error404 {
+    height: 100%;
+    padding: 5% 5% 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c6e71;
+}
+
+img.error404 {
+    margin: 5% 10.73% 0% 0%
+}
+
+button.error404 {
+    background: #353535;
+    color: #3c6e71;
+}
+
+button.error404:active {
+    background: #C44536;
+    border-color: #353535;
+}
+
+button.error404:hover {
+    background: #C44536;
+    border-color: #353535;
+}
+
 /* Neu 101 nur Inhalt */
 .col4{
     width: 100%;
