@@ -441,6 +441,16 @@ padding: 1em;
 }
 
  /*101*/
+
+ h1.h2.h3.h4.h5.h6{
+     color: #353535;
+ }
+
+ p{
+     color: #353535;
+ }
+
+
  
  .foot101{
      padding: 0px 0px 65px 0px;
@@ -841,7 +851,11 @@ button.css.test:hover{
     
     
     } 
-    
+    @media screen and (max-width: 440px) {
+        .au.nav-link {
+            width: 100%;
+        }
+    }
     
     @media (max-width: 354px) {
         a.au.nav-link {
