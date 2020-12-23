@@ -167,6 +167,9 @@ link {
     .dropdown-item {
         font-size: 12px;
     }
+    .nav-link {
+        width: 300px;
+    }
 }
 
 
@@ -439,6 +442,9 @@ padding: 1em;
 
  /*101*/
  
+ .foot101{
+     padding: 0px 0px 65px 0px;
+ }
  /*Navigation Button*/
 li.bi{
     width: 100%;
@@ -525,6 +531,9 @@ ul.bi.test{
     button.css:hover{
         background-color: #c44536;
     }
+    .foot101{
+        padding: 0px 0px 65px 0px;
+    }
     
 }
     @media(max-width: 1300px){
@@ -549,6 +558,12 @@ ul.bi.test{
         .imgbutton {
             height: 20px;
             width: 20px;
+        }
+        ul.test.fixed-body-test.ul101{
+            padding: 0;
+        }
+        .foot101{
+            padding: 0px 0px 65px 0px;
         }
 
         
@@ -616,7 +631,7 @@ ul.bi.test{
         border: none;
         font-size: 10px;
         margin: 1px;
-        width: 1000px;
+        width: 100%;
     }
     button.css.test:hover{
         color: white;
@@ -634,7 +649,7 @@ ul.bi.test{
         background-color: #353535;
         color: #FFFFFF;
         height: 50px;
-        width: 200px;
+        width: 100%;
         border: none;
     }
     button.css:hover{
@@ -657,6 +672,9 @@ ul.bi.test{
         list-style-type: none;
         font-size: 80%;
         justify-content: center;
+    }
+    .foot101{
+        padding: 0px 0px 65px 0px;
     }
     
 button.css.test:hover{
