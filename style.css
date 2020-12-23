@@ -840,7 +840,11 @@ button.css.test:hover{
     
     
     } 
-    
+    @media screen and (max-width: 440px) {
+        .au.nav-link {
+            width: 100%;
+        }
+    }
     
     @media (max-width: 354px) {
         a.au.nav-link {
