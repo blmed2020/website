@@ -400,19 +400,20 @@ img.error404 {
     margin: 5% 10.71% 0% 0%
 }
 
-button.error404 {
+a.error404 {
     background: #353535;
     color: #3c6e71;
-}
-
-button.error404:active {
-    background: #C44536;
     border-color: #353535;
 }
 
-button.error404:hover {
+a.error404:active {
     background: #C44536;
-    border-color: #353535;
+    border-color: #C44536;
+}
+
+a.error404:hover {
+    background: #C44536;
+    border-color: #C44536;
 }
 
 /* Neu 101 nur Inhalt */
@@ -440,6 +441,22 @@ padding: 1em;
 }
 
  /*101*/
+
+ h1.h2.h3.h4.h5.h6{
+     color: #353535;
+ }
+
+ p{
+     color: #353535;
+ }
+
+a{
+    color: #353535;
+}
+ a:hover{
+     color: #c44536;
+     text-decoration: underline;
+ }
  
  .foot101{
      padding: 0px 0px 65px 0px;
