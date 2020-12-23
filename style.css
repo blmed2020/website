@@ -167,6 +167,9 @@ link {
     .dropdown-item {
         font-size: 12px;
     }
+    .nav-link {
+        width: 300px;
+    }
 }
 
 
