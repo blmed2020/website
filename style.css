@@ -7,36 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* TEST SPINNER */
-
-
-/* .lds-dual-ring {
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-  }
-  .lds-dual-ring:after {
-    content: " ";
-    display: block;
-    width: 64px;
-    height: 64px;
-    margin: 8px;
-    border-radius: 50%;
-    border: 6px solid #fff;
-    border-color: #fff transparent #fff transparent;
-    animation: lds-dual-ring 1.2s linear infinite;
-  }
-  @keyframes lds-dual-ring {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-   */
-
-
 /* COLORS */
 
 
@@ -117,6 +87,7 @@ header {
     border-radius: 0%;
     border: 1px solid #c44536;
     margin-top: 0%;
+    margin-right: 30px;
 }
 .dropdown-item {
     color: #353535;
@@ -161,7 +132,7 @@ link {
         font-size: 20px!important;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     header {
         flex-direction: column;
         align-items: center;
