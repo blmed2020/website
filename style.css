@@ -607,7 +607,7 @@ ul.bi.test{
         border: none;
         font-size: 10px;
         margin: 1px;
-        width: 1000px;
+        width: 100%;
     }
     button.css.test:hover{
         color: white;
