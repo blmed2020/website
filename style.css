@@ -167,6 +167,9 @@ link {
     .dropdown-item {
         font-size: 12px;
     }
+    .nav-link {
+        width: 300px;
+    }
 }
 
 
@@ -397,19 +400,20 @@ img.error404 {
     margin: 5% 10.71% 0% 0%
 }
 
-button.error404 {
+a.error404 {
     background: #353535;
     color: #3c6e71;
-}
-
-button.error404:active {
-    background: #C44536;
     border-color: #353535;
 }
 
-button.error404:hover {
+a.error404:active {
     background: #C44536;
-    border-color: #353535;
+    border-color: #C44536;
+}
+
+a.error404:hover {
+    background: #C44536;
+    border-color: #C44536;
 }
 
 /* Neu 101 nur Inhalt */
