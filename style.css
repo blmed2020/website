@@ -269,6 +269,10 @@ div.carousel {
     max-width: 100%;
 }
 
+.carouseltxt {
+    color: white;
+}
+
 /* HOME CARDS */
 
 .cardtitle {
