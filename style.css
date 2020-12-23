@@ -87,6 +87,7 @@ header {
     border-radius: 0%;
     border: 1px solid #c44536;
     margin-top: 0%;
+    margin-right: 30px;
 }
 .dropdown-item {
     color: #353535;
