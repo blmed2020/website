@@ -467,6 +467,9 @@ padding: 1em;
 
  /*101*/
  
+ .foot101{
+     padding: 0px 0px 65px 0px;
+ }
  /*Navigation Button*/
 li.bi{
     width: 100%;
@@ -578,6 +581,9 @@ ul.bi.test{
             height: 20px;
             width: 20px;
         }
+        ul.test.fixed-body-test.ul101{
+            padding: 0;
+        }
 
         
         
@@ -644,7 +650,7 @@ ul.bi.test{
         border: none;
         font-size: 10px;
         margin: 1px;
-        width: 1000px;
+        width: 100%;
     }
     button.css.test:hover{
         color: white;
