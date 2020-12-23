@@ -769,28 +769,33 @@ button.css.test:hover{
         display: flex;
         flex-direction: column;
         padding: 0% 5%;
+        color: #353535;
     }
     .au-inh-bl, .au-inh-andri, .au-inh-cedric,.au-inh-yanik  {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        color: #353535;
     }
 
 .au-inh-brooklyn, .au-inh-leandro {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    color: #353535;
 }
 
     
     .au-txt-bl, .au-txt-andri, .au-txt-brooklyn, .au-txt-cedric, .au-txt-leandro, .au-txt-yanik  {
         width: 50%;
         text-align: left;
+        color: #353535;
     }
     .au-con-andri, .au-con-brooklyn, .au-con-cedric, .au-con-leandro, .au-con-yanik {
         display: flex;
         flex-direction: column;
         padding: 0 20%;
+        color: #353535;
     }
     
     .au-img-andri, .au-img-brooklyn, .au-img-cedric, .au-img-leandro, .au-img-yanik {
