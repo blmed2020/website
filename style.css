@@ -527,6 +527,9 @@ ul.bi.test{
     button.css:hover{
         background-color: #c44536;
     }
+    .foot101{
+        padding: 0px 0px 65px 0px;
+    }
     
 }
     @media(max-width: 1300px){
@@ -554,6 +557,9 @@ ul.bi.test{
         }
         ul.test.fixed-body-test.ul101{
             padding: 0;
+        }
+        .foot101{
+            padding: 0px 0px 65px 0px;
         }
 
         
@@ -639,7 +645,7 @@ ul.bi.test{
         background-color: #353535;
         color: #FFFFFF;
         height: 50px;
-        width: 200px;
+        width: 100%;
         border: none;
     }
     button.css:hover{
@@ -662,6 +668,9 @@ ul.bi.test{
         list-style-type: none;
         font-size: 80%;
         justify-content: center;
+    }
+    .foot101{
+        padding: 0px 0px 65px 0px;
     }
     
 button.css.test:hover{
