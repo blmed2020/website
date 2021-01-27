@@ -111,7 +111,7 @@
     <!--Navigation fertig-->
 
 
-<!--Navigation Button-->
+    <!--Navigation Button-->
     <div class="test">
       <div class="col-12 test">
         <ul class="bi test fixed-body-test ul101">
@@ -400,67 +400,62 @@
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
         </div>
         <div class="col-md-8 col-lg-8">
-          <h5>Video in Webseite einfügen:</h5>
-          <ul>
-            <li>&lt;video&gt;</li>
-            <li>Iframe (z.B. YouTube)</li>
-          </ul>
+          <h5>Video in Webseite einfügen</h5>
+          <p><b>&lt;video&gt;<br /> Iframe (z.B. Youtube)</b> </p> 
+          
           <br />
           <br />
-          <h6>Videoformate, die man verwenden sollte:</h6>
+          <h5>Videoformate, die man verwenden sollte</h5>
           <br />
-          <b>H264</b> &nbsp;&nbsp;&nbsp;&nbsp; IE und Safari
+          <b>H264</b>(IE und Safari)
           <br />
-          <b>WebM</b> &nbsp;&nbsp;&nbsp;&nbsp;Android, Chromw, Firefox, Opera
+          <b>WebM</b>(Android, Chrome, Firefox, Opera)
           <br />
           <b>Mp4</b>
           <br />
-          <h6>Attribute:</h6>
-          <br />
-          Info: Attribute, wenn nicht angegeben = deaktiviert!
-          <br />
-          <br />
-          <b>Src</b>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pfad
-          zum Video = gleich wie bei Bildern mit ../ , / usw.
-          <br />
-          <b>Width / height</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mit CSS!
-          <br />
-          <b>Poster</b>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Pfad angeben, der als Thumbnail genutzt werden soll
-          <br />
-          <b>Preload</b>
-          <ul>
-            <li><b>None</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lädt
-              erst
-              bei klicken</li>
-            <li><b>Auto</b>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Video mit
-              Seite geladen</li>
-            <li><b>Metadata</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erfasst bestimmte Informationen</li>
-          </ul>
-          <b>Controls</b>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Browser
-          stellt eigene Steuerelemente zur Verfügung
-          <br />
-          <b>Autoplay</b>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startet
-          automatisch
-          <br />
-          <b>Loop</b>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wiederholt
-          unendlich
+          <p>
+          <h5>Attribute</h5>
+          </p>
+          <i>Attribute, wenn nicht angegeben = deaktiviert</i>
           <br />
           <br />
-          <h5><b>Mehrere Videoformate zur Auswahl für Browser stellen:</b></h5>
+          <b>src:</b> <br />
+          <p>Pfad zum Video</p>
+
+
+
+          <b>poster:</b> <br />
+          <p>Pfad angeben, der als Thumbnail genutzt werden soll</p>
+
+          <b>preload:</b>
+          <dl>
+            <dt><i>none</i> </dt>
+            <dd>Lädt erst bei klicken</dd>
+            <dt><i> auto</i> </dt>
+            <dd> Video wird mit Seite geladen</dd>
+            <dt><i>metadata</i> </dt>
+            <dd>Erfasst bestimmte Informationen</dd>
+          </dl>
           <br />
-          Element &lt;source&gt; hinter geschlossenem &lt;video&gt;-Element einfügen. Beliebig viele.
+          <b>controls:</b>
+          <p>Browser stellt eigene Steuerelemente zur Verfügung</p>
+
+
+          <b>autoplay:</b>
+          <p>Video startet automatisch</p>
+
+
+          <b>loop:</b>
+          <p>Dauerschleife</p>
           <br />
-          Attribut type=video/format angeben, sonst probiert browse alle aus, die er abspielen kann.
           <br />
+          <h5>Mehrere Videoformate für den Browser zur Auswahl stellen</h5>
           <br />
-          Link zu: <a href="https://convert-video-online.com/de/" target="_blank">Videoformat-Online-Converter</a>
+          <p>Statt als Attribut &lt;source&gt; als Element hinter geschlossenem &lt;video&gt;-Element einfügen. Dann das
+            Video in mehreren Formaten verlinken. </p>
+
+
+          Link zu: <a href="https://convert-video-online.com/de/" target="_blank">Video-Online-Converter</a>
           <br />
         </div>
 
@@ -478,7 +473,7 @@
           <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
         </div>
         <div class="col-md-8 col-lg-8">
-          <h5>Audio in Webseite einfügen:</h5>
+          <h5>Audio in Webseite einfügen</h5>
           <ul>
             <li>&lt;audio&gt;</li>
             <li>Einbetten: Gleich wie bei &lt;video&gt; (z.B. mit SoundCloud)</li>
@@ -500,7 +495,7 @@
           IE
           <br />
           <br />
-          Link zu: <a href="https://online-audio-converter.com/de/">Audio Converter</a>
+          Link zu: <a href="https://online-audio-converter.com/de/">Audio-Online-Converter</a>
         </div>
 
 
@@ -807,7 +802,8 @@
           ausrichten von HTML
           Elementen ermöglicht. <br />
           Eine komplette Beschreibung über alle Eigenschaften ist hier erhältlich:
-          <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a></div>
+          <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a>
+        </div>
 
 
         <div class="col-12 uberschrift">
